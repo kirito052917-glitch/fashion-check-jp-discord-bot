@@ -57,19 +57,23 @@ function saveLastTweetId(id) {
 }
 
 /**
- * ✅ HARD DATE GUARD
- * Only allow tweets from "today" (UTC)
+ * ✅ JST DATE WINDOW GUARD (FINAL FIX)
+ * Only allow tweets from "today" in JST
  */
 function isWithinDateWindow(tweetIsoTime) {
   if (!tweetIsoTime) return false;
 
+  // Convert tweet time to JST
   const tweetDate = new Date(tweetIsoTime);
-  const now = nowDate();
+  const tweetJst = new Date(tweetDate.getTime() + 9 * 60 * 60 * 1000);
 
-  const start = new Date(yyyyMmDd(now) + 'T00:00:00Z');
+  const now = nowDate();
+  const nowJst = new Date(now.getTime() + 9 * 60 * 60 * 1000);
+
+  const start = new Date(`${yyyyMmDd(nowJst)}T00:00:00+09:00`);
   const end = new Date(start.getTime() + 86400000);
 
-  return tweetDate >= start && tweetDate < end;
+  return tweetJst >= start && tweetJst < end;
 }
 
 /* ---------- Fetch Latest Tweet ---------- */
@@ -117,7 +121,7 @@ async function findLatestTweet(page, lastId) {
     const t = searchTweets[0];
 
     if (!isWithinDateWindow(t.time)) {
-      console.log('Search tweet outside date window — ignoring');
+      console.log('Search tweet outside JST date window — ignoring');
       return null;
     }
 
@@ -149,7 +153,7 @@ async function findLatestTweet(page, lastId) {
     }
 
     if (!isWithinDateWindow(tweet.time)) {
-      console.log('Skipping old tweet (outside date window)');
+      console.log('Skipping tweet outside JST date window');
       continue;
     }
 
