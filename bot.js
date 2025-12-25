@@ -1,22 +1,30 @@
 import { chromium } from 'playwright';
 import fetch from 'node-fetch';
 
-// ===== TEST MODE =====
-// Uncomment TEST_DATE to simulate "today" for testing
-const TEST_DATE = '2025-12-19'; // YYYY-MM-DD
+/**
+ * ===== TEST MODE =====
+ * Set TEST_NOW to an ISO timestamp to simulate "current time"
+ * Set to null for production
+ *
+ * Example:
+ * '2025-12-19T09:37:07.000Z'
+ */
+const TEST_NOW = '2025-12-19T09:37:07.000Z';
+// const TEST_NOW = null;
 
 const TARGET_USER = '396zack';
 const KEYWORD = '80点';
 
 const DISCORD_WEBHOOK = process.env.DISCORD_WEBHOOK;
 
-function isTodayUTC(isoDate) {
-  const tweetDate = new Date(isoDate);
+if (!DISCORD_WEBHOOK) {
+  console.error('DISCORD_WEBHOOK is not set');
+  process.exit(1);
+}
 
-  // Use test date if provided
-  const now = typeof TEST_DATE !== 'undefined'
-    ? new Date(`${TEST_DATE}T00:00:00Z`)
-    : new Date();
+function isSameUTCDate(isoDate) {
+  const tweetDate = new Date(isoDate);
+  const now = TEST_NOW ? new Date(TEST_NOW) : new Date();
 
   return (
     tweetDate.getUTCFullYear() === now.getUTCFullYear() &&
@@ -26,6 +34,9 @@ function isTodayUTC(isoDate) {
 }
 
 async function run() {
+  console.log('Bot started');
+  console.log('Test now:', TEST_NOW ?? new Date().toISOString());
+
   const browser = await chromium.launch({ headless: true });
 
   const page = await browser.newPage({
@@ -39,37 +50,62 @@ async function run() {
     timeout: 60000,
   });
 
-  // small delay to allow tweets to render
+  // Allow tweets to render
   await page.waitForTimeout(5000);
 
-  const tweets = await page.$$eval('article', articles =>
-    articles.map(a => {
-      const timeEl = a.querySelector('time');
-      const linkEl = a.querySelector('a[href*="/status/"]');
+  // Scroll to load older tweets if needed
+  for (let i = 0; i < 3; i++) {
+    await page.mouse.wheel(0, 3000);
+    await page.waitForTimeout(3000);
+  }
 
-      return {
-        text: a.innerText,
-        link: linkEl ? `https://x.com${linkEl.getAttribute('href')}` : null,
-        time: timeEl ? timeEl.getAttribute('datetime') : null,
-      };
-    }).filter(t => t.link && t.time)
+  const tweets = await page.$$eval('article', articles =>
+    articles
+      .map(a => {
+        const timeEl = a.querySelector('time');
+        const linkEl = a.querySelector('a[href*="/status/"]');
+
+        return {
+          text: a.innerText,
+          link: linkEl ? `https://x.com${linkEl.getAttribute('href')}` : null,
+          time: timeEl ? timeEl.getAttribute('datetime') : null,
+        };
+      })
+      .filter(t => t.link && t.time)
   );
 
-  await browser.close();
+  console.log(`Found ${tweets.length} tweets`);
+
+  let posted = 0;
 
   for (const tweet of tweets) {
-    if (!isTodayUTC(tweet.time)) continue;
+    console.log('---');
+    console.log('Tweet time:', tweet.time);
+    console.log('Matches date?', isSameUTCDate(tweet.time));
+    console.log('Contains keyword?', tweet.text.includes(KEYWORD));
+
+    if (!isSameUTCDate(tweet.time)) continue;
     if (!tweet.text.includes(KEYWORD)) continue;
 
-    await fetch(DISCORD_WEBHOOK, {
+    const res = await fetch(DISCORD_WEBHOOK, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ content: tweet.link }),
     });
+
+    console.log('Posted to Discord, status:', res.status);
+    posted++;
   }
+
+  if (posted === 0) {
+    console.log('No matching tweets posted');
+  }
+
+  await browser.close();
+  console.log('Bot finished');
 }
 
 run().catch(err => {
-  console.error(err);
+  console.error('Fatal error:', err);
   process.exit(1);
 });
