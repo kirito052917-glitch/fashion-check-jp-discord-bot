@@ -15,7 +15,7 @@ const STORAGE_FILE = './last_tweet.json';
  * Set TEST_TWEET_URL to force-test a known tweet
  * Set both to null for production
  */
-//const TEST_NOW = '2025-12-19T09:37:07.000Z';
+// const TEST_NOW = '2025-12-19T09:37:07.000Z';
 const TEST_NOW = null;
 
 const TEST_TWEET_URL = null;
@@ -53,12 +53,15 @@ function loadLastTweetId() {
 }
 
 function saveLastTweetId(id) {
-  fs.writeFileSync(STORAGE_FILE, JSON.stringify({ lastTweetId: id }, null, 2));
+  fs.writeFileSync(
+    STORAGE_FILE,
+    JSON.stringify({ lastTweetId: id }, null, 2)
+  );
 }
 
 /* ---------- Fetch Latest Tweet ---------- */
 
-async function findLatestTweet(page) {
+async function findLatestTweet(page, lastId) {
   // ✅ TEST MODE: load exact tweet
   if (TEST_TWEET_URL) {
     console.log('TEST MODE: loading exact tweet');
@@ -73,14 +76,16 @@ async function findLatestTweet(page) {
     return tweet;
   }
 
-  // ✅ Primary: SEARCH (chronological)
+  // ✅ PRIMARY: SEARCH (chronological)
   const now = nowDate();
   const since = yyyyMmDd(now);
   const until = yyyyMmDd(new Date(now.getTime() + 86400000));
 
   const searchUrl =
     `https://x.com/search?q=` +
-    encodeURIComponent(`from:${TARGET_USER} ${KEYWORD} since:${since} until:${until}`) +
+    encodeURIComponent(
+      `from:${TARGET_USER} ${KEYWORD} since:${since} until:${until}`
+    ) +
     `&f=live`;
 
   console.log('Search URL:', searchUrl);
@@ -88,27 +93,55 @@ async function findLatestTweet(page) {
   await page.goto(searchUrl, { waitUntil: 'domcontentloaded' });
   await page.waitForTimeout(5000);
 
-  const tweets = await page.$$eval('article', articles =>
-    articles.map(a => {
-      const link = a.querySelector('a[href*="/status/"]')?.href;
-      return { link, text: a.innerText };
-    }).filter(t => t.link)
+  const searchTweets = await page.$$eval('article', articles =>
+    articles
+      .map(a => {
+        const link = a.querySelector('a[href*="/status/"]')?.href;
+        return { link, text: a.innerText };
+      })
+      .filter(t => t.link)
   );
 
-  if (tweets.length > 0) {
-    console.log('Found tweet via search');
-    return tweets[0];
+  if (searchTweets.length > 0) {
+    console.log(`Found ${searchTweets.length} tweet(s) via search`);
+    return searchTweets[0];
   }
 
-  // ✅ Fallback: load ONLY top tweet from profile
-  console.log('Search empty, falling back to profile');
-  await page.goto(`https://x.com/${TARGET_USER}`, { waitUntil: 'domcontentloaded' });
+  // ✅ FALLBACK: scan first 10 tweets on profile
+  console.log('Search empty — scanning profile (first 10 tweets)');
+  await page.goto(`https://x.com/${TARGET_USER}`, {
+    waitUntil: 'domcontentloaded',
+  });
   await page.waitForTimeout(5000);
 
-  return await page.$eval('article', a => {
-    const link = a.querySelector('a[href*="/status/"]')?.href;
-    return { link, text: a.innerText };
-  });
+  const profileTweets = await page.$$eval('article', articles =>
+    articles
+      .slice(0, 10)
+      .map(a => {
+        const link = a.querySelector('a[href*="/status/"]')?.href;
+        return { link, text: a.innerText };
+      })
+      .filter(t => t.link)
+  );
+
+  for (const tweet of profileTweets) {
+    const id = extractTweetId(tweet.link);
+    if (!id) continue;
+
+    if (!isNewer(id, lastId)) {
+      console.log(
+        `Reached already-processed tweet (${id}), stopping fallback scan`
+      );
+      break;
+    }
+
+    if (tweet.text.includes(KEYWORD)) {
+      console.log('Found matching tweet via profile fallback');
+      return tweet;
+    }
+  }
+
+  return null;
 }
 
 /* ---------- Main ---------- */
@@ -123,10 +156,10 @@ async function run() {
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
 
-  const tweet = await findLatestTweet(page);
+  const tweet = await findLatestTweet(page, lastId);
 
   if (!tweet?.link) {
-    console.log('No tweet found');
+    console.log('No matching tweet found');
     await browser.close();
     return;
   }
