@@ -11,18 +11,15 @@ const STORAGE_FILE = './last_tweet.json';
 
 /**
  * ===== TEST MODE =====
- * Set TEST_NOW to simulate current time
- * Set TEST_TWEET_URL to force-test a known tweet
  * Set both to null for production
  */
 // const TEST_NOW = '2025-12-19T09:37:07.000Z';
 const TEST_NOW = null;
 
-const TEST_TWEET_URL = null;
 // const TEST_TWEET_URL = 'https://x.com/396Zack/status/2001949908199498017';
+const TEST_TWEET_URL = null;
 
 const DISCORD_WEBHOOK = process.env.DISCORD_WEBHOOK;
-
 if (!DISCORD_WEBHOOK) {
   console.error('DISCORD_WEBHOOK is not set');
   process.exit(1);
@@ -59,24 +56,39 @@ function saveLastTweetId(id) {
   );
 }
 
+/**
+ * ✅ HARD DATE GUARD
+ * Only allow tweets from "today" (UTC)
+ */
+function isWithinDateWindow(tweetIsoTime) {
+  if (!tweetIsoTime) return false;
+
+  const tweetDate = new Date(tweetIsoTime);
+  const now = nowDate();
+
+  const start = new Date(yyyyMmDd(now) + 'T00:00:00Z');
+  const end = new Date(start.getTime() + 86400000);
+
+  return tweetDate >= start && tweetDate < end;
+}
+
 /* ---------- Fetch Latest Tweet ---------- */
 
 async function findLatestTweet(page, lastId) {
-  // ✅ TEST MODE: load exact tweet
+  // ✅ TEST MODE
   if (TEST_TWEET_URL) {
     console.log('TEST MODE: loading exact tweet');
     await page.goto(TEST_TWEET_URL, { waitUntil: 'domcontentloaded' });
     await page.waitForTimeout(3000);
 
-    const tweet = await page.$eval('article', a => {
-      const link = a.querySelector('a[href*="/status/"]')?.href;
-      return { link, text: a.innerText };
-    });
-
-    return tweet;
+    return await page.$eval('article', a => ({
+      link: a.querySelector('a[href*="/status/"]')?.href,
+      text: a.innerText,
+      time: a.querySelector('time')?.getAttribute('datetime'),
+    }));
   }
 
-  // ✅ PRIMARY: SEARCH (chronological)
+  // ✅ PRIMARY: SEARCH
   const now = nowDate();
   const since = yyyyMmDd(now);
   const until = yyyyMmDd(new Date(now.getTime() + 86400000));
@@ -94,20 +106,25 @@ async function findLatestTweet(page, lastId) {
   await page.waitForTimeout(5000);
 
   const searchTweets = await page.$$eval('article', articles =>
-    articles
-      .map(a => {
-        const link = a.querySelector('a[href*="/status/"]')?.href;
-        return { link, text: a.innerText };
-      })
-      .filter(t => t.link)
+    articles.map(a => ({
+      link: a.querySelector('a[href*="/status/"]')?.href,
+      text: a.innerText,
+      time: a.querySelector('time')?.getAttribute('datetime'),
+    })).filter(t => t.link)
   );
 
   if (searchTweets.length > 0) {
-    console.log(`Found ${searchTweets.length} tweet(s) via search`);
-    return searchTweets[0];
+    const t = searchTweets[0];
+
+    if (!isWithinDateWindow(t.time)) {
+      console.log('Search tweet outside date window — ignoring');
+      return null;
+    }
+
+    return t;
   }
 
-  // ✅ FALLBACK: scan first 10 tweets on profile
+  // ✅ FALLBACK: PROFILE SCAN (FIRST 10)
   console.log('Search empty — scanning profile (first 10 tweets)');
   await page.goto(`https://x.com/${TARGET_USER}`, {
     waitUntil: 'domcontentloaded',
@@ -115,13 +132,11 @@ async function findLatestTweet(page, lastId) {
   await page.waitForTimeout(5000);
 
   const profileTweets = await page.$$eval('article', articles =>
-    articles
-      .slice(0, 10)
-      .map(a => {
-        const link = a.querySelector('a[href*="/status/"]')?.href;
-        return { link, text: a.innerText };
-      })
-      .filter(t => t.link)
+    articles.slice(0, 10).map(a => ({
+      link: a.querySelector('a[href*="/status/"]')?.href,
+      text: a.innerText,
+      time: a.querySelector('time')?.getAttribute('datetime'),
+    })).filter(t => t.link)
   );
 
   for (const tweet of profileTweets) {
@@ -129,10 +144,13 @@ async function findLatestTweet(page, lastId) {
     if (!id) continue;
 
     if (!isNewer(id, lastId)) {
-      console.log(
-        `Reached already-processed tweet (${id}), stopping fallback scan`
-      );
+      console.log(`Reached processed tweet (${id}) — stopping scan`);
       break;
+    }
+
+    if (!isWithinDateWindow(tweet.time)) {
+      console.log('Skipping old tweet (outside date window)');
+      continue;
     }
 
     if (tweet.text.includes(KEYWORD)) {
@@ -159,7 +177,7 @@ async function run() {
   const tweet = await findLatestTweet(page, lastId);
 
   if (!tweet?.link) {
-    console.log('No matching tweet found');
+    console.log('No valid tweet found');
     await browser.close();
     return;
   }
@@ -169,12 +187,6 @@ async function run() {
 
   if (!isNewer(tweetId, lastId)) {
     console.log('Tweet already processed — skipping');
-    await browser.close();
-    return;
-  }
-
-  if (!tweet.text.includes(KEYWORD)) {
-    console.log('Keyword not found — skipping');
     await browser.close();
     return;
   }
