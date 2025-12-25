@@ -1,6 +1,10 @@
 import { chromium } from 'playwright';
 import fetch from 'node-fetch';
 
+// ===== TEST MODE =====
+// Uncomment TEST_DATE to simulate "today" for testing
+const TEST_DATE = '2025-12-19'; // YYYY-MM-DD
+
 const TARGET_USER = '396zack';
 const KEYWORD = '80点';
 
@@ -8,7 +12,11 @@ const DISCORD_WEBHOOK = process.env.DISCORD_WEBHOOK;
 
 function isTodayUTC(isoDate) {
   const tweetDate = new Date(isoDate);
-  const now = new Date();
+
+  // Use test date if provided
+  const now = typeof TEST_DATE !== 'undefined'
+    ? new Date(`${TEST_DATE}T00:00:00Z`)
+    : new Date();
 
   return (
     tweetDate.getUTCFullYear() === now.getUTCFullYear() &&
