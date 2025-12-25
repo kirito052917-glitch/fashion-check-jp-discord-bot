@@ -1,11 +1,11 @@
 name: X to Discord Bot
 
 on:
-  # Run every hour (UTC)
   schedule:
+    # Run every hour (UTC)
     - cron: '0 * * * *'
 
-  # Allow manual runs from the GitHub UI
+  # Allow manual runs
   workflow_dispatch:
 
 jobs:
@@ -31,12 +31,3 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: node bot.js
-
-      # ✅ Persist last_tweet.json between runs
-      - name: Commit updated tweet ID
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add last_tweet.json
-          git commit -m "Update last processed tweet ID" || echo "No changes"
-          git push
