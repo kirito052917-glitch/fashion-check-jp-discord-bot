@@ -1,0 +1,42 @@
+name: X to Discord Bot
+
+on:
+  # Run every hour (UTC)
+  schedule:
+    - cron: '0 * * * *'
+
+  # Allow manual runs from the GitHub UI
+  workflow_dispatch:
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+
+      - name: Run bot
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: node bot.js
+
+      # ✅ Persist last_tweet.json between runs
+      - name: Commit updated tweet ID
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add last_tweet.json
+          git commit -m "Update last processed tweet ID" || echo "No changes"
+          git push
