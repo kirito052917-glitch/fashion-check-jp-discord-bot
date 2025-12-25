@@ -19,11 +19,20 @@ function isTodayUTC(isoDate) {
 
 async function run() {
   const browser = await chromium.launch({ headless: true });
-  const page = await browser.newPage();
+
+  const page = await browser.newPage({
+    userAgent:
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
+      '(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+  });
 
   await page.goto(`https://x.com/${TARGET_USER}`, {
-    waitUntil: 'networkidle'
+    waitUntil: 'domcontentloaded',
+    timeout: 60000,
   });
+
+  // small delay to allow tweets to render
+  await page.waitForTimeout(5000);
 
   const tweets = await page.$$eval('article', articles =>
     articles.map(a => {
@@ -33,7 +42,7 @@ async function run() {
       return {
         text: a.innerText,
         link: linkEl ? `https://x.com${linkEl.getAttribute('href')}` : null,
-        time: timeEl ? timeEl.getAttribute('datetime') : null
+        time: timeEl ? timeEl.getAttribute('datetime') : null,
       };
     }).filter(t => t.link && t.time)
   );
@@ -47,9 +56,12 @@ async function run() {
     await fetch(DISCORD_WEBHOOK, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ content: tweet.link })
+      body: JSON.stringify({ content: tweet.link }),
     });
   }
 }
 
-run();
+run().catch(err => {
+  console.error(err);
+  process.exit(1);
+});
