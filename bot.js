@@ -18,7 +18,7 @@ const STORAGE_FILE = './last_tweet.json';
 const TEST_NOW = '2025-12-19T09:37:07.000Z';
 // const TEST_NOW = null;
 
-const TEST_TWEET_URL = null;
+//const TEST_TWEET_URL = null;
 const TEST_TWEET_URL = 'https://x.com/396Zack/status/2001949908199498017';
 
 const DISCORD_WEBHOOK = process.env.DISCORD_WEBHOOK;
