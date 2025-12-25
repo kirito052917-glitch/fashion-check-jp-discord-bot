@@ -3,15 +3,20 @@ import fetch from 'node-fetch';
 
 /**
  * ===== TEST MODE =====
- * Set TEST_NOW to an ISO timestamp to simulate "current time"
+ * Set TEST_NOW to simulate "current time"
  * Set to null for production
  */
 const TEST_NOW = '2025-12-19T09:37:07.000Z';
 // const TEST_NOW = null;
 
-const TARGET_USER = '396zack';
-const KEYWORD = '80点';
+/**
+ * ✅ EXACT TWEET URL
+ * Example:
+ * https://x.com/396zack/status/1234567890123456789
+ */
+const TWEET_URL = 'https://x.com/396Zack/status/2001949908199498017?s=20';
 
+const KEYWORD = '80点';
 const DISCORD_WEBHOOK = process.env.DISCORD_WEBHOOK;
 
 if (!DISCORD_WEBHOOK) {
@@ -19,34 +24,25 @@ if (!DISCORD_WEBHOOK) {
   process.exit(1);
 }
 
-/* ---------- Time helpers ---------- */
-
 function nowDate() {
   return TEST_NOW ? new Date(TEST_NOW) : new Date();
 }
 
-function yyyyMmDd(date) {
-  return date.toISOString().slice(0, 10);
-}
-
-/* ---------- Main ---------- */
-
-async function run() {
+function isSameUTCDate(isoDate) {
+  const tweet = new Date(isoDate);
   const now = nowDate();
 
-  const since = yyyyMmDd(now);
-  const until = yyyyMmDd(new Date(now.getTime() + 24 * 60 * 60 * 1000));
+  return (
+    tweet.getUTCFullYear() === now.getUTCFullYear() &&
+    tweet.getUTCMonth() === now.getUTCMonth() &&
+    tweet.getUTCDate() === now.getUTCDate()
+  );
+}
 
+async function run() {
   console.log('Bot started');
-  console.log('Current time:', now.toISOString());
-  console.log(`Search window: ${since} → ${until}`);
-
-  const searchUrl =
-    `https://x.com/search?q=` +
-    encodeURIComponent(`from:${TARGET_USER} ${KEYWORD} since:${since} until:${until}`) +
-    `&f=live`;
-
-  console.log('Search URL:', searchUrl);
+  console.log('Current time:', nowDate().toISOString());
+  console.log('Loading tweet:', TWEET_URL);
 
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage({
@@ -55,53 +51,51 @@ async function run() {
       '(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
   });
 
-  await page.goto(searchUrl, {
+  await page.goto(TWEET_URL, {
     waitUntil: 'domcontentloaded',
     timeout: 60000,
   });
 
-  // Allow search results to load
+  // Give X time to hydrate the tweet
   await page.waitForTimeout(5000);
 
-  const tweets = await page.$$eval('article', articles =>
-    articles
-      .map(a => {
-        const timeEl = a.querySelector('time');
-        const linkEl = a.querySelector('a[href*="/status/"]');
+  const tweet = await page.$eval('article', a => {
+    const timeEl = a.querySelector('time');
+    return {
+      text: a.innerText,
+      time: timeEl ? timeEl.getAttribute('datetime') : null,
+    };
+  });
 
-        return {
-          text: a.innerText,
-          link: linkEl ? `https://x.com${linkEl.getAttribute('href')}` : null,
-          time: timeEl ? timeEl.getAttribute('datetime') : null,
-        };
-      })
-      .filter(t => t.link && t.time)
-  );
+  console.log('Tweet time:', tweet.time);
+  console.log('Same UTC day?', isSameUTCDate(tweet.time));
+  console.log('Contains keyword?', tweet.text.includes(KEYWORD));
 
-  console.log(`Found ${tweets.length} matching tweets`);
-
-  let posted = 0;
-
-  for (const tweet of tweets) {
-    console.log('---');
-    console.log('Tweet time:', tweet.time);
-    console.log('Contains keyword?', tweet.text.includes(KEYWORD));
-
-    if (!tweet.text.includes(KEYWORD)) continue;
-
-    const res = await fetch(DISCORD_WEBHOOK, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ content: tweet.link }),
-    });
-
-    console.log('✅ Posted to Discord, status:', res.status);
-    posted++;
+  if (!tweet.time) {
+    console.log('❌ Could not read tweet timestamp');
+    await browser.close();
+    return;
   }
 
-  if (posted === 0) {
-    console.log('No tweets posted');
+  if (!isSameUTCDate(tweet.time)) {
+    console.log('❌ Tweet is not from today');
+    await browser.close();
+    return;
   }
+
+  if (!tweet.text.includes(KEYWORD)) {
+    console.log('❌ Keyword not found');
+    await browser.close();
+    return;
+  }
+
+  const res = await fetch(DISCORD_WEBHOOK, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ content: TWEET_URL }),
+  });
+
+  console.log('✅ Posted to Discord, status:', res.status);
 
   await browser.close();
   console.log('Bot finished');
