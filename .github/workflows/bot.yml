@@ -35,7 +35,8 @@ jobs:
 
       - name: Run bot
         env:
-            DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-            TEST_USER: ${{ github.event.inputs.test_user }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          TEST_USER: ${{ github.event.inputs.test_user }}
+          X_COOKIES: ${{ secrets.X_COOKIES }}
         run: node bot.js
 
