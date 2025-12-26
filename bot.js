@@ -5,7 +5,7 @@ import fs from 'fs';
 /**
  * ===== CONFIG =====
  */
-const TARGET_USER = '396zack';
+const TARGET_USER = process.env.TEST_USER || '396zack';
 const KEYWORD = '80点';
 const STORAGE_FILE = './last_tweet.json';
 
@@ -18,6 +18,8 @@ const TEST_NOW = null;
 
 // const TEST_TWEET_URL = 'https://x.com/396Zack/status/2001949908199498017';
 const TEST_TWEET_URL = null;
+
+console.log(`Target account: @${TARGET_USER}`);
 
 const DISCORD_WEBHOOK = process.env.DISCORD_WEBHOOK;
 if (!DISCORD_WEBHOOK) {
