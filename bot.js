@@ -5,10 +5,22 @@ import fs from 'fs';
 /**
  * ===== CONFIG =====
  */
-const TARGET_USER = process.env.TEST_USER || '396zack';
-const KEYWORD = '80点';
-const STORAGE_FILE = './last_tweet.json';
-
+const BOTS = [
+  {
+    name: 'Score Bot',
+    targetUser: process.env.TEST_USER || '396zack',
+    keyword: '80点',               // keyword-based
+    storageFile: './last_tweet_396zack.json',
+    webhook: process.env.DISCORD_WEBHOOK,
+  },
+  {
+    name: 'Doma Castle Bot',
+    targetUser: 'domacastleffxiv',
+    keyword: null,                 // ✅ no keyword
+    storageFile: './last_tweet_domacastle.json',
+    webhook: process.env.DISCORD_WEBHOOK_DOMA,
+  },
+];
 /**
  * ===== TEST MODE =====
  * Set both to null for production
@@ -46,9 +58,16 @@ function isNewer(id, lastId) {
   return BigInt(id) > BigInt(lastId);
 }
 
-function loadLastTweetId() {
-  if (!fs.existsSync(STORAGE_FILE)) return null;
-  return JSON.parse(fs.readFileSync(STORAGE_FILE)).lastTweetId;
+function loadLastTweetId(file) {
+  if (!fs.existsSync(file)) return null;
+  return JSON.parse(fs.readFileSync(file)).lastTweetId;
+}
+
+function saveLastTweetId(file, id) {
+  fs.writeFileSync(
+    file,
+    JSON.stringify({ lastTweetId: id }, null, 2)
+  );
 }
 
 function saveLastTweetId(id) {
@@ -93,7 +112,7 @@ async function loadXCookies(context) {
 
 /* ---------- Fetch Latest Tweet ---------- */
 
-async function findLatestTweet(page, lastId) {
+async function findLatestTweet(page, { targetUser, keyword }, lastId) {
   // ✅ TEST MODE
   if (TEST_TWEET_URL) {
     console.log('TEST MODE: loading exact tweet');
@@ -115,7 +134,7 @@ async function findLatestTweet(page, lastId) {
   const searchUrl =
     `https://x.com/search?q=` +
     encodeURIComponent(
-      `from:${TARGET_USER} ${KEYWORD} since:${since} until:${until}`
+      `from:${targetUser} ${keyword ?? ''} since:${since} until:${until}`
     ) +
     `&f=live`;
 
@@ -172,7 +191,7 @@ async function findLatestTweet(page, lastId) {
       continue;
     }
 
-    if (tweet.text.includes(KEYWORD)) {
+    if (!keyword || tweet.text.includes(keyword)) {
       console.log('Found matching tweet via profile fallback');
       return tweet;
     }
@@ -187,9 +206,6 @@ async function run() {
   console.log('Bot started');
   console.log('Current time:', nowDate().toISOString());
 
-  const lastId = loadLastTweetId();
-  console.log('Last stored tweet ID:', lastId ?? '(none)');
-
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext();
 
@@ -201,39 +217,49 @@ async function run() {
 
   console.log(loggedIn ? '✅ Logged into X' : '❌ NOT logged into X');
 
-  const tweet = await findLatestTweet(page, lastId);
+  for (const bot of BOTS) {
+    console.log(`\n🤖 Running ${bot.name}`);
+    console.log(`Target account: @${bot.targetUser}`);
 
-  if (!tweet?.link) {
-    console.log('No valid tweet found');
-    await browser.close();
-    return;
+    if (!bot.webhook) {
+      console.log('⚠️ Webhook not set — skipping');
+      continue;
+    }
+
+    const lastId = loadLastTweetId(bot.storageFile);
+    console.log('Last stored tweet ID:', lastId ?? '(none)');
+
+    const tweet = await findLatestTweet(
+      page,
+      { targetUser: bot.targetUser, keyword: bot.keyword },
+      lastId
+    );
+
+    if (!tweet?.link) {
+      console.log('No valid tweet found');
+      continue;
+    }
+
+    const tweetId = extractTweetId(tweet.link);
+    console.log('Latest tweet ID:', tweetId);
+
+    if (!isNewer(tweetId, lastId)) {
+      console.log('Tweet already processed — skipping');
+      continue;
+    }
+
+    const res = await fetch(bot.webhook, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ content: tweet.link }),
+    });
+
+    console.log('✅ Posted to Discord:', res.status);
+
+    saveLastTweetId(bot.storageFile, tweetId);
+    console.log('Saved new tweet ID');
   }
-
-  const tweetId = extractTweetId(tweet.link);
-  console.log('Latest tweet ID:', tweetId);
-
-  if (!isNewer(tweetId, lastId)) {
-    console.log('Tweet already processed — skipping');
-    await browser.close();
-    return;
-  }
-
-  const res = await fetch(DISCORD_WEBHOOK, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ content: tweet.link }),
-  });
-
-  console.log('✅ Posted to Discord:', res.status);
-
-  saveLastTweetId(tweetId);
-  console.log('Saved new tweet ID');
 
   await browser.close();
-  console.log('Bot finished');
+  console.log('\n✅ All bots finished');
 }
-
-run().catch(err => {
-  console.error('Fatal error:', err);
-  process.exit(1);
-});
