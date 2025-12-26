@@ -33,10 +33,22 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install --with-deps chromium
 
+      - name: Restore last tweet cache
+        uses: actions/cache@v4
+        with:
+            path: last_tweet.json
+            key: last-tweet-${{ github.repository }}
+            
       - name: Run bot
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           TEST_USER: ${{ github.event.inputs.test_user }}
           X_COOKIES: ${{ secrets.X_COOKIES }}
         run: node bot.js
+
+      - name: Save last tweet cache
+        uses: actions/cache@v4
+        with:
+          path: last_tweet.json
+          key: last-tweet-${{ github.repository }}
 
