@@ -31,13 +31,6 @@ const TEST_NOW = null;
 // const TEST_TWEET_URL = 'https://x.com/396Zack/status/2001949908199498017';
 const TEST_TWEET_URL = null;
 
-console.log(`Target account: @${TARGET_USER}`);
-
-const DISCORD_WEBHOOK = process.env.DISCORD_WEBHOOK;
-if (!DISCORD_WEBHOOK) {
-  console.error('DISCORD_WEBHOOK is not set');
-  process.exit(1);
-}
 
 /* ---------- Helpers ---------- */
 
@@ -66,13 +59,6 @@ function loadLastTweetId(file) {
 function saveLastTweetId(file, id) {
   fs.writeFileSync(
     file,
-    JSON.stringify({ lastTweetId: id }, null, 2)
-  );
-}
-
-function saveLastTweetId(id) {
-  fs.writeFileSync(
-    STORAGE_FILE,
     JSON.stringify({ lastTweetId: id }, null, 2)
   );
 }
@@ -164,7 +150,7 @@ async function findLatestTweet(page, { targetUser, keyword }, lastId) {
 
   // ✅ FALLBACK: PROFILE SCAN (FIRST 10)
   console.log('Search empty — scanning profile (first 10 tweets)');
-  await page.goto(`https://x.com/${TARGET_USER}`, {
+  await page.goto(`https://x.com/${targetUser}`, {
     waitUntil: 'domcontentloaded',
   });
   await page.waitForTimeout(5000);
