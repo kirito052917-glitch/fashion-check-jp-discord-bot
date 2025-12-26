@@ -1,18 +1,15 @@
-name: X to Discord Bot (Test)
+name: X to Discord Bot DOMAJO
 
 on:
   schedule:
-    # Run every hour (UTC)
     - cron: '0 * * * *'
 
-  # Allow manual runs
   workflow_dispatch:
     inputs:
       test_user:
         description: "X username to test (leave empty for production)"
         required: false
         default: ""
-  
 
 jobs:
   run-bot:
@@ -36,12 +33,15 @@ jobs:
       - name: Restore last tweet cache
         uses: actions/cache@v4
         with:
-            path: last_tweet.json
-            key: last-tweet-${{ github.repository }}
-            
+          path: |
+            last_tweet_396zack.json
+            last_tweet_domacastle.json
+          key: last-tweet-${{ github.repository }}
+
       - name: Run bot
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          DISCORD_WEBHOOK_DOMA: ${{ secrets.DISCORD_WEBHOOK_DOMA }}
           TEST_USER: ${{ github.event.inputs.test_user }}
           X_COOKIES: ${{ secrets.X_COOKIES }}
         run: node bot.js
@@ -49,6 +49,7 @@ jobs:
       - name: Save last tweet cache
         uses: actions/cache@v4
         with:
-          path: last_tweet.json
+          path: |
+            last_tweet_396zack.json
+            last_tweet_domacastle.json
           key: last-tweet-${{ github.repository }}
-
