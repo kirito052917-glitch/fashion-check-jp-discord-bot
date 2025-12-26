@@ -78,6 +78,19 @@ function isWithinDateWindow(tweetIsoTime) {
   return tweetJst >= start && tweetJst < end;
 }
 
+/* ---------- X Cookie Login ---------- */
+
+async function loadXCookies(context) {
+  if (!process.env.X_COOKIES) {
+    console.log('⚠️ No X cookies provided');
+    return;
+  }
+
+  const cookies = JSON.parse(process.env.X_COOKIES);
+  await context.addCookies(cookies);
+  console.log('✅ X cookies loaded');
+}
+
 /* ---------- Fetch Latest Tweet ---------- */
 
 async function findLatestTweet(page, lastId) {
@@ -178,7 +191,15 @@ async function run() {
   console.log('Last stored tweet ID:', lastId ?? '(none)');
 
   const browser = await chromium.launch({ headless: true });
-  const page = await browser.newPage();
+  const context = await browser.newContext();
+
+  await loadXCookies(context);
+
+  const page = await context.newPage();
+  const loggedIn =
+    (await page.locator('[data-testid="SideNav_AccountSwitcher_Button"]').count()) > 0;
+
+  console.log(loggedIn ? '✅ Logged into X' : '❌ NOT logged into X');
 
   const tweet = await findLatestTweet(page, lastId);
 
