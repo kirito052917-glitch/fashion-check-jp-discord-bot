@@ -7,11 +7,11 @@ on:
 
   # Allow manual runs
   workflow_dispatch:
-  inputs:
-    test_user:
-      description: "X username to test (leave empty for production)"
-      required: false
-      default: ""
+    inputs:
+      test_user:
+        description: "X username to test (leave empty for production)"
+        required: false
+        default: ""
   
 
 jobs:
