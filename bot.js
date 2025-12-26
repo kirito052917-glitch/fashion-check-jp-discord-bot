@@ -21,6 +21,7 @@ const BOTS = [
     webhook: process.env.DISCORD_WEBHOOK_DOMA,
   },
 ];
+
 /**
  * ===== TEST MODE =====
  * Set both to null for production
@@ -30,7 +31,6 @@ const TEST_NOW = null;
 
 // const TEST_TWEET_URL = 'https://x.com/396Zack/status/2001949908199498017';
 const TEST_TWEET_URL = null;
-
 
 /* ---------- Helpers ---------- */
 
@@ -64,13 +64,12 @@ function saveLastTweetId(file, id) {
 }
 
 /**
- * ✅ JST DATE WINDOW GUARD (FINAL FIX)
- * Only allow tweets from "today" in JST
+ * ✅ JST DATE WINDOW GUARD
+ * Used ONLY for keyword-based bots
  */
 function isWithinDateWindow(tweetIsoTime) {
   if (!tweetIsoTime) return false;
 
-  // Convert tweet time to JST
   const tweetDate = new Date(tweetIsoTime);
   const tweetJst = new Date(tweetDate.getTime() + 9 * 60 * 60 * 1000);
 
@@ -140,7 +139,7 @@ async function findLatestTweet(page, { targetUser, keyword }, lastId) {
   if (searchTweets.length > 0) {
     const t = searchTweets[0];
 
-    if (!isWithinDateWindow(t.time)) {
+    if (keyword && !isWithinDateWindow(t.time)) {
       console.log('Search tweet outside JST date window — ignoring');
       return null;
     }
@@ -148,7 +147,7 @@ async function findLatestTweet(page, { targetUser, keyword }, lastId) {
     return t;
   }
 
-  // ✅ FALLBACK: PROFILE SCAN (FIRST 10)
+  // ✅ FALLBACK: PROFILE SCAN
   console.log('Search empty — scanning profile (first 10 tweets)');
   await page.goto(`https://x.com/${targetUser}`, {
     waitUntil: 'domcontentloaded',
@@ -172,13 +171,13 @@ async function findLatestTweet(page, { targetUser, keyword }, lastId) {
       break;
     }
 
-    if (!isWithinDateWindow(tweet.time)) {
+    if (keyword && !isWithinDateWindow(tweet.time)) {
       console.log('Skipping tweet outside JST date window');
       continue;
     }
 
     if (!keyword || tweet.text.includes(keyword)) {
-      console.log('Found matching tweet via profile fallback');
+      console.log('Found matching tweet');
       return tweet;
     }
   }
@@ -249,3 +248,10 @@ async function run() {
   await browser.close();
   console.log('\n✅ All bots finished');
 }
+
+/* ---------- Run ---------- */
+
+run().catch(err => {
+  console.error('Fatal error:', err);
+  process.exit(1);
+});
