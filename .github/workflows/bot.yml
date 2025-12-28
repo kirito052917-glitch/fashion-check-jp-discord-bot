@@ -15,25 +15,23 @@ jobs:
   run-bot:
     runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v4
+    permissions:
+      contents: write   # ✅ REQUIRED to push commits
 
-      - uses: actions/setup-node@v4
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - run: npm install
+      - name: Install dependencies
+        run: npm install
 
-      - run: npx playwright install --with-deps chromium
-
-      - name: Upload bot state
-        uses: actions/upload-artifact@v4
-        with:
-          name: bot-state
-          path: |
-            last_tweet_396zack.json
-            last_tweet_domacastle.json
-            last_dataset_item.json
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
 
       - name: Run bot
         env:
@@ -44,11 +42,14 @@ jobs:
           X_COOKIES: ${{ secrets.X_COOKIES }}
         run: node bot.js
 
-      - name: Upload bot state
-        uses: actions/upload-artifact@v4
-        with:
-          name: bot-state
-          path: |
-            last_tweet_396zack.json
-            last_tweet_domacastle.json
-            last_dataset_item.json
+      - name: Commit bot state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add last_tweet_396zack.json \
+                  last_tweet_domacastle.json \
+                  last_dataset_item.json
+
+          git commit -m "Update bot state" || echo "No state changes to commit"
+          git push
