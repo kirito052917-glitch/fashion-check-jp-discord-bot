@@ -134,17 +134,15 @@ async function findLatestTweet(page, { targetUser, keyword }, lastId) {
       .filter(t => t.link)
   );
 
-  for (const tweet of searchTweets) {
-    const id = extractTweetId(tweet.link);
-    if (!id) continue;
+  const newerTweets = searchTweets
+  .map(t => ({ ...t, id: extractTweetId(t.link) }))
+  .filter(t => t.id && isNewer(t.id, lastId));
 
-    if (!isNewer(id, lastId)) continue;
-
-    if (keyword && !isWithinDateWindow(tweet.time)) continue;
-
-    console.log('Found NEW tweet via search');
-    return tweet;
-  }
+  if (newerTweets.length > 0) {
+    newerTweets.sort((a, b) => BigInt(b.id) - BigInt(a.id));
+    console.log('Found NEW tweet via search (latest only)');
+    return newerTweets[0];
+}
 
   // PROFILE FALLBACK
   console.log('Search empty — scanning profile');
