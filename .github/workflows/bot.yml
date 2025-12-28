@@ -16,34 +16,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Install dependencies
-        run: npm install
+      - run: npm install
 
-      - name: Install Playwright browsers
-        run: npx playwright install --with-deps chromium
+      - run: npx playwright install --with-deps chromium
 
-      - name: Upload state
-        uses: actions/upload-artifact@v4
-        with:
-          name: bot-state
-          path: |
-            last_tweet_396zack.json
-            last_tweet_domacastle.json
-            last_dataset_item.json
-          key: last-tweet-${{ github.repository }}
-
-      - name: Download state
+      - name: Download bot state
         uses: actions/download-artifact@v4
         with:
           name: bot-state
+        continue-on-error: true
 
       - name: Run bot
         env:
@@ -54,11 +41,11 @@ jobs:
           X_COOKIES: ${{ secrets.X_COOKIES }}
         run: node bot.js
 
-      - name: Save last tweet cache
-        uses: actions/cache@v4
+      - name: Upload bot state
+        uses: actions/upload-artifact@v4
         with:
+          name: bot-state
           path: |
             last_tweet_396zack.json
             last_tweet_domacastle.json
             last_dataset_item.json
-          key: last-tweet-${{ github.repository }}
