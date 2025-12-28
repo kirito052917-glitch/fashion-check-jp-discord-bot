@@ -139,7 +139,9 @@ async function findLatestTweet(page, { targetUser, keyword }, lastId) {
   .filter(t => t.id && isNewer(t.id, lastId));
 
   if (newerTweets.length > 0) {
-    newerTweets.sort((a, b) => BigInt(b.id) - BigInt(a.id));
+    newerTweets.sort((a, b) =>
+      BigInt(a.id) === BigInt(b.id) ? 0 : BigInt(a.id) < BigInt(b.id) ? 1 : -1
+);
     console.log('Found NEW tweet via search (latest only)');
     return newerTweets[0];
 }
