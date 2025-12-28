@@ -101,6 +101,77 @@ async function findLatestTweet(page, { targetUser, keyword }, lastId) {
   return null;
 }
 
+/* ---------- Main ---------- */
+
+async function run() {
+  console.log('Bot started');
+  console.log('Current time:', nowDate().toISOString());
+
+  const browser = await chromium.launch({ headless: true });
+  const context = await browser.newContext();
+
+  await loadXCookies(context);
+
+  const page = await context.newPage();
+  const loggedIn =
+    (await page.locator('[data-testid="SideNav_AccountSwitcher_Button"]').count()) > 0;
+
+  console.log(loggedIn ? '✅ Logged into X' : '❌ NOT logged into X');
+
+  // OPTIONAL SAFETY (recommended)
+  if (!loggedIn) {
+    console.log('❌ Not logged into X — aborting to prevent duplicate posts');
+    await browser.close();
+    return;
+  }
+
+  for (const bot of BOTS) {
+    console.log(`\n🤖 Running ${bot.name}`);
+    console.log(`Target account: @${bot.targetUser}`);
+
+    if (!bot.webhook) {
+      console.log('⚠️ Webhook not set — skipping');
+      continue;
+    }
+
+    const lastId = loadLastTweetId(bot.storageFile);
+    console.log('Last stored tweet ID:', lastId ?? '(none)');
+
+    const tweet = await findLatestTweet(
+      page,
+      { targetUser: bot.targetUser, keyword: bot.keyword },
+      lastId
+    );
+
+    if (!tweet?.link) {
+      console.log('No valid new tweet found');
+      continue;
+    }
+
+    const tweetId = extractTweetId(tweet.link);
+    console.log('Latest tweet ID:', tweetId);
+
+    if (!isNewer(tweetId, lastId)) {
+      console.log('Tweet already processed — skipping');
+      continue;
+    }
+
+    const res = await fetch(bot.webhook, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ content: tweet.link }),
+    });
+
+    console.log('✅ Posted to Discord:', res.status);
+
+    saveLastTweetId(bot.storageFile, tweetId);
+    console.log('Saved new tweet ID');
+  }
+
+  await browser.close();
+  console.log('\n✅ All bots finished');
+}
+
 /* ---------- Run ---------- */
 
 run().catch(err => {
