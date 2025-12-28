@@ -238,8 +238,7 @@ async function runDatasetBot(bot) {
     url: item.url, // ✅ FFXIV Collect link
     description:
       `**入手方法**：${sourceJa}\n` +
-      `**パッチ**：${item.patch}\n` +
-      `**レア度**：${item.rarity}`,
+      `**パッチ**：${item.patch}\n`,
     color: 0x8f6aff,
     image: {
       url: item.image, // ✅ Proper mount image
