@@ -7,6 +7,7 @@ import fs from 'fs';
 const BOTS = [
   {
     name: 'Score Bot',
+    type: 'twitter',
     targetUser: process.env.TEST_USER || '396zack',
     keyword: '80点',
     storageFile: './last_tweet_396zack.json',
@@ -14,10 +15,18 @@ const BOTS = [
   },
   {
     name: 'Doma Castle Bot',
+    type: 'twitter',
     targetUser: 'domacastleffxiv',
     keyword: null,
     storageFile: './last_tweet_domacastle.json',
     webhook: process.env.DISCORD_WEBHOOK_DOMA,
+  },
+  {
+    name: 'Mount & Minion Bot',
+    type: 'dataset',
+    datasetFiles: ['./mounts.json', './minions.json'],
+    storageFile: './last_dataset_item.json',
+    webhook: process.env.DISCORD_WEBHOOK,
   },
 ];
 
@@ -55,10 +64,32 @@ function loadLastTweetId(file) {
 }
 
 function saveLastTweetId(file, id) {
-  fs.writeFileSync(
-    file,
-    JSON.stringify({ lastTweetId: id }, null, 2)
-  );
+  fs.writeFileSync(file, JSON.stringify({ lastTweetId: id }, null, 2));
+}
+
+/* ---------- DATASET HELPERS ---------- */
+
+function loadJson(file) {
+  return JSON.parse(fs.readFileSync(file, 'utf8'));
+}
+
+function loadLastDatasetId(file) {
+  if (!fs.existsSync(file)) return null;
+  try {
+    return JSON.parse(fs.readFileSync(file, 'utf8')).lastId ?? null;
+  } catch {
+    return null;
+  }
+}
+
+function saveLastDatasetId(file, id) {
+  fs.writeFileSync(file, JSON.stringify({ lastId: id }, null, 2));
+}
+
+function pickRandomItem(items, lastId) {
+  const filtered = lastId ? items.filter(i => i.id !== lastId) : items;
+  if (filtered.length === 0) return null;
+  return filtered[Math.floor(Math.random() * filtered.length)];
 }
 
 /**
@@ -95,7 +126,6 @@ async function loadXCookies(context) {
 /* ---------- FIND LATEST TWEET ---------- */
 
 async function findLatestTweet(page, { targetUser, keyword }, lastId) {
-  // TEST MODE
   if (TEST_TWEET_URL) {
     await page.goto(TEST_TWEET_URL, { waitUntil: 'domcontentloaded' });
     await page.waitForTimeout(3000);
@@ -107,7 +137,6 @@ async function findLatestTweet(page, { targetUser, keyword }, lastId) {
     }));
   }
 
-  // SEARCH
   const now = nowDate();
   const since = yyyyMmDd(now);
   const until = yyyyMmDd(new Date(now.getTime() + 86400000));
@@ -135,18 +164,17 @@ async function findLatestTweet(page, { targetUser, keyword }, lastId) {
   );
 
   const newerTweets = searchTweets
-  .map(t => ({ ...t, id: extractTweetId(t.link) }))
-  .filter(t => t.id && isNewer(t.id, lastId));
+    .map(t => ({ ...t, id: extractTweetId(t.link) }))
+    .filter(t => t.id && isNewer(t.id, lastId));
 
   if (newerTweets.length > 0) {
     newerTweets.sort((a, b) =>
       BigInt(a.id) === BigInt(b.id) ? 0 : BigInt(a.id) < BigInt(b.id) ? 1 : -1
-);
+    );
     console.log('Found NEW tweet via search (latest only)');
     return newerTweets[0];
-}
+  }
 
-  // PROFILE FALLBACK
   console.log('Search empty — scanning profile');
   await page.goto(`https://x.com/${targetUser}`, {
     waitUntil: 'domcontentloaded',
@@ -155,10 +183,7 @@ async function findLatestTweet(page, { targetUser, keyword }, lastId) {
 
   const profileTweets = await page.$$eval('article', articles =>
     articles
-      .filter(a =>
-        !a.innerText.includes('Pinned') &&
-        !a.innerText.includes('固定')
-      )
+      .filter(a => !a.innerText.includes('Pinned') && !a.innerText.includes('固定'))
       .slice(0, 15)
       .map(a => ({
         link: a.querySelector('a[href*="/status/"]')?.href,
@@ -171,16 +196,44 @@ async function findLatestTweet(page, { targetUser, keyword }, lastId) {
   for (const tweet of profileTweets) {
     const id = extractTweetId(tweet.link);
     if (!id) continue;
-
     if (!isNewer(id, lastId)) break;
-
     if (keyword && !isWithinDateWindow(tweet.time)) continue;
-
     console.log('Found NEW tweet via profile');
     return tweet;
   }
 
   return null;
+}
+
+/* ---------- DATASET BOT ---------- */
+
+async function runDatasetBot(bot) {
+  console.log(`\n📦 Running ${bot.name}`);
+
+  const lastId = loadLastDatasetId(bot.storageFile);
+  console.log('Last dataset ID:', lastId ?? '(none)');
+
+  let items = [];
+  for (const file of bot.datasetFiles) {
+    items = items.concat(loadJson(file));
+  }
+
+  const item = pickRandomItem(items, lastId);
+  if (!item) {
+    console.log('No dataset item available');
+    return;
+  }
+
+  const content = `✨ 今日のマウント / ミニオン ✨\n${item.name_ja} / ${item.name_en}`;
+
+  await fetch(bot.webhook, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ content }),
+  });
+
+  console.log('✅ Posted dataset item:', item.name_en);
+  saveLastDatasetId(bot.storageFile, item.id);
 }
 
 /* ---------- MAIN ---------- */
@@ -195,14 +248,18 @@ async function run() {
   await loadXCookies(context);
 
   const page = await context.newPage();
-
   console.log('✅ Proceeding without UI login check (cookie-based auth)');
 
   for (const bot of BOTS) {
+    if (!bot.webhook) continue;
+
+    if (bot.type === 'dataset') {
+      await runDatasetBot(bot);
+      continue;
+    }
+
     console.log(`\n🤖 Running ${bot.name}`);
     console.log(`Target: @${bot.targetUser}`);
-
-    if (!bot.webhook) continue;
 
     const lastId = loadLastTweetId(bot.storageFile);
     console.log('Last stored ID:', lastId ?? '(none)');
