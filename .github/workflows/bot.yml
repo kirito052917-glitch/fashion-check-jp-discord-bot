@@ -36,6 +36,7 @@ jobs:
           path: |
             last_tweet_396zack.json
             last_tweet_domacastle.json
+            last_dataset_item.json
           key: last-tweet-${{ github.repository }}
 
       - name: Run bot
@@ -52,4 +53,5 @@ jobs:
           path: |
             last_tweet_396zack.json
             last_tweet_domacastle.json
+            last_dataset_item.json
           key: last-tweet-${{ github.repository }}
