@@ -229,7 +229,13 @@ async function runDatasetBot(bot) {
     return;
   }
 
-  const content = `✨ 今日のマウント / ミニオン ✨\n${item.name_ja} / ${item.name_en}`;
+  const nameJa = item.name_ja || item.name || item.ja || '（不明）';
+  const nameEn = item.name_en || item.en || '';
+
+  const content =
+    `✨ 今日のマウント / ミニオン ✨\n` +
+    `${nameJa}${nameEn ? ` / ${nameEn}` : ''}`;
+  console.log('✅ Posted dataset item:', item.name_en || item.name);
 
   await fetch(bot.webhook, {
     method: 'POST',
