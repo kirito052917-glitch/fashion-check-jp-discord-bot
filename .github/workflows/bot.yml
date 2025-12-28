@@ -26,11 +26,14 @@ jobs:
 
       - run: npx playwright install --with-deps chromium
 
-      - name: Download bot state
-        uses: actions/download-artifact@v4
+      - name: Upload bot state
+        uses: actions/upload-artifact@v4
         with:
           name: bot-state
-        continue-on-error: true
+          path: |
+            last_tweet_396zack.json
+            last_tweet_domacastle.json
+            last_dataset_item.json
 
       - name: Run bot
         env:
