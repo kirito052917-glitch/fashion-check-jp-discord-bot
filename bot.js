@@ -26,7 +26,7 @@ const BOTS = [
     type: 'dataset',
     datasetFiles: ['./mounts.json', './minions.json'],
     storageFile: './last_dataset_item.json',
-    webhook: process.env.DISCORD_WEBHOOK,
+    webhook: process.env.DISCORD_WEBHOOK_DATASET,
   },
 ];
 
