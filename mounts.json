@@ -1,0 +1,82 @@
+[
+  {
+    "id": 101,
+    "name": {
+      "ja": "カンパニーチョコボ",
+      "en": "Company Chocobo"
+    },
+    "expansion": {
+      "ja": "新生エオルゼア",
+      "en": "A Realm Reborn"
+    },
+    "rarity": {
+      "ja": "一般",
+      "en": "Common"
+    },
+    "obtain": {
+      "ja": "グランドカンパニーのクエストを進行",
+      "en": "Progress through Grand Company quests"
+    },
+    "image": "https://xivapi.com/i/068000/068001.png"
+  },
+  {
+    "id": 102,
+    "name": {
+      "ja": "魔導アーマー",
+      "en": "Magitek Armor"
+    },
+    "expansion": {
+      "ja": "新生エオルゼア",
+      "en": "A Realm Reborn"
+    },
+    "rarity": {
+      "ja": "一般",
+      "en": "Common"
+    },
+    "obtain": {
+      "ja": "メインクエスト「究極幻想 アルテマウェポン」",
+      "en": "Main Scenario Quest “The Ultimate Weapon”"
+    },
+    "image": "https://xivapi.com/i/068000/068002.png"
+  },
+  {
+    "id": 103,
+    "name": {
+      "ja": "ベヒーモス",
+      "en": "Behemoth"
+    },
+    "expansion": {
+      "ja": "新生エオルゼア",
+      "en": "A Realm Reborn"
+    },
+    "rarity": {
+      "ja": "レア",
+      "en": "Rare"
+    },
+    "obtain": {
+      "ja": "アチーブメント「名誉の証明」",
+      "en": "Achievement “Proof of Honor”"
+    },
+    "image": "https://xivapi.com/i/068000/068004.png"
+  },
+  {
+    "id": 104,
+    "name": {
+      "ja": "デミ・オズマ",
+      "en": "Demi-Ozma"
+    },
+    "expansion": {
+      "ja": "紅蓮のリベレーター",
+      "en": "Stormblood"
+    },
+    "rarity": {
+      "ja": "非常にレア",
+      "en": "Very Rare"
+    },
+    "obtain": {
+      "ja": "バルデシオンアーセナルを踏破",
+      "en": "Complete The Baldesion Arsenal"
+    },
+    "image": "https://xivapi.com/i/068000/068019.png"
+  }
+]
