@@ -229,37 +229,45 @@ async function runDatasetBot(bot) {
     return;
   }
 
-  const nameJa =
-  item.name_ja ||
-  item.name?.ja ||
-  item.ja ||
-  '（不明）';
+  const nameJa = item.name?.ja ?? '（不明）';
+  const nameEn = item.name?.en ?? '';
+  const rarityJa = item.rarity?.ja ?? '不明';
+  const obtainJa = item.obtain?.ja ?? '不明';
+  const expansionJa = item.expansion?.ja ?? '不明';
+  const image = item.image ?? null;
 
-const nameEn =
-  item.name_en ||
-  item.name?.en ||
-  item.en ||
-  '';
+  const lodestoneUrl =
+    `https://na.finalfantasyxiv.com/lodestone/playguide/db/item/${item.id}/`;
 
-  const content =
-    `✨ 今日のマウント / ミニオン ✨\n` +
-    `${nameJa}${nameEn ? ` / ${nameEn}` : ''}`;
-
-  console.log(
-  '✅ Posted dataset item:',
-  `${item.name?.ja ?? item.name} / ${item.name?.en ?? ''}`
-);
+  const embed = {
+    title: `${nameJa}${nameEn ? ` / ${nameEn}` : ''}`,
+    url: lodestoneUrl,
+    description:
+      `**レアリティ**：${rarityJa}\n` +
+      `**入手方法**：${obtainJa}\n` +
+      `**拡張**：${expansionJa}`,
+    color: 0xF5C542, // gold-ish
+    image: image ? { url: image } : undefined,
+    footer: {
+      text: '✨ 今日のマウント / ミニオン ✨',
+    },
+  };
 
   await fetch(bot.webhook, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ content }),
+    body: JSON.stringify({
+      embeds: [embed],
+    }),
   });
 
-  console.log('✅ Posted dataset item:', item.name_en);
+  console.log(
+    '✅ Posted dataset item:',
+    `${nameJa} / ${nameEn}`
+  );
+
   saveLastDatasetId(bot.storageFile, item.id);
 }
-
 /* ---------- MAIN ---------- */
 
 async function run() {
