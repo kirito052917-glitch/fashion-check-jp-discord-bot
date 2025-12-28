@@ -6,8 +6,7 @@
       "en": "Company Chocobo",
       "ja": "マイチョコボ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.0",
     "source": {
       "en": "My Little Chocobo (Immortal Flames); My Little Chocobo (Maelstrom); My Little Chocobo (Twin Adder)",
       "ja": "念願のマイチョコボ（不滅隊）; 念願のマイチョコボ（黒渦団）; 念願のマイチョコボ（双蛇党）"
@@ -22,8 +21,7 @@
       "en": "Goobbue",
       "ja": "グゥーブー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.0",
     "source": {
       "en": "At level 30 or above, speak with the Wandering Minstrel in Eastern La Noscea (Final Fantasy XIV 1.0)",
       "ja": "At level 30 or above, speak with the Wandering Minstrel in Eastern La Noscea (Final Fantasy XIV 1.0)"
@@ -38,8 +36,7 @@
       "en": "Legacy Chocobo",
       "ja": "レガシーチョコボ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.0",
     "source": {
       "en": "Legacy Campaign",
       "ja": "Legacy Campaign"
@@ -54,8 +51,7 @@
       "en": "Magitek Armor",
       "ja": "魔導アーマー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.0",
     "source": {
       "en": "The Ultimate Weapon",
       "ja": "究極幻想アルテマウェポン"
@@ -70,8 +66,7 @@
       "en": "Coeurl",
       "ja": "クァール"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.0",
     "source": {
       "en": "A Realm Reborn Collector's Edition",
       "ja": "A Realm Reborn Collector's Edition"
@@ -86,8 +81,7 @@
       "en": "Ahriman",
       "ja": "アーリマン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.0",
     "source": {
       "en": "Jonathas - Old Gridania - 6 Achievement Certificates",
       "ja": "Jonathas - Old Gridania - 6 Achievement Certificates"
@@ -102,8 +96,7 @@
       "en": "Unicorn",
       "ja": "ユニコーン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.0",
     "source": {
       "en": "Unicorn Power",
       "ja": "我が唯一つの望み"
@@ -118,8 +111,7 @@
       "en": "Behemoth",
       "ja": "ベヒーモス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.1",
     "source": {
       "en": "Jonathas - Old Gridania - 6 Achievement Certificates",
       "ja": "Jonathas - Old Gridania - 6 Achievement Certificates"
@@ -134,8 +126,7 @@
       "en": "Cavalry Drake",
       "ja": "キャバルリー・ドレイク"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.1",
     "source": {
       "en": "Amalj'aa Vendor - Ring of Ash (Southern Thanalan) - 120,000 Gil (Rank 4)",
       "ja": "Amalj'aa Vendor - Ring of Ash (Southern Thanalan) - 120,000 Gil (Rank 4)"
@@ -150,8 +141,7 @@
       "en": "Laurel Goobbue",
       "ja": "ローレル・グゥーブー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.1",
     "source": {
       "en": "Sylphic Vendor - Little Solace (East Shroud) - 120,000 Gil (Rank 4)",
       "ja": "Sylphic Vendor - Little Solace (East Shroud) - 120,000 Gil (Rank 4)"
@@ -166,8 +156,7 @@
       "en": "Gilded Magitek Armor",
       "ja": "C式魔導アーマー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.1",
     "source": {
       "en": "Everybody's Darling",
       "ja": "我らがMIP"
@@ -182,8 +171,7 @@
       "en": "Nightmare",
       "ja": "ナイトメア"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.1",
     "source": {
       "en": "The Bowl Of Embers (Extreme); The Howling Eye (Extreme); The Navel (Extreme)",
       "ja": "極イフリート討滅戦; 極ガルーダ討滅戦; 極タイタン討滅戦"
@@ -198,8 +186,7 @@
       "en": "Fat Chocobo",
       "ja": "でぶチョコボ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.2",
     "source": {
       "en": "A Realm Reborn Collector's Edition",
       "ja": "A Realm Reborn Collector's Edition"
@@ -214,8 +201,7 @@
       "en": "Cavalry Elbst",
       "ja": "キャバルリー・エルブスト"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.2",
     "source": {
       "en": "Sahagin Vendor - Novv's Nursery (Western La Noscea) - 120,000 Gil (Rank 4)",
       "ja": "Sahagin Vendor - Novv's Nursery (Western La Noscea) - 120,000 Gil (Rank 4)"
@@ -230,8 +216,7 @@
       "en": "Bomb Palanquin",
       "ja": "ボムバルーン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.2",
     "source": {
       "en": "Kobold Vendor - 789th Order Dig (Outer La Noscea) - 120,000 Gil (Rank 4)",
       "ja": "Kobold Vendor - 789th Order Dig (Outer La Noscea) - 120,000 Gil (Rank 4)"
@@ -246,8 +231,7 @@
       "en": "Aithon",
       "ja": "アイトーン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.2",
     "source": {
       "en": "The Bowl Of Embers (Extreme)",
       "ja": "極イフリート討滅戦"
@@ -262,8 +246,7 @@
       "en": "Xanthos",
       "ja": "クサントス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.2",
     "source": {
       "en": "The Howling Eye (Extreme)",
       "ja": "極ガルーダ討滅戦"
@@ -278,8 +261,7 @@
       "en": "Gullfaxi",
       "ja": "グルファクシ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.2",
     "source": {
       "en": "The Navel (Extreme)",
       "ja": "極タイタン討滅戦"
@@ -294,8 +276,7 @@
       "en": "Enbarr",
       "ja": "エンバール"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.2",
     "source": {
       "en": "TheWhorleater(Extreme)",
       "ja": "極リヴァイアサン討滅戦"
@@ -310,8 +291,7 @@
       "en": "Warlion",
       "ja": "ウォーライオン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.2",
     "source": {
       "en": "But Somebody's Gotta Do It (Paladin)",
       "ja": "堅固なるナイト"
@@ -326,8 +306,7 @@
       "en": "Warbear",
       "ja": "ウォーベアー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.2",
     "source": {
       "en": "But Somebody's Gotta Do It (Warrior)",
       "ja": "強固なる戦士"
@@ -342,8 +321,7 @@
       "en": "Draught Chocobo",
       "ja": "グランチョコボ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.3",
     "source": {
       "en": "Recruit a Friend Campaign reward",
       "ja": "Recruit a Friend Campaign reward"
@@ -358,8 +336,7 @@
       "en": "Direwolf",
       "ja": "ダイアウルフ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.35",
     "source": {
       "en": "Ixali Vendor - Ehcatl (North Shroud) - 120,000 Gil (Rank 7)",
       "ja": "Ixali Vendor - Ehcatl (North Shroud) - 120,000 Gil (Rank 7)"
@@ -374,8 +351,7 @@
       "en": "Storm Warsteed",
       "ja": "ロミンサン・スティード"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.3",
     "source": {
       "en": "A Line in the Storm IV",
       "ja": "海都への凱旋：ランク4"
@@ -390,8 +366,7 @@
       "en": "Serpent Warsteed",
       "ja": "グリダニアン・スティード"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.3",
     "source": {
       "en": "A Line in the Glade IV",
       "ja": "森都への凱旋：ランク4"
@@ -406,8 +381,7 @@
       "en": "Flame Warsteed",
       "ja": "ウルダハン・スティード"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.3",
     "source": {
       "en": "A Line in the Sand IV",
       "ja": "砂都への凱旋：ランク4"
@@ -422,8 +396,7 @@
       "en": "Markab",
       "ja": "マルカブ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.3",
     "source": {
       "en": "The Striking Tree (Extreme)",
       "ja": "極ラムウ討滅戦"
@@ -438,8 +411,7 @@
       "en": "Ceremony Chocobo",
       "ja": "エターナルチョコボ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.45",
     "source": {
       "en": "Ceremony of Eternal Bonding (Gold/Platinum)",
       "ja": "Ceremony of Eternal Bonding (Gold/Platinum)"
@@ -454,8 +426,7 @@
       "en": "Sleipnir",
       "ja": "スレイプニル"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.38",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -470,8 +441,7 @@
       "en": "Boreas",
       "ja": "ボレアス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.4",
     "source": {
       "en": "The Akh Afah Amphitheatre (Extreme)",
       "ja": "極シヴァ討滅戦"
@@ -486,8 +456,7 @@
       "en": "Parade Chocobo",
       "ja": "パレードチョコボ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.4",
     "source": {
       "en": "Leaving a Better Impression II",
       "ja": "さらに感銘を与えし者：ランク2"
@@ -502,8 +471,7 @@
       "en": "Black Chocobo",
       "ja": "黒チョコボ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.0",
     "source": {
       "en": "Divine Intervention",
       "ja": "蒼天の騎士"
@@ -518,8 +486,7 @@
       "en": "Adamantoise",
       "ja": "アダマンタス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.51",
     "source": {
       "en": "200,000 MGP",
       "ja": "200,000 MGP"
@@ -534,8 +501,7 @@
       "en": "Kirin",
       "ja": "麒麟"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.5",
     "source": {
       "en": "A Legend for a Legend",
       "ja": "麒麟、現世に降り立たん"
@@ -550,8 +516,7 @@
       "en": "Logistics System",
       "ja": "騎乗システム"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.5",
     "source": {
       "en": "Behind Enemy Lines I",
       "ja": "英雄の凱旋"
@@ -566,8 +531,7 @@
       "en": "Fenrir",
       "ja": "フェンリル"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "2.51",
     "source": {
       "en": "1,000,000 MGP",
       "ja": "1,000,000 MGP"
@@ -582,8 +546,7 @@
       "en": "Midgardsormr",
       "ja": "ミドガルズオルム"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.0",
     "source": {
       "en": "Fetters of Lament",
       "ja": "翼、広げて"
@@ -598,8 +561,7 @@
       "en": "Amber Draught Chocobo",
       "ja": "赤グランチョコボ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.0",
     "source": {
       "en": "Calamity Salvager - 8 Gold Chocobo Feathers (Recruit a Friend Campaign)",
       "ja": "Calamity Salvager - 8 Gold Chocobo Feathers (Recruit a Friend Campaign)"
@@ -614,8 +576,7 @@
       "en": "Sanuwa",
       "ja": "サヌワ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.1",
     "source": {
       "en": "Luna Vanu - Ok' Gundu Nakki (The Sea of Clouds) - 200,000 Gil (Rank 7)",
       "ja": "Luna Vanu - Ok' Gundu Nakki (The Sea of Clouds) - 200,000 Gil (Rank 7)"
@@ -630,8 +591,7 @@
       "en": "Griffin",
       "ja": "グリフィン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.0",
     "source": {
       "en": "Heavensward Collector's Edition",
       "ja": "Heavensward Collector's Edition"
@@ -646,8 +606,7 @@
       "en": "Manacutter",
       "ja": "マナカッター"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.0",
     "source": {
       "en": "Into the Aery",
       "ja": "邪竜狩り"
@@ -662,8 +621,7 @@
       "en": "War Panther",
       "ja": "ウォーパンサー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.0",
     "source": {
       "en": "But Somebody's Gotta Do It (Dark Knight)",
       "ja": "毅然たる暗黒騎士"
@@ -678,8 +636,7 @@
       "en": "Gobwalker",
       "ja": "ゴブリウォーカー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.05",
     "source": {
       "en": "Alexander - The Burden Of The Father (Savage)",
       "ja": "機工城アレキサンダー零式：起動編4"
@@ -694,8 +651,7 @@
       "en": "Twintania",
       "ja": "ツインタニア"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.0",
     "source": {
       "en": "Calamity Salvager - 15 Gold Chocobo Feathers (Recruit a Friend Campaign)",
       "ja": "Calamity Salvager - 15 Gold Chocobo Feathers (Recruit a Friend Campaign)"
@@ -710,8 +666,7 @@
       "en": "Witch's Broom",
       "ja": "ウィッチズブルーム"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.07",
     "source": {
       "en": "All Saints' Wake (2015); Online Store",
       "ja": "All Saints' Wake (2015); Online Store"
@@ -726,8 +681,7 @@
       "en": "Pegasus",
       "ja": "ペガサス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.1",
     "source": {
       "en": "4,200 Skybuilders' Scrips",
       "ja": "4,200 Skybuilders' Scrips"
@@ -742,8 +696,7 @@
       "en": "White Devil",
       "ja": "リウィア専用魔導アーマー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.1",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -758,8 +711,7 @@
       "en": "Red Baron",
       "ja": "ネロ専用魔導アーマー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.1",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -774,8 +726,7 @@
       "en": "Wyvern",
       "ja": "ワイバーン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.1",
     "source": {
       "en": "Bertana - Idyllshire - 6 Clan Mark Logs",
       "ja": "Bertana - Idyllshire - 6 Clan Mark Logs"
@@ -790,8 +741,7 @@
       "en": "SDS Fenrir",
       "ja": "SDSフェンリル"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.4",
     "source": {
       "en": "Fan Festival 2018-19; Online Store",
       "ja": "Fan Festival 2018-19; Online Store"
@@ -806,8 +756,7 @@
       "en": "Kongamato",
       "ja": "コンガマトー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.2",
     "source": {
       "en": "Vath Stickpeddler - Loth ast Vath (The Dravanian Forelands) - 200,000 Gil (Rank 7)",
       "ja": "Vath Stickpeddler - Loth ast Vath (The Dravanian Forelands) - 200,000 Gil (Rank 7)"
@@ -822,8 +771,7 @@
       "en": "Zu",
       "ja": "ズー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.2",
     "source": {
       "en": "Spoils Collector - 1 Iron Voyage Spoil (from sector Sea of Clouds 24)",
       "ja": "Spoils Collector - 1 Iron Voyage Spoil (from sector Sea of Clouds 24)"
@@ -838,8 +786,7 @@
       "en": "Bennu",
       "ja": "ベンヌ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.25",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -854,8 +801,7 @@
       "en": "White Lanner",
       "ja": "ホワイトラナー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.2",
     "source": {
       "en": "The Limitless Blue (Extreme)",
       "ja": "極ビスマルク討滅戦"
@@ -870,8 +816,7 @@
       "en": "Rose Lanner",
       "ja": "ラースラナー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.2",
     "source": {
       "en": "Thok Ast Thok (Extreme)",
       "ja": "極ラーヴァナ討滅戦"
@@ -886,8 +831,7 @@
       "en": "Round Lanner",
       "ja": "ラナー・オブ・ラウンド"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.2",
     "source": {
       "en": "The Minstrel's Ballad: Thordan's Reign",
       "ja": "蒼天幻想 ナイツ・オブ・ラウンド討滅戦"
@@ -902,8 +846,7 @@
       "en": "Warring Lanner",
       "ja": "ウォーリングラナー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.2",
     "source": {
       "en": "Containment Bay S1T7 (Extreme)",
       "ja": "極魔神セフィロト討滅戦"
@@ -918,8 +861,7 @@
       "en": "Gloria-class Airship",
       "ja": "グローリア号"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.2",
     "source": {
       "en": "Blood Born IV",
       "ja": "爪を研ぐ者：ランク4"
@@ -934,8 +876,7 @@
       "en": "Flying Cumulus",
       "ja": "筋斗雲"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.5",
     "source": {
       "en": "In-Game Item Campaign",
       "ja": "In-Game Item Campaign"
@@ -950,8 +891,7 @@
       "en": "Original Fat Chocobo",
       "ja": "初代でぶチョコボ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.2",
     "source": {
       "en": "In-Game Item Campaign",
       "ja": "In-Game Item Campaign"
@@ -966,8 +906,7 @@
       "en": "Astrope",
       "ja": "アストロペ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.3",
     "source": {
       "en": "I Hope Mentor Will Notice Me VI",
       "ja": "頼れる先輩：ランク6"
@@ -982,8 +921,7 @@
       "en": "Fat Moogle",
       "ja": "でぶモーグリ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.35",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -998,8 +936,7 @@
       "en": "Cloud Mallow",
       "ja": "クラウドマロウ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.3",
     "source": {
       "en": "Mogmul Mogbelly - Bahrr Lehs (The Churning Mists) - 200,000 Gil (Rank 7)",
       "ja": "Mogmul Mogbelly - Bahrr Lehs (The Churning Mists) - 200,000 Gil (Rank 7)"
@@ -1014,8 +951,7 @@
       "en": "Whisper-go",
       "ja": "ウィスパー号"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.35",
     "source": {
       "en": "Yo-kai Watch Collaboration - Obtain 13 Yo-kai Minions",
       "ja": "Yo-kai Watch Collaboration - Obtain 13 Yo-kai Minions"
@@ -1030,8 +966,7 @@
       "en": "Dark Lanner",
       "ja": "ダークラナー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.3",
     "source": {
       "en": "The Minstrel's Ballad: Nidhogg's Rage",
       "ja": "極ニーズヘッグ征竜戦"
@@ -1046,8 +981,7 @@
       "en": "Aerodynamics System",
       "ja": "浮行システム"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.3",
     "source": {
       "en": "In a Blaze of Glory V",
       "ja": "フィールド・オブ・グローリー：ランク5"
@@ -1062,8 +996,7 @@
       "en": "Disembodied Head",
       "ja": "ヘッドマウント"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.35",
     "source": {
       "en": "E-Una-Kotor - Quarrymill (South Shroud) - 10 Gelmorran Potsherds",
       "ja": "E-Una-Kotor - Quarrymill (South Shroud) - 10 Gelmorran Potsherds"
@@ -1078,8 +1011,7 @@
       "en": "Managarm",
       "ja": "マーナガルム"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.1",
     "source": {
       "en": "Calamity Salvager - 8 Gold Chocobo Feathers (Recruit a Friend Campaign)",
       "ja": "Calamity Salvager - 8 Gold Chocobo Feathers (Recruit a Friend Campaign)"
@@ -1094,8 +1026,7 @@
       "en": "Whisper A-go-go",
       "ja": "ウィスパー号改"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.35",
     "source": {
       "en": "Yo-kai Watch Collaboration - Obtain 13 Yo-kai Weapons",
       "ja": "Yo-kai Watch Collaboration - Obtain 13 Yo-kai Weapons"
@@ -1110,8 +1041,7 @@
       "en": "Goten",
       "ja": "轟天"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.5",
     "source": {
       "en": "Fame Fatale",
       "ja": "轟天"
@@ -1126,8 +1056,7 @@
       "en": "Ginga",
       "ja": "銀牙"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.5",
     "source": {
       "en": "Frontline Fury",
       "ja": "銀牙"
@@ -1142,8 +1071,7 @@
       "en": "Mystic Panda",
       "ja": "仙術熊猫"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.1",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -1158,8 +1086,7 @@
       "en": "Sophic Lanner",
       "ja": "ゴッデスラナー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.4",
     "source": {
       "en": "Containment Bay P1T6 (Extreme)",
       "ja": "極女神ソフィア討滅戦"
@@ -1174,8 +1101,7 @@
       "en": "Starlight Bear",
       "ja": "スターライト・ベアー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.1",
     "source": {
       "en": "The Starlight Celebration (2017); Online Store",
       "ja": "The Starlight Celebration (2017); Online Store"
@@ -1190,8 +1116,7 @@
       "en": "Black Pegasus",
       "ja": "ブラックペガサス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.4",
     "source": {
       "en": "The Palace of the Dead - Gold Sack",
       "ja": "The Palace of the Dead - Gold Sack"
@@ -1206,8 +1131,7 @@
       "en": "Arrhidaeus",
       "ja": "アリダイオス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.4",
     "source": {
       "en": "Alexander - The Soul Of The Creator (Savage)",
       "ja": "機工城アレキサンダー零式：天動編4"
@@ -1222,8 +1146,7 @@
       "en": "Raigo",
       "ja": "雷剛"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.5",
     "source": {
       "en": "Furious Fatalities",
       "ja": "雷剛"
@@ -1238,8 +1161,7 @@
       "en": "Demonic Lanner",
       "ja": "デモンラナー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.5",
     "source": {
       "en": "Containment Bay Z1T9 (Extreme)",
       "ja": "極鬼神ズルワーン討滅戦"
@@ -1254,8 +1176,7 @@
       "en": "Firebird",
       "ja": "鳳凰"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.5",
     "source": {
       "en": "Fiery Wings, Fiery Hearts",
       "ja": "鳳凰、現世に飛来せり"
@@ -1270,8 +1191,7 @@
       "en": "Eggshilaration System",
       "ja": "エッグシステム"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.5",
     "source": {
       "en": "Hatching-tide (2017); Online Store",
       "ja": "Hatching-tide (2017); Online Store"
@@ -1286,8 +1206,7 @@
       "en": "Lone Hellhound",
       "ja": "ローン・ヘルハウンド"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.55a",
     "source": {
       "en": "The Feast: Season 3",
       "ja": "The Feast: Season 3"
@@ -1302,8 +1221,7 @@
       "en": "Pack Hellhound",
       "ja": "パック・ヘルハウンド"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.55a",
     "source": {
       "en": "The Feast: Season 3",
       "ja": "The Feast: Season 3"
@@ -1318,8 +1236,7 @@
       "en": "Archon Throne",
       "ja": "アルコンズ・チェアー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "3.5",
     "source": {
       "en": "750,000 MGP",
       "ja": "750,000 MGP"
@@ -1334,8 +1251,7 @@
       "en": "Syldra",
       "ja": "シルドラ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.0",
     "source": {
       "en": "Stormblood Collector's Edition",
       "ja": "Stormblood Collector's Edition"
@@ -1350,8 +1266,7 @@
       "en": "Falcon",
       "ja": "ファルコン号"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.05",
     "source": {
       "en": "Fly the Falcon Mount Campaign; Moogle Treasure Trove Event",
       "ja": "Fly the Falcon Mount Campaign; Moogle Treasure Trove Event"
@@ -1366,8 +1281,7 @@
       "en": "Lone Faehound",
       "ja": "ローン・フェイハウンド"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.0",
     "source": {
       "en": "The Feast: Season 4",
       "ja": "The Feast: Season 4"
@@ -1382,8 +1296,7 @@
       "en": "Pack Faehound",
       "ja": "パック・フェイハウンド"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.0",
     "source": {
       "en": "The Feast: Season 4",
       "ja": "The Feast: Season 4"
@@ -1398,8 +1311,7 @@
       "en": "Blissful Kamuy",
       "ja": "美のカムイ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.0",
     "source": {
       "en": "Emanation (Extreme)",
       "ja": "極ラクシュミ討滅戦"
@@ -1414,8 +1326,7 @@
       "en": "Reveling Kamuy",
       "ja": "豪のカムイ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.0",
     "source": {
       "en": "The Pool Of Tribute (Extreme)",
       "ja": "極スサノオ討滅戦"
@@ -1430,8 +1341,7 @@
       "en": "Magitek Predator",
       "ja": "魔導プレデター"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.0",
     "source": {
       "en": "Ala Mhigo",
       "ja": "紅蓮決戦 アラミゴ"
@@ -1446,8 +1356,7 @@
       "en": "Battle Lion",
       "ja": "バトルライオン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.0",
     "source": {
       "en": "Tank You, Paladin III",
       "ja": "みんなのナイト：ランク3"
@@ -1462,8 +1371,7 @@
       "en": "Battle Bear",
       "ja": "バトルベアー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.0",
     "source": {
       "en": "Tank You, Warrior III",
       "ja": "みんなの戦士：ランク3"
@@ -1478,8 +1386,7 @@
       "en": "Battle Panther",
       "ja": "バトルパンサー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.0",
     "source": {
       "en": "Tank You, Dark Knight III",
       "ja": "みんなの暗黒騎士：ランク3"
@@ -1494,8 +1401,7 @@
       "en": "Yol",
       "ja": "ヨル"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.0",
     "source": {
       "en": "In the Footsteps of Bardam the Brave",
       "ja": "試練のバルダム覇道"
@@ -1510,8 +1416,7 @@
       "en": "Alte Roite",
       "ja": "アルテ・ロイテ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.05",
     "source": {
       "en": "Deltascape V4.0 (Savage)",
       "ja": "次元の狭間オメガ零式：デルタ編4"
@@ -1526,8 +1431,7 @@
       "en": "Centurio Tiger",
       "ja": "セントリオタイガー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.0",
     "source": {
       "en": "You Got Game",
       "ja": "伝説モブハンター"
@@ -1542,8 +1446,7 @@
       "en": "Ixion",
       "ja": "イクシオン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.0",
     "source": {
       "en": "Eschina - Rhalgr's Reach - 12 Ixion Horns (FATE \"A Horse Outside\" - The Lochs); 300 Faux Leaves; 1 Khloe's Silver Certificate of Commendation",
       "ja": "Eschina - Rhalgr's Reach - 12 Ixion Horns (FATE \"A Horse Outside\" - The Lochs); 300 Faux Leaves; 1 Khloe's Silver Certificate of Commendation"
@@ -1558,8 +1461,7 @@
       "en": "Legendary Kamuy",
       "ja": "龍のカムイ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.1",
     "source": {
       "en": "The Minstrel's Ballad: Shinryu's Domain",
       "ja": "極神龍討滅戦"
@@ -1574,8 +1476,7 @@
       "en": "Nezha Chariot",
       "ja": "風火二輪"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.2",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -1590,8 +1491,7 @@
       "en": "Striped Ray",
       "ja": "シマエイ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.1",
     "source": {
       "en": "Shikitahe - Tamamizu (The Ruby Sea) - 12 Kojin Sango (Rank 8)",
       "ja": "Shikitahe - Tamamizu (The Ruby Sea) - 12 Kojin Sango (Rank 8)"
@@ -1606,8 +1506,7 @@
       "en": "Aquamarine Carbuncle",
       "ja": "カーバンクル・アクアマリン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.15",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -1622,8 +1521,7 @@
       "en": "Citrine Carbuncle",
       "ja": "カーバンクル・シトリン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.15",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -1638,8 +1536,7 @@
       "en": "Flying Chair",
       "ja": "フライング・チェアー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.1",
     "source": {
       "en": "Crafted by Alchemist",
       "ja": "Crafted by Alchemist"
@@ -1654,8 +1551,7 @@
       "en": "Magitek Avenger",
       "ja": "魔導アヴェンジャー騎乗型"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.1",
     "source": {
       "en": "Die Another Day III",
       "ja": "凱旋せし翼：ランク3"
@@ -1670,8 +1566,7 @@
       "en": "Korpokkur Kolossus",
       "ja": "ハコボックル"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.1",
     "source": {
       "en": "750,000 MGP",
       "ja": "750,000 MGP"
@@ -1686,8 +1581,7 @@
       "en": "Red Hare",
       "ja": "赤兎馬"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.3",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -1702,8 +1596,7 @@
       "en": "Auspicious Kamuy",
       "ja": "白のカムイ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.2",
     "source": {
       "en": "The Jade Stoa (Extreme)",
       "ja": "極白虎征魂戦"
@@ -1718,8 +1611,7 @@
       "en": "Magitek Death Claw",
       "ja": "魔導デスクロー拘束型"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.2",
     "source": {
       "en": "Jonathas - Old Gridania - 6 Achievement Certificates",
       "ja": "Jonathas - Old Gridania - 6 Achievement Certificates"
@@ -1734,8 +1626,7 @@
       "en": "Marid",
       "ja": "マーリド"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.2",
     "source": {
       "en": "Madhura - Castellum Velodyna (The Fringes) - 18 Ananta Dreamstaves (Rank 7)",
       "ja": "Madhura - Castellum Velodyna (The Fringes) - 18 Ananta Dreamstaves (Rank 7)"
@@ -1750,8 +1641,7 @@
       "en": "True Griffin",
       "ja": "トゥルーグリフィン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.2",
     "source": {
       "en": "Madhura - Castellum Velodyna (The Fringes) - 18 Ananta Dreamstaves (Rank 8)",
       "ja": "Madhura - Castellum Velodyna (The Fringes) - 18 Ananta Dreamstaves (Rank 8)"
@@ -1766,8 +1656,7 @@
       "en": "Tyrannosaur",
       "ja": "ティラノサウルス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.25",
     "source": {
       "en": "Anemos Lockbox",
       "ja": "Anemos Lockbox"
@@ -1782,8 +1671,7 @@
       "en": "Regalia Type-G",
       "ja": "レガリア TYPE-G"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.5",
     "source": {
       "en": "Final Fantasy XV Collaboration",
       "ja": "Final Fantasy XV Collaboration"
@@ -1798,8 +1686,7 @@
       "en": "Broken Heart (Right)",
       "ja": "フライング・ライトハート"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.2",
     "source": {
       "en": "Valentione's Day (2018); Online Store",
       "ja": "Valentione's Day (2018); Online Store"
@@ -1814,8 +1701,7 @@
       "en": "Broken Heart (Left)",
       "ja": "フライング・レフトハート"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.2",
     "source": {
       "en": "Valentione's Day (2018); Online Store",
       "ja": "Valentione's Day (2018); Online Store"
@@ -1830,8 +1716,7 @@
       "en": "Typhon",
       "ja": "テュポーン先生"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.4",
     "source": {
       "en": "750,000 MGP",
       "ja": "750,000 MGP"
@@ -1846,8 +1731,7 @@
       "en": "Air Force",
       "ja": "エアフォース"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.2",
     "source": {
       "en": "Sigmascape V4.0 (Savage)",
       "ja": "次元の狭間オメガ零式：シグマ編4"
@@ -1862,8 +1746,7 @@
       "en": "Lunar Kamuy",
       "ja": "夜のカムイ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.3",
     "source": {
       "en": "The Minstrel's Ballad: Tsukuyomi's Pain",
       "ja": "極ツクヨミ討滅戦"
@@ -1878,8 +1761,7 @@
       "en": "Dodo",
       "ja": "ドードー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.35",
     "source": {
       "en": "Heaven-on-High - Platinum Sack",
       "ja": "Heaven-on-High - Platinum Sack"
@@ -1894,8 +1776,7 @@
       "en": "Indigo Whale",
       "ja": "ホエール"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.4",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -1910,8 +1791,7 @@
       "en": "Rathalos",
       "ja": "リオレウス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.36",
     "source": {
       "en": "The Great Hunt (Extreme)",
       "ja": "極リオレウス狩猟戦"
@@ -1926,8 +1806,7 @@
       "en": "Magitek Conveyor",
       "ja": "魔導キャリアー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.3",
     "source": {
       "en": "The Feast: Season 7",
       "ja": "The Feast: Season 7"
@@ -1942,8 +1821,7 @@
       "en": "Prototype Conveyor",
       "ja": "プロトキャリアー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.31",
     "source": {
       "en": "The Feast: Season 8",
       "ja": "The Feast: Season 8"
@@ -1958,8 +1836,7 @@
       "en": "Mikoshi",
       "ja": "オオナマズ御輿"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.3",
     "source": {
       "en": "Gyosho - Dhoro Iloh (The Azim Steppe) - 20 Namazu Koban (Rank 8)",
       "ja": "Gyosho - Dhoro Iloh (The Azim Steppe) - 20 Namazu Koban (Rank 8)"
@@ -1974,8 +1851,7 @@
       "en": "Juedi",
       "ja": "絶地"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.35",
     "source": {
       "en": "Dressed for Heaven",
       "ja": "真なる英雄の証"
@@ -1990,8 +1866,7 @@
       "en": "Logistics Node",
       "ja": "輸送システム"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.3",
     "source": {
       "en": "PvP Series 3 - Level 15; 5,000 Trophy Crystals",
       "ja": "PvP Series 3 - Level 15; 5,000 Trophy Crystals"
@@ -2006,8 +1881,7 @@
       "en": "Safeguard System",
       "ja": "護送システム"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.3",
     "source": {
       "en": "Front and Center V",
       "ja": "常在戦場：ランク5"
@@ -2022,8 +1896,7 @@
       "en": "Grani",
       "ja": "グラニ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.0",
     "source": {
       "en": "Shadowbringers Collector's Edition",
       "ja": "Shadowbringers Collector's Edition"
@@ -2038,8 +1911,7 @@
       "en": "Fatter Cat",
       "ja": "ビッグ・ファットキャット"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.45",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -2054,8 +1926,7 @@
       "en": "Euphonious Kamuy",
       "ja": "朱のカムイ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.4",
     "source": {
       "en": "Hells' Kier (Extreme)",
       "ja": "極朱雀征魂戦"
@@ -2070,8 +1941,7 @@
       "en": "Model O",
       "ja": "オメガ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.4",
     "source": {
       "en": "Alphascape V4.0 (Savage)",
       "ja": "次元の狭間オメガ零式：アルファ編4"
@@ -2086,8 +1956,7 @@
       "en": "Magitek Sky Armor",
       "ja": "魔導スカイアーマー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.4",
     "source": {
       "en": "20,000 Wolf Marks",
       "ja": "20,000 Wolf Marks"
@@ -2102,8 +1971,7 @@
       "en": "Magicked Carpet",
       "ja": "マジックカーペット"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.45",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -2118,8 +1986,7 @@
       "en": "Magna Roader",
       "ja": "魔導マグナローダー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.45",
     "source": {
       "en": "The Feast: Season 11",
       "ja": "The Feast: Season 11"
@@ -2134,8 +2001,7 @@
       "en": "Fat Black Chocobo",
       "ja": "でぶ黒チョコボ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.45",
     "source": {
       "en": "In-Game Item Campaign; Twitch Campaign (2021)",
       "ja": "In-Game Item Campaign; Twitch Campaign (2021)"
@@ -2150,8 +2016,7 @@
       "en": "Eldthurs",
       "ja": "エルドスルス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.45",
     "source": {
       "en": "Happy Bunny Lockbox - Eureka Pyros; South Horn - Silver Coffer",
       "ja": "Happy Bunny Lockbox - Eureka Pyros; South Horn - Silver Coffer"
@@ -2166,8 +2031,7 @@
       "en": "Maxima Roader",
       "ja": "魔導マグナローダー改"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.45",
     "source": {
       "en": "The Feast: Season 12",
       "ja": "The Feast: Season 12"
@@ -2182,8 +2046,7 @@
       "en": "Sabotender Emperador",
       "ja": "サボテンダー・エンペラドール"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.45",
     "source": {
       "en": "2,000,000 MGP",
       "ja": "2,000,000 MGP"
@@ -2198,8 +2061,7 @@
       "en": "Kamuy Of The Nine Tails",
       "ja": "九尾のカムイ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.45",
     "source": {
       "en": "A Lone Wolf No More",
       "ja": "九尾、現世に舞い降りん"
@@ -2214,8 +2076,7 @@
       "en": "Hallowed Kamuy",
       "ja": "青のカムイ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.45",
     "source": {
       "en": "The Wreath Of Snakes (Extreme)",
       "ja": "極青龍征魂戦"
@@ -2230,8 +2091,7 @@
       "en": "War Tiger",
       "ja": "ウォータイガー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.0",
     "source": {
       "en": "Tank You, Gunbreaker II",
       "ja": "みんなのガンブレイカー：ランク2"
@@ -2246,8 +2106,7 @@
       "en": "Eurekan Petrel",
       "ja": "エウレカスワロー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.5",
     "source": {
       "en": "Happy Bunny Lockbox - Eureka Hydatos; South Horn - Bronze/Silver Coffer",
       "ja": "Happy Bunny Lockbox - Eureka Hydatos; South Horn - Bronze/Silver Coffer"
@@ -2262,8 +2121,7 @@
       "en": "Magitek Avenger A1",
       "ja": "魔導アヴェンジャー寒冷地仕様"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.5",
     "source": {
       "en": "Out of Hiding",
       "ja": "隠塞の翼"
@@ -2278,8 +2136,7 @@
       "en": "Demi-Ozma",
       "ja": "デミオズマ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "4.5",
     "source": {
       "en": "We're on Your Side I",
       "ja": "バルデシオンアーセナルの覇者：ランク1"
@@ -2294,8 +2151,7 @@
       "en": "Amaro",
       "ja": "アマロ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.0",
     "source": {
       "en": "A Life of Adventure IV",
       "ja": "十六の道に愛されし者"
@@ -2310,8 +2166,7 @@
       "en": "Skyslipper",
       "ja": "ホバー船"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.05",
     "source": {
       "en": "Eden's Gate: Sepulture (Savage)",
       "ja": "希望の園エデン零式：覚醒編4"
@@ -2326,8 +2181,7 @@
       "en": "Fae Gwiber",
       "ja": "ピクシーグイベル"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.0",
     "source": {
       "en": "The Dancing Plague (Extreme)",
       "ja": "極ティターニア討滅戦"
@@ -2342,8 +2196,7 @@
       "en": "Triceratops",
       "ja": "トリケラトプス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.0",
     "source": {
       "en": "Nuts for Nutsy",
       "ja": "ナッツモブハンター"
@@ -2358,8 +2211,7 @@
       "en": "Ironfrog Mover",
       "ja": "フロッガーM"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.0",
     "source": {
       "en": "Fathard - Eulmore - 12 Formidable Cog (FATE \"A Finale Most Formidable\" - Kholusia)",
       "ja": "Fathard - Eulmore - 12 Formidable Cog (FATE \"A Finale Most Formidable\" - Kholusia)"
@@ -2374,8 +2226,7 @@
       "en": "Innocent Gwiber",
       "ja": "イノセントグイベル"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.0",
     "source": {
       "en": "The Crown Of The Immaculate (Extreme)",
       "ja": "極イノセンス討滅戦"
@@ -2390,8 +2241,7 @@
       "en": "Magicked Bed",
       "ja": "マジックベッド"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.05",
     "source": {
       "en": "Crafted by Carpenter - The Dungeons of Lyhe Ghiah",
       "ja": "Crafted by Carpenter - The Dungeons of Lyhe Ghiah"
@@ -2406,8 +2256,7 @@
       "en": "Circus Ahriman",
       "ja": "コンチネンタル・アーリマン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.0",
     "source": {
       "en": "All Saints' Wake (2019); Online Store",
       "ja": "All Saints' Wake (2019); Online Store"
@@ -2422,8 +2271,7 @@
       "en": "Sunspun Cumulus",
       "ja": "金斗雲"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.0",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -2438,8 +2286,7 @@
       "en": "Battle Tiger",
       "ja": "バトルタイガー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.0",
     "source": {
       "en": "Tank You, Gunbreaker III",
       "ja": "みんなのガンブレイカー：ランク3"
@@ -2454,8 +2301,7 @@
       "en": "Morbol",
       "ja": "モルボル"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.15",
     "source": {
       "en": "True Blue",
       "ja": "豪傑の青魔道士"
@@ -2470,8 +2316,7 @@
       "en": "Portly Porxie",
       "ja": "ファットポークシー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.1",
     "source": {
       "en": "Jul Oul - Lydha Lran (Il Mheg) - 18 Fae Fancies (Rank 7)",
       "ja": "Jul Oul - Lydha Lran (Il Mheg) - 18 Fae Fancies (Rank 7)"
@@ -2486,8 +2331,7 @@
       "en": "Epimetheus",
       "ja": "エピメテウス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.2",
     "source": {
       "en": "The Feast: Season 14",
       "ja": "The Feast: Season 14"
@@ -2502,8 +2346,7 @@
       "en": "Menoetius",
       "ja": "メノイティオス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.2",
     "source": {
       "en": "The Feast: Season 15",
       "ja": "The Feast: Season 15"
@@ -2518,8 +2361,7 @@
       "en": "Construct VII",
       "ja": "コンストラクト07"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.15",
     "source": {
       "en": "One Steppe at a Time V",
       "ja": "オンサル・ハカイル：ランク5"
@@ -2534,8 +2376,7 @@
       "en": "Shadow Gwiber",
       "ja": "シャドウグイベル"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.1",
     "source": {
       "en": "The Minstrel's Ballad: Hades's Elegy",
       "ja": "極ハーデス討滅戦"
@@ -2550,8 +2391,7 @@
       "en": "Spriggan Stonecarrier",
       "ja": "スプリガン・キャリアー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.2",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -2566,8 +2406,7 @@
       "en": "Forgiven Reticence",
       "ja": "フォーギヴン・レティセンス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.1",
     "source": {
       "en": "Xylle (The Crystarium) / Ilfroy (Eulmore) - 3,200 Sacks of Nuts",
       "ja": "Xylle (The Crystarium) / Ilfroy (Eulmore) - 3,200 Sacks of Nuts"
@@ -2582,8 +2421,7 @@
       "en": "Dhalmel",
       "ja": "ダルメル"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.21",
     "source": {
       "en": "Kupo of Fortune",
       "ja": "Kupo of Fortune"
@@ -2598,8 +2436,7 @@
       "en": "Albino Karakul",
       "ja": "アルビノカラクール"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.21",
     "source": {
       "en": "8,400 Skybuilders' Scrips",
       "ja": "8,400 Skybuilders' Scrips"
@@ -2614,8 +2451,7 @@
       "en": "Ufiti",
       "ja": "ウフィティ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.11",
     "source": {
       "en": "8,400 Skybuilders' Scrips",
       "ja": "8,400 Skybuilders' Scrips"
@@ -2630,8 +2466,7 @@
       "en": "Deinonychus",
       "ja": "ディノニクス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.55",
     "source": {
       "en": "Dalriada - Final Boss Chest; South Horn - Bronze/Silver Coffer",
       "ja": "Dalriada - Final Boss Chest; South Horn - Bronze/Silver Coffer"
@@ -2646,8 +2481,7 @@
       "en": "Construct 14",
       "ja": "労働十四号"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.35",
     "source": {
       "en": "180 Bozjan Clusters; South Horn - Bronze Coffer",
       "ja": "180 Bozjan Clusters; South Horn - Bronze Coffer"
@@ -2662,8 +2496,7 @@
       "en": "Kingly Peacock",
       "ja": "王孔雀"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.2",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -2678,8 +2511,7 @@
       "en": "Great Vessel Of Ronka",
       "ja": "水蛇様の壺"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.2",
     "source": {
       "en": "Yuqurl Manl - Hopl's Stopple (The Rak'tika Greatwood) - 18 Qitari Compliments (Rank 7)",
       "ja": "Yuqurl Manl - Hopl's Stopple (The Rak'tika Greatwood) - 18 Qitari Compliments (Rank 7)"
@@ -2694,8 +2526,7 @@
       "en": "Pteranodon",
       "ja": "プテラノドン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.21",
     "source": {
       "en": "Castle in the Sky",
       "ja": "蒼天街の復興王"
@@ -2710,8 +2541,7 @@
       "en": "Ruby Gwiber",
       "ja": "ルビーグイベル"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.2",
     "source": {
       "en": "Cinder Drift (Extreme)",
       "ja": "極ルビーウェポン破壊作戦"
@@ -2726,8 +2556,7 @@
       "en": "Hybodus",
       "ja": "ヒボドゥス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.2",
     "source": {
       "en": "No More Fish in the Sea II",
       "ja": "オーシャンフィッシャー：ランク2"
@@ -2742,8 +2571,7 @@
       "en": "Ramuh",
       "ja": "ラムウ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.2",
     "source": {
       "en": "Eden's Verse: Refulgence (Savage)",
       "ja": "希望の園エデン零式：共鳴編4"
@@ -2758,8 +2586,7 @@
       "en": "Rubellite Carbuncle",
       "ja": "カーバンクル・ルベライト"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.2",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -2774,8 +2601,7 @@
       "en": "Chocobo Carriage",
       "ja": "チョコボキャリッジ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.3",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -2790,8 +2616,7 @@
       "en": "Rolling Tankard",
       "ja": "ドワーフ戦車"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.3",
     "source": {
       "en": "Mizutt - Watts's Anvil (Lakeland) - 18 Hammered Frogments (Rank 7)",
       "ja": "Mizutt - Watts's Anvil (Lakeland) - 18 Hammered Frogments (Rank 7)"
@@ -2806,8 +2631,7 @@
       "en": "Gabriel Α",
       "ja": "ガブリエルα"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.35",
     "source": {
       "en": "Southern Front Lockbox",
       "ja": "Southern Front Lockbox"
@@ -2822,8 +2646,7 @@
       "en": "Megalotragus",
       "ja": "メガロトラグス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.31",
     "source": {
       "en": "8,400 Skybuilders' Scrips",
       "ja": "8,400 Skybuilders' Scrips"
@@ -2838,8 +2661,7 @@
       "en": "Gwiber Of Light",
       "ja": "グイベル・オブ・ライト"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.3",
     "source": {
       "en": "The Seat Of Sacrifice (Extreme)",
       "ja": "極ウォーリア・オブ・ライト討滅戦"
@@ -2854,8 +2676,7 @@
       "en": "Jibanyan Couch",
       "ja": "ジバニャンソファ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.3",
     "source": {
       "en": "Yo-kai Watch Collaboration - Obtain 17 Yo-kai Weapons",
       "ja": "Yo-kai Watch Collaboration - Obtain 17 Yo-kai Weapons"
@@ -2870,8 +2691,7 @@
       "en": "Magitek Hyperconveyor",
       "ja": "魔導キャリアー改"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.3",
     "source": {
       "en": "The Feast: Season 16",
       "ja": "The Feast: Season 16"
@@ -2886,8 +2706,7 @@
       "en": "Ehll Tou",
       "ja": "エル・トゥ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.3",
     "source": {
       "en": "On Ehll Tou's Wings",
       "ja": "あなたの翼に"
@@ -2902,8 +2721,7 @@
       "en": "Incitatus",
       "ja": "インキタトゥス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.3",
     "source": {
       "en": "600 Faux Leaves; 1 Khloe's Gold Certificate of Commendation",
       "ja": "600 Faux Leaves; 1 Khloe's Gold Certificate of Commendation"
@@ -2918,8 +2736,7 @@
       "en": "Snowman",
       "ja": "スノーマン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.4",
     "source": {
       "en": "The Starlight Celebration (2020); Online Store",
       "ja": "The Starlight Celebration (2020); Online Store"
@@ -2934,8 +2751,7 @@
       "en": "Lunar Whale",
       "ja": "ルナホエール"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.5",
     "source": {
       "en": "Digital Fan Festival (2021); Online Store",
       "ja": "Digital Fan Festival (2021); Online Store"
@@ -2950,8 +2766,7 @@
       "en": "Eden",
       "ja": "エデン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.4",
     "source": {
       "en": "Eden's Promise: Eternity (Savage)",
       "ja": "希望の園エデン零式：再生編4"
@@ -2966,8 +2781,7 @@
       "en": "Cerberus",
       "ja": "ケルベロス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.45",
     "source": {
       "en": "Savage Queen of Swords I",
       "ja": "グンヒルド・ディルーブラムを完全制覇せし者：ランク1"
@@ -2982,8 +2796,7 @@
       "en": "Big Shell",
       "ja": "ビッグシェル"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.41",
     "source": {
       "en": "8,400 Skybuilders' Scrips",
       "ja": "8,400 Skybuilders' Scrips"
@@ -2998,8 +2811,7 @@
       "en": "Arion",
       "ja": "アレイオン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.0",
     "source": {
       "en": "Endwalker Collector's Edition",
       "ja": "Endwalker Collector's Edition"
@@ -3014,8 +2826,7 @@
       "en": "Emerald Gwiber",
       "ja": "エメラルドグイベル"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.4",
     "source": {
       "en": "Castrum Marinum (Extreme)",
       "ja": "極エメラルドウェポン破壊作戦"
@@ -3030,8 +2841,7 @@
       "en": "Prototype Roader",
       "ja": "プロトマグナローダー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.4",
     "source": {
       "en": "The Feast: Season 17",
       "ja": "The Feast: Season 17"
@@ -3046,8 +2856,7 @@
       "en": "Chocorpokkur",
       "ja": "チョコロポックル"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.4",
     "source": {
       "en": "Butterfinger Promotion (NA Only); Lawson Promotion (Japan Only); Twitch Campaign (July 2024)",
       "ja": "Butterfinger Promotion (NA Only); Lawson Promotion (Japan Only); Twitch Campaign (July 2024)"
@@ -3062,8 +2871,7 @@
       "en": "Gabriel Mark III",
       "ja": "ガブリエルIII号機"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.45",
     "source": {
       "en": "Delubrum Reginae - Final Boss Chests; South Horn - Silver Coffer",
       "ja": "Delubrum Reginae - Final Boss Chests; South Horn - Silver Coffer"
@@ -3078,8 +2886,7 @@
       "en": "Antelope Doe",
       "ja": "アンテロープ・ドゥ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.5",
     "source": {
       "en": "8,400 Skybuilders' Scrips",
       "ja": "8,400 Skybuilders' Scrips"
@@ -3094,8 +2901,7 @@
       "en": "Antelope Stag",
       "ja": "アンテロープ・スタッグ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.5",
     "source": {
       "en": "Fête Present; 30 Fête Tokens",
       "ja": "Fête Present; 30 Fête Tokens"
@@ -3110,8 +2916,7 @@
       "en": "Landerwaffe",
       "ja": "レンダーバッフェ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.5",
     "source": {
       "en": "The Dragon Made",
       "ja": "漆黒の機竜、現世に咆哮す"
@@ -3126,8 +2931,7 @@
       "en": "Al-iklil",
       "ja": "イクリール"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.55",
     "source": {
       "en": "A Complete History",
       "ja": "ボズヤの記録員"
@@ -3142,8 +2946,7 @@
       "en": "Cruise Chaser",
       "ja": "クルーズチェイサー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.5",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -3158,8 +2961,7 @@
       "en": "Construct VI-S",
       "ja": "コンストラクト06S"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.4",
     "source": {
       "en": "600 Faux Leaves",
       "ja": "600 Faux Leaves"
@@ -3174,8 +2976,7 @@
       "en": "Diamond Gwiber",
       "ja": "ダイヤグイベル"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.5",
     "source": {
       "en": "The Cloud Deck (Extreme)",
       "ja": "極ダイヤウェポン捕獲作戦"
@@ -3190,8 +2991,7 @@
       "en": "Polar Bear",
       "ja": "ポーラーベアー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.5",
     "source": {
       "en": "Moonfire Faire (2021); Online Store",
       "ja": "Moonfire Faire (2021); Online Store"
@@ -3206,8 +3006,7 @@
       "en": "Gilded Mikoshi",
       "ja": "オオナマキン御輿"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.5",
     "source": {
       "en": "Edelina - Mor Dhona - 50,000,000 Gil",
       "ja": "Edelina - Mor Dhona - 50,000,000 Gil"
@@ -3222,8 +3021,7 @@
       "en": "Resplendent Vessel Of Ronka",
       "ja": "金蛇様の壺"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.5",
     "source": {
       "en": "Tabeth - Eulmore - 25,000,000 Gil",
       "ja": "Tabeth - Eulmore - 25,000,000 Gil"
@@ -3238,8 +3036,7 @@
       "en": "Magicked Card",
       "ja": "マジックカード"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "5.55",
     "source": {
       "en": "The Adventurer with All the Cards",
       "ja": "カードコレクターへの贈り物"
@@ -3254,8 +3051,7 @@
       "en": "Island Mandragora",
       "ja": "アイル・マンドラゴラ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.2",
     "source": {
       "en": "12,000 Seafarer's Cowries",
       "ja": "12,000 Seafarer's Cowries"
@@ -3270,8 +3066,7 @@
       "en": "Island Onion Prince",
       "ja": "アイル・オニオンプリンス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.2",
     "source": {
       "en": "12,000 Seafarer's Cowries",
       "ja": "12,000 Seafarer's Cowries"
@@ -3286,8 +3081,7 @@
       "en": "Island Eggplant Knight",
       "ja": "アイル・エッグナイト"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.2",
     "source": {
       "en": "12,000 Seafarer's Cowries",
       "ja": "12,000 Seafarer's Cowries"
@@ -3302,8 +3096,7 @@
       "en": "Island Garlic Jester",
       "ja": "アイル・ガーリックスター"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.4",
     "source": {
       "en": "18,000 Seafarer's Cowries",
       "ja": "18,000 Seafarer's Cowries"
@@ -3318,8 +3111,7 @@
       "en": "Island Tomato King",
       "ja": "アイル・キングトマト"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.4",
     "source": {
       "en": "18,000 Seafarer's Cowries",
       "ja": "18,000 Seafarer's Cowries"
@@ -3334,8 +3126,7 @@
       "en": "Island Mandragora Queen",
       "ja": "アイル・マンドラクイーン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.4",
     "source": {
       "en": "18,000 Seafarer's Cowries",
       "ja": "18,000 Seafarer's Cowries"
@@ -3350,8 +3141,7 @@
       "en": "Lynx Of Eternal Darkness",
       "ja": "エターナルダークネス・リンクス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.0",
     "source": {
       "en": "The Minstrel's Ballad: Zodiark's Fall",
       "ja": "極ゾディアーク討滅戦"
@@ -3366,8 +3156,7 @@
       "en": "Lynx Of Divine Light",
       "ja": "ディヴァインライト・リンクス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.0",
     "source": {
       "en": "The Minstrel's Ballad: Hydaelyn's Call",
       "ja": "極ハイデリン討滅戦"
@@ -3382,8 +3171,7 @@
       "en": "Argos",
       "ja": "アルゴス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.0",
     "source": {
       "en": "Endwalker",
       "ja": "暁月のフィナーレ"
@@ -3398,8 +3186,7 @@
       "en": "Dreadnaught",
       "ja": "ドレッドノート"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.0",
     "source": {
       "en": "The Feast: Season 20",
       "ja": "The Feast: Season 20"
@@ -3414,8 +3201,7 @@
       "en": "Demi-Phoinix",
       "ja": "デミフェネクス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.05",
     "source": {
       "en": "Asphodelos: The Fourth Circle (Savage)",
       "ja": "万魔殿パンデモニウム零式：辺獄編4"
@@ -3430,8 +3216,7 @@
       "en": "Calydontis",
       "ja": "カリュドンティス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.0",
     "source": {
       "en": "1 Khloe's Gold Certificate of Commendation; 600 Faux Leaves",
       "ja": "1 Khloe's Gold Certificate of Commendation; 600 Faux Leaves"
@@ -3446,8 +3231,7 @@
       "en": "Victor",
       "ja": "ヴィクトル"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.0",
     "source": {
       "en": "Endgame Hunter",
       "ja": "レジェンドモブハンター"
@@ -3462,8 +3246,7 @@
       "en": "Level Checker",
       "ja": "レベルチェッカー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.0",
     "source": {
       "en": "Nesvaaz - Radz-at-Han - 12 Chi Bolts (FATE \"Omicron Recall: Killing Order\" - Ultima Thule)",
       "ja": "Nesvaaz - Radz-at-Han - 12 Chi Bolts (FATE \"Omicron Recall: Killing Order\" - Ultima Thule)"
@@ -3478,8 +3261,7 @@
       "en": "Papa Paissa",
       "ja": "パパ・パイッサ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.0",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -3494,8 +3276,7 @@
       "en": "Wivre",
       "ja": "ウィヴル"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.0",
     "source": {
       "en": "Edelina - Mor Dhona - 500 Bicolor Gemstone Vouchers",
       "ja": "Edelina - Mor Dhona - 500 Bicolor Gemstone Vouchers"
@@ -3510,8 +3291,7 @@
       "en": "Porxie King",
       "ja": "キングポークシー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.0",
     "source": {
       "en": "Lawson Promotion (Japan Only); Gong Cha Promotion",
       "ja": "Lawson Promotion (Japan Only); Gong Cha Promotion"
@@ -3526,8 +3306,7 @@
       "en": "Garlond GL-II",
       "ja": "ガーロンドGL-II"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.2",
     "source": {
       "en": "24,000 Seafarer's Cowries (Sanctuary Rank 10)",
       "ja": "24,000 Seafarer's Cowries (Sanctuary Rank 10)"
@@ -3542,8 +3321,7 @@
       "en": "Mechanical Lotus",
       "ja": "絡繰蓮華"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.2",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -3558,8 +3336,7 @@
       "en": "Fylgja",
       "ja": "フィルギャ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.2",
     "source": {
       "en": "PvP Series 2 - Level 25; 5,000 Trophy Crystals",
       "ja": "PvP Series 2 - Level 25; 5,000 Trophy Crystals"
@@ -3574,8 +3351,7 @@
       "en": "Alkonost",
       "ja": "アルコノスト"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.1",
     "source": {
       "en": "Nesvaaz - Radz-at-Han - 3 Resplendent Feathers (The Excitatron 6000 or The Shifting Gymnasion Agonon)",
       "ja": "Nesvaaz - Radz-at-Han - 3 Resplendent Feathers (The Excitatron 6000 or The Shifting Gymnasion Agonon)"
@@ -3590,8 +3366,7 @@
       "en": "Island Buffalo",
       "ja": "アイル・バッファロー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.4",
     "source": {
       "en": "50,000 Seafarer's Cowries (Sanctuary Rank 16)",
       "ja": "50,000 Seafarer's Cowries (Sanctuary Rank 16)"
@@ -3606,8 +3381,7 @@
       "en": "Brachiosaur",
       "ja": "ブラキオレイドス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.1",
     "source": {
       "en": "Ryubool Ja (Tuliyollal) - 3,200 Sacks Of Nuts",
       "ja": "3,200"
@@ -3622,8 +3396,7 @@
       "en": "Pod 602",
       "ja": "ポッド602"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.1",
     "source": {
       "en": "300,000 MGP",
       "ja": "300,000 MGP"
@@ -3638,8 +3411,7 @@
       "en": "Moon-hopper",
       "ja": "ムーンホッパー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.35",
     "source": {
       "en": "Coiningway - Hoper's Hold (Mare Lamentorum) - 18 Loporrit Carats (Rank 7)",
       "ja": "Coiningway - Hoper's Hold (Mare Lamentorum) - 18 Loporrit Carats (Rank 7)"
@@ -3654,8 +3426,7 @@
       "en": "Island Alligator",
       "ja": "アイランド・アリゲーター"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.3",
     "source": {
       "en": "35,000 Seafarer's Cowries (Sanctuary Rank 12)",
       "ja": "35,000 Seafarer's Cowries (Sanctuary Rank 12)"
@@ -3670,8 +3441,7 @@
       "en": "Hippo Cart",
       "ja": "ヒッポカート"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.15",
     "source": {
       "en": "Ghanta - Svarna (Thavnair) - 18 Arkasodara Pana (Rank 7)",
       "ja": "Ghanta - Svarna (Thavnair) - 18 Arkasodara Pana (Rank 7)"
@@ -3686,8 +3456,7 @@
       "en": "Troll",
       "ja": "トロル"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.1",
     "source": {
       "en": "1 Khloe's Gold Certificate of Commendation; 600 Faux Leaves",
       "ja": "1 Khloe's Gold Certificate of Commendation; 600 Faux Leaves"
@@ -3702,8 +3471,7 @@
       "en": "UFO",
       "ja": "UFO？"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.55",
     "source": {
       "en": "Gentlemen at Heart",
       "ja": "マンダヴィル家の謎"
@@ -3718,8 +3486,7 @@
       "en": "Vinegaroon",
       "ja": "ビネガロン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.1",
     "source": {
       "en": "J'lakshai (Old Sharlayan) / Wilmetta (Radz-at-Han) - 3,200 Sacks Of Nuts",
       "ja": "J'lakshai (Old Sharlayan) / Wilmetta (Radz-at-Han) - 3,200 Sacks Of Nuts"
@@ -3734,8 +3501,7 @@
       "en": "Orthos Craklaw",
       "ja": "オルト・クラックロー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.35",
     "source": {
       "en": "Eureka Orthos - Gold Sack",
       "ja": "Eureka Orthos - Gold Sack"
@@ -3750,8 +3516,7 @@
       "en": "Bluefeather Lynx",
       "ja": "ブルーフェザー・リンクス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.1",
     "source": {
       "en": "The Minstrel's Ballad: Endsinger's Aria",
       "ja": "終極の戦い"
@@ -3766,8 +3531,7 @@
       "en": "Megashiba",
       "ja": "大柴犬"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.1",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -3782,8 +3546,7 @@
       "en": "Traveling Supporter",
       "ja": "トラベリングサポーター"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.4",
     "source": {
       "en": "PvP Series 4 - Level 25; 5,000 Trophy Crystals",
       "ja": "PvP Series 4 - Level 25; 5,000 Trophy Crystals"
@@ -3798,8 +3561,7 @@
       "en": "Miw Miisv",
       "ja": "ミゥ・ミーシュ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.25",
     "source": {
       "en": "N-0598 - A-4 Research (Ultima Thule) - 18 Omicron Omnitokens (Rank 7)",
       "ja": "N-0598 - A-4 Research (Ultima Thule) - 18 Omicron Omnitokens (Rank 7)"
@@ -3814,8 +3576,7 @@
       "en": "Wondrous Lanner",
       "ja": "ワンダラスラナー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.2",
     "source": {
       "en": "1 Khloe's Gold Certificate of Commendation; 600 Faux Leaves",
       "ja": "1 Khloe's Gold Certificate of Commendation; 600 Faux Leaves"
@@ -3830,8 +3591,7 @@
       "en": "Magicked Umbrella",
       "ja": "マジックアンブレラ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.3",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -3846,8 +3606,7 @@
       "en": "Magicked Parasol",
       "ja": "マジックパラソル"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.3",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -3862,8 +3621,7 @@
       "en": "Starlight Steed",
       "ja": "ミラージュ・ブリッツェン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.2",
     "source": {
       "en": "The Starlight Celebration (2022); Online Store",
       "ja": "The Starlight Celebration (2022); Online Store"
@@ -3878,8 +3636,7 @@
       "en": "Sil'dihn Throne",
       "ja": "シラディン・スローン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.25",
     "source": {
       "en": "Another Sil'dihn Subterrane; Trisassant - Old Sharlayan - 100 Sil'dihn Silvers",
       "ja": "アナザーダンジョン 異聞シラディハ水道; Trisassant - Old Sharlayan - 100 Sil'dihn Silvers"
@@ -3894,8 +3651,7 @@
       "en": "Silkie",
       "ja": "シルキー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.25",
     "source": {
       "en": "Dig Deep: The Sil'dihn Subterrane",
       "ja": "シラディハ水道 探索記"
@@ -3910,8 +3666,7 @@
       "en": "Sunforged",
       "ja": "炎霊獣"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.2",
     "source": {
       "en": "Abyssos: The Eighth Circle (Savage)",
       "ja": "万魔殿パンデモニウム零式：煉獄編4"
@@ -3926,8 +3681,7 @@
       "en": "Lynx Of Imperious Wind",
       "ja": "リンクス・オブ・ウィンド"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.2",
     "source": {
       "en": "Storm's Crown (Extreme)",
       "ja": "極バルバリシア討滅戦"
@@ -3942,8 +3696,7 @@
       "en": "Aeturna",
       "ja": "アエテルナエ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.35",
     "source": {
       "en": "Vintage Vogue",
       "ja": "崇高なる英雄の証"
@@ -3958,8 +3711,7 @@
       "en": "Set Of Ceruleum Balloons",
       "ja": "セルリウム・バルーン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.3",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -3974,8 +3726,7 @@
       "en": "Anden III",
       "ja": "アンデンIII世"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.3",
     "source": {
       "en": "A Labor of Leaf",
       "ja": "素敵なヒトの葉を紡ぎ"
@@ -3990,8 +3741,7 @@
       "en": "Blackjack",
       "ja": "ブラックジャック号"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.3",
     "source": {
       "en": "4,000,000 MGP",
       "ja": "4,000,000 MGP"
@@ -4006,8 +3756,7 @@
       "en": "Phaethon",
       "ja": "ファエトン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.3",
     "source": {
       "en": "Nesvaaz - Radz-at-Han - 3 Burning Horns (The Shifting Gymnasion Agonon - Gold Chests)",
       "ja": "Nesvaaz - Radz-at-Han - 3 Burning Horns (The Shifting Gymnasion Agonon - Gold Chests)"
@@ -4022,8 +3771,7 @@
       "en": "Pinky",
       "ja": "ピンキー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.3",
     "source": {
       "en": "Nesvaaz - Radz-at-Han - 3 Bottles Of Exciting Tonic (The Excitatron 6000 - Gold Chests)",
       "ja": "Nesvaaz - Radz-at-Han - 3 Bottles Of Exciting Tonic (The Excitatron 6000 - Gold Chests)"
@@ -4038,8 +3786,7 @@
       "en": "Lynx Of Righteous Fire",
       "ja": "リンクス・オブ・ファイア"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.3",
     "source": {
       "en": "Mount Ordeals (Extreme)",
       "ja": "極ルビカンテ討滅戦"
@@ -4054,8 +3801,7 @@
       "en": "Magitek Avenger G1",
       "ja": "魔導アヴェンジャー黄金像仕様"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.3",
     "source": {
       "en": "Edelina - Mor Dhona - 50,000,000 Gil",
       "ja": "Edelina - Mor Dhona - 50,000,000 Gil"
@@ -4070,8 +3816,7 @@
       "en": "Chrysomallos",
       "ja": "クリュソマロス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.3",
     "source": {
       "en": "Edelina - Mor Dhona - 50,000,000 Gil",
       "ja": "Edelina - Mor Dhona - 50,000,000 Gil"
@@ -4086,8 +3831,7 @@
       "en": "Garlond GL-IS",
       "ja": "ガーロンドGL-IS"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.4",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -4102,8 +3846,7 @@
       "en": "Megaloambystoma",
       "ja": "メガロアンビストマ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.4",
     "source": {
       "en": "Anabaseios: The Twelfth Circle (Savage)",
       "ja": "万魔殿パンデモニウム零式：天獄編4"
@@ -4118,8 +3861,7 @@
       "en": "Rising Phoenix",
       "ja": "リボーン・フェニックス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.48",
     "source": {
       "en": "The Rising (2023); Online Store",
       "ja": "The Rising (2023); Online Store"
@@ -4134,8 +3876,7 @@
       "en": "Burabura Chochin",
       "ja": "ブラブラ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.45",
     "source": {
       "en": "Mononopeke",
       "ja": "六根山 探索記"
@@ -4150,8 +3891,7 @@
       "en": "Shishioji",
       "ja": "獅子王子"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.45",
     "source": {
       "en": "Another Mount Rokkon; Trisassant - Old Sharlayan - 100 Shishu Coins",
       "ja": "アナザーダンジョン 異聞六根山; Trisassant - Old Sharlayan - 100 Shishu Coins"
@@ -4166,8 +3906,7 @@
       "en": "Shadow Wolf",
       "ja": "影の狼"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.4",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -4182,8 +3921,7 @@
       "en": "Magicked Children's Bed",
       "ja": "マジックキッズベッド"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.4",
     "source": {
       "en": "1 Khloe's Gold Certificate of Commendation; 600 Faux Leaves",
       "ja": "1 Khloe's Gold Certificate of Commendation; 600 Faux Leaves"
@@ -4198,8 +3936,7 @@
       "en": "Lynx Of Fallen Shadow",
       "ja": "リンクス・オブ・ダークネス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.4",
     "source": {
       "en": "The Voidcast Dais (Extreme)",
       "ja": "極ゴルベーザ討滅戦"
@@ -4214,8 +3951,7 @@
       "en": "Torgal",
       "ja": "トルガル"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.58",
     "source": {
       "en": "Final Fantasy XVI Collaboration",
       "ja": "Final Fantasy XVI Collaboration"
@@ -4230,8 +3966,7 @@
       "en": "Ark",
       "ja": "アーク"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.0",
     "source": {
       "en": "Dawntrail Collector's Edition",
       "ja": "Dawntrail Collector's Edition"
@@ -4246,8 +3981,7 @@
       "en": "Apocryphal Bahamut",
       "ja": "バハムート・アポクリファ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.5",
     "source": {
       "en": "Wings of Hope",
       "ja": "無窮の翼、現世に飛翔せん"
@@ -4262,8 +3996,7 @@
       "en": "Crescent Moon",
       "ja": "クレセントムーン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.5",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -4278,8 +4011,7 @@
       "en": "Rhiyes",
       "ja": "ライエス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.51",
     "source": {
       "en": "410 MGF (Fall Guys Collaboration)",
       "ja": "410 MGF (Fall Guys Collaboration)"
@@ -4294,8 +4026,7 @@
       "en": "Oppressor",
       "ja": "オプレッサー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.0",
     "source": {
       "en": "PvP Series 6 - Level 25",
       "ja": "PvP Series 6 - Level 25"
@@ -4310,8 +4041,7 @@
       "en": "Lynx Of Abyssal Grief",
       "ja": "リンクス・オブ・アビス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.5",
     "source": {
       "en": "The Abyssal Fracture (Extreme)",
       "ja": "極ゼロムス討滅戦"
@@ -4326,8 +4056,7 @@
       "en": "Sabotender De La Luna",
       "ja": "サボテンダー・デラ・ルナ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.5",
     "source": {
       "en": "1 Khloe's Gold Certificate of Commendation; 600 Faux Leaves",
       "ja": "1 Khloe's Gold Certificate of Commendation; 600 Faux Leaves"
@@ -4342,8 +4071,7 @@
       "en": "Spectral Statice",
       "ja": "スターチス・ミラージュ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.51",
     "source": {
       "en": "Good-willed Hunting",
       "ja": "アロアロ島 探索記"
@@ -4358,8 +4086,7 @@
       "en": "Garlond GL-IIT",
       "ja": "ガーロンドGL-IIT"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.5",
     "source": {
       "en": "100,000 Seafarer's Cowries (Sanctuary Rank 20)",
       "ja": "100,000 Seafarer's Cowries (Sanctuary Rank 20)"
@@ -4374,8 +4101,7 @@
       "en": "Peatie",
       "ja": "ピティー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.5",
     "source": {
       "en": "Little Ladies' Day & Hatching-tide (2024); Online Store",
       "ja": "Little Ladies' Day & Hatching-tide (2024); Online Store"
@@ -4390,8 +4116,7 @@
       "en": "Quaqua",
       "ja": "クアクア"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.51",
     "source": {
       "en": "Another Aloalo Island; Trisassant - Old Sharlayan - 100 Aloalo Coins",
       "ja": "アナザーダンジョン 異聞アロアロ島; Trisassant - Old Sharlayan - 100 Aloalo Coins"
@@ -4406,8 +4131,7 @@
       "en": "Island Peerifool",
       "ja": "アイル・ピーリフール"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.5",
     "source": {
       "en": "Sanctuary Materiel Container",
       "ja": "Sanctuary Materiel Container"
@@ -4422,8 +4146,7 @@
       "en": "Island Adenium",
       "ja": "アイル・アデニウム"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "6.5",
     "source": {
       "en": "200 Vegetal Vouchers; Sanctuary Materiel Container",
       "ja": "200 Vegetal Vouchers; Sanctuary Materiel Container"
@@ -4438,8 +4161,7 @@
       "en": "Ty'aitya",
       "ja": "チャイチャ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.0",
     "source": {
       "en": "Edelina - Mor Dhona - 500 Turali Bicolor Gemstone Vouchers",
       "ja": "500"
@@ -4454,8 +4176,7 @@
       "en": "Air-wheeler A9",
       "ja": "エアスピナーA9"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.0",
     "source": {
       "en": "Neon - Solution Nine - 7,500,000 Gil",
       "ja": "7,500,000 Gil"
@@ -4470,8 +4191,7 @@
       "en": "Alpaca",
       "ja": "アルパカ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.0",
     "source": {
       "en": "Dawntrail",
       "ja": "黄金のレガシー"
@@ -4486,8 +4206,7 @@
       "en": "Wings Of Ruin",
       "ja": "ウィング・オブ・ディザスター"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.0",
     "source": {
       "en": "Worqor Lar Dor (Extreme)",
       "ja": "極ヴァリガルマンダ討滅戦"
@@ -4502,8 +4221,7 @@
       "en": "Wings Of Resolve",
       "ja": "ウィング・オブ・リゾルヴ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.0",
     "source": {
       "en": "Everkeep (Extreme)",
       "ja": "極ゾラージャ討滅戦"
@@ -4518,8 +4236,7 @@
       "en": "Outrunner",
       "ja": "アウトランナー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.0",
     "source": {
       "en": "A Life of Adventure VI",
       "ja": "二十の道を解し者"
@@ -4534,8 +4251,7 @@
       "en": "Mehwapyarra",
       "ja": "メワピャラ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.0",
     "source": {
       "en": "Uah'shepya - Solution Nine - 12 Ttokrrone Scales (FATE \"The Serpentlord Seethes\" - Shaaloani)",
       "ja": "12"
@@ -4550,8 +4266,7 @@
       "en": "Monowheel S1",
       "ja": "モノホイールS1"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.05",
     "source": {
       "en": "AAC Light-heavyweight M4 (Savage)",
       "ja": "至天の座アルカディア零式：ライトヘビー級4"
@@ -4566,8 +4281,7 @@
       "en": "Rroneek",
       "ja": "ロネーク"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.0",
     "source": {
       "en": "Splendors Vendor - Solution Nine - 100 Mount Tokens (100,000 Orange Gatherer's Scrips)",
       "ja": "100"
@@ -4582,8 +4296,7 @@
       "en": "Ullr",
       "ja": "ウッル"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.0",
     "source": {
       "en": "Dawnbright Hunter",
       "ja": "ゴールデンモブハンター"
@@ -4598,8 +4311,7 @@
       "en": "Qeziigural",
       "ja": "ケジグラー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.05",
     "source": {
       "en": "Uah'shepya - Solution Nine - 3 Twilight Gemstones (Cenote Ja Ja Gural or Vault Oneiron)",
       "ja": "3"
@@ -4614,8 +4326,7 @@
       "en": "Automatoise",
       "ja": "トータスボーグ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.0",
     "source": {
       "en": "Ryubool Ja (Tuliyollal) - 3,200 Sacks Of Nuts",
       "ja": "3,200"
@@ -4630,8 +4341,7 @@
       "en": "Mountain Zu",
       "ja": "マウンテンズー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.0",
     "source": {
       "en": "Mountain Dew Promotion (NA Only)",
       "ja": "Mountain Dew Promotion (NA Only)"
@@ -4646,8 +4356,7 @@
       "en": "Barreltender",
       "ja": "バレルテンダー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.1",
     "source": {
       "en": "Splendors Vendor - Solution Nine - 100 Mount Tokens (100,000 Orange Gatherer's Scrips)",
       "ja": "100"
@@ -4662,8 +4371,7 @@
       "en": "Eggeater",
       "ja": "エッグイーター"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.2",
     "source": {
       "en": "600 Faux Leaves",
       "ja": "600"
@@ -4678,8 +4386,7 @@
       "en": "Punutiy",
       "ja": "プヌティー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.1",
     "source": {
       "en": "Pavli - Dock Poga (Kozama'uka) - 18 Pelu Pelplumes (Rank 5)",
       "ja": "18"
@@ -4694,8 +4401,7 @@
       "en": "Shroud Of Darkness",
       "ja": "暗闇の羽衣"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.15",
     "source": {
       "en": "Uah'shepya - Solution Nine - 99 Clouddark Demimateria I; The Cloud Of Darkness (Chaotic)",
       "ja": "99; 滅暗闇の雲激闘戦"
@@ -4710,8 +4416,7 @@
       "en": "Dais Of Darkness",
       "ja": "暗黒領域"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.15",
     "source": {
       "en": "Uah'shepya - Solution Nine - 75 Clouddark Demimateria II; The Cloud Of Darkness (Chaotic)",
       "ja": "75; 滅暗闇の雲激闘戦"
@@ -4726,8 +4431,7 @@
       "en": "Hovering Hot Pot",
       "ja": "風火鍋"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.2",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -4742,8 +4446,7 @@
       "en": "Wings Of Eternity",
       "ja": "ウィング・オブ・エターナル"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.1",
     "source": {
       "en": "The Minstrel's Ballad: Sphene's Burden",
       "ja": "極エターナルクイーン討滅戦"
@@ -4758,8 +4461,7 @@
       "en": "Vacuum Suit",
       "ja": "パワーローダー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.21",
     "source": {
       "en": "Cosmic Fortune - Sinus Ardonum; Mech Pilot Reward - Sinus Ardonum",
       "ja": "Cosmic Fortune - Sinus Ardonum; Mech Pilot Reward - Sinus Ardonum"
@@ -4774,8 +4476,7 @@
       "en": "Venturous Kamuy",
       "ja": "商のカムイ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.1",
     "source": {
       "en": "1 Khloe's Gold Certificate of Commendation; 600 Faux Leaves",
       "ja": "1 クロの賞状:金賞; 600 Faux Leaves"
@@ -4790,8 +4491,7 @@
       "en": "Demon Haul",
       "ja": "デモンズ・タブレット"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.25",
     "source": {
       "en": "A Fork to Be Reckoned With I",
       "ja": "力の塔を制覇せし者：ランク1"
@@ -4806,8 +4506,7 @@
       "en": "Petalodus",
       "ja": "ペタロドゥス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.25",
     "source": {
       "en": "99 Chunks of Sanguinite; South Horn - Bronze/Silver Coffer",
       "ja": "99; South Horn - Bronze/Silver Coffer"
@@ -4822,8 +4521,7 @@
       "en": "Snowstreamer",
       "ja": "スノウストリーマー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.11",
     "source": {
       "en": "Twitch Campaign (December 2024)",
       "ja": "Twitch Campaign (December 2024)"
@@ -4838,8 +4536,7 @@
       "en": "Pilgrim's Protector",
       "ja": "ピルグリム・プロテクター"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.35",
     "source": {
       "en": "99 First Light Relics; Pilgrim's Traverse - Sack of First Light",
       "ja": "99; Pilgrim's Traverse - Sack of First Light"
@@ -4854,8 +4551,7 @@
       "en": "Branchbearer",
       "ja": "ブランチベアラー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.25",
     "source": {
       "en": "Veerul Ja - Gok Golma (Yak T'el) - 18 Mamool Ja Nanook (Rank 4)",
       "ja": "18"
@@ -4870,8 +4566,7 @@
       "en": "Air-wheeler C9",
       "ja": "エアスピナーC9"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.2",
     "source": {
       "en": "AAC Cruiserweight M4 (Savage)",
       "ja": "至天の座アルカディア零式：クルーザー級4"
@@ -4886,8 +4581,7 @@
       "en": "Ancient Airship",
       "ja": "古式魔道船"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.25",
     "source": {
       "en": "5,000 Enlightenment Silver Pieces",
       "ja": "5,000"
@@ -4902,8 +4596,7 @@
       "en": "High Mobility Vacuum Suit",
       "ja": "高機動型パワーローダー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.21",
     "source": {
       "en": "Out of This World",
       "ja": "星渡る探索王"
@@ -4918,8 +4611,7 @@
       "en": "Warp Loader",
       "ja": "ホイールローダー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.31",
     "source": {
       "en": "Cosmic Fortune - Phaenna; Mech Pilot Reward - Phaenna",
       "ja": "Cosmic Fortune - Phaenna; Mech Pilot Reward - Phaenna"
@@ -4934,8 +4626,7 @@
       "en": "His Royal Headness On Parade",
       "ja": "ライド・ザ・ナイスヘッド"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.2",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -4950,8 +4641,7 @@
       "en": "Wings Of The Knighthood",
       "ja": "ウィング・オブ・ナイトフッド"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.2",
     "source": {
       "en": "Recollection (Extreme)",
       "ja": "極ゼレニア討滅戦"
@@ -4966,8 +4656,7 @@
       "en": "Magitek Slasher",
       "ja": "魔導スラッシャー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.2",
     "source": {
       "en": "PvP Series 8 - Level 25",
       "ja": "PvP Series 8 - Level 25"
@@ -4982,8 +4671,7 @@
       "en": "Vurgar The Loyal",
       "ja": "岩兵ヴーガー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.35",
     "source": {
       "en": "Rarkorgor - Shelter (Urqopacha) - 18 Yok Huy Wards (Rank 7)",
       "ja": "18"
@@ -4998,8 +4686,7 @@
       "en": "Wanyudo",
       "ja": "ワニュウドウ"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.4",
     "source": {
       "en": "PvP Series 10 - Level 25",
       "ja": "PvP Series 10 - Level 25"
@@ -5014,8 +4701,7 @@
       "en": "Forgiven Mimicry",
       "ja": "フォーギヴン・ミミクリー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.35",
     "source": {
       "en": "99 First Light Relics; Pilgrim's Traverse - Sack of First Light",
       "ja": "99; Pilgrim's Traverse - Sack of First Light"
@@ -5030,8 +4716,7 @@
       "en": "Ambulario",
       "ja": "パンプキンウォーカー"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.3",
     "source": {
       "en": "All Saints' Wake (2025)",
       "ja": "All Saints' Wake (2025)"
@@ -5046,8 +4731,7 @@
       "en": "Shagcoat Cat",
       "ja": "シャギーキャット"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.3",
     "source": {
       "en": "Online Store",
       "ja": "Online Store"
@@ -5062,8 +4746,7 @@
       "en": "Seikret",
       "ja": "セクレト"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.35",
     "source": {
       "en": "The White Wanderer",
       "ja": "白き来訪者"
@@ -5078,8 +4761,7 @@
       "en": "Felyne Support Team Cart",
       "ja": "ネコ荷車"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.35",
     "source": {
       "en": "Smithy - Tuliyollal - 99 Guardian Arkveld Certificates; The Windward Wilds; The Windward Wilds (Extreme)",
       "ja": "99; 護竜アルシュベルド狩猟戦; 極護竜アルシュベルド狩猟戦"
@@ -5094,8 +4776,7 @@
       "en": "Yan",
       "ja": "ヤーン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.3",
     "source": {
       "en": "Vault Oneiron",
       "ja": "宝物庫 ボルト・オネイロン"
@@ -5110,8 +4791,7 @@
       "en": "Interstellar Dhalmel",
       "ja": "スペースダルメル"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.31",
     "source": {
       "en": "29,000 Cosmocredits",
       "ja": "29,000"
@@ -5126,8 +4806,7 @@
       "en": "Cosmoboard",
       "ja": "コスモボード"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.31",
     "source": {
       "en": "60 Phaenna Token Booklets",
       "ja": "60"
@@ -5142,8 +4821,7 @@
       "en": "Chandelier Of First Light",
       "ja": "ファーストライト・シャンデリア"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.35",
     "source": {
       "en": "Faerie Favors",
       "ja": "至高なる英雄の証"
@@ -5158,8 +4836,7 @@
       "en": "Wings Of Death",
       "ja": "ウィング・オブ・デス"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.3",
     "source": {
       "en": "The Minstrel's Ballad: Necron's Embrace",
       "ja": "極永遠の闇討滅戦"
@@ -5174,8 +4851,7 @@
       "en": "Ornamental Shrublet",
       "ja": "花人"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.35",
     "source": {
       "en": "Pilgrim's Traverse - Silver Sack",
       "ja": "Pilgrim's Traverse - Silver Sack"
@@ -5190,8 +4866,7 @@
       "en": "Dynamite",
       "ja": "ダイナマイト"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.4",
     "source": {
       "en": "600 Faux Leaves",
       "ja": "600"
@@ -5206,8 +4881,7 @@
       "en": "Lowrider T1RANT",
       "ja": "ローライダーT1"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.4",
     "source": {
       "en": "AAC Heavyweight M4 (Savage)",
       "ja": "至天の座アルカディア零式：ヘビー級4"
@@ -5222,8 +4896,7 @@
       "en": "Uolon",
       "ja": "ウォロン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.4",
     "source": {
       "en": null,
       "ja": null
@@ -5238,8 +4911,7 @@
       "en": "Wings Of Mist",
       "ja": "ウィング・オブ・ミスト"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.4",
     "source": {
       "en": "Hell On Rails (Extreme)",
       "ja": "極グラシャラボラス討滅戦"
@@ -5254,8 +4926,7 @@
       "en": "Turali Snowman",
       "ja": "トラル・スノーマン"
     },
-    "patch": null,
-    "rarity": null,
+    "patch": "7.4",
     "source": {
       "en": "Worqor and Peace V",
       "ja": "ウォーコー・チーテ：ランク5"
