@@ -1,82 +1,18 @@
 [
   {
-    "id": 201,
+    "id": 250,
+    "type": "minion",
     "name": {
-      "ja": "チョコチョコボ",
-      "en": "Wind-up Chocobo"
-    },
-    "expansion": {
-      "ja": "新生エオルゼア",
-      "en": "A Realm Reborn"
-    },
-    "rarity": {
-      "ja": "一般",
-      "en": "Common"
-    },
-    "obtain": {
-      "ja": "クエスト報酬",
-      "en": "Quest reward"
-    },
-    "image": "https://xivapi.com/i/060000/060001.png"
-  },
-  {
-    "id": 202,
-    "name": {
-      "ja": "モーグリのぬいぐるみ",
+      "ja": "ベビーモーグリ",
       "en": "Wind-up Moogle"
     },
-    "expansion": {
-      "ja": "新生エオルゼア",
-      "en": "A Realm Reborn"
+    "patch": "2.1",
+    "rarity": "Common",
+    "source": {
+      "ja": "クエスト報酬",
+      "en": "Quest Reward"
     },
-    "rarity": {
-      "ja": "一般",
-      "en": "Common"
-    },
-    "obtain": {
-      "ja": "アチーブメント報酬",
-      "en": "Achievement reward"
-    },
-    "image": "https://xivapi.com/i/060000/060002.png"
-  },
-  {
-    "id": 203,
-    "name": {
-      "ja": "ベビーベヒーモス",
-      "en": "Baby Behemoth"
-    },
-    "expansion": {
-      "ja": "新生エオルゼア",
-      "en": "A Realm Reborn"
-    },
-    "rarity": {
-      "ja": "レア",
-      "en": "Rare"
-    },
-    "obtain": {
-      "ja": "ベテランリワード",
-      "en": "Veteran Reward"
-    },
-    "image": "https://xivapi.com/i/060000/060004.png"
-  },
-  {
-    "id": 204,
-    "name": {
-      "ja": "ミニオズマ",
-      "en": "Wind-up Ozma"
-    },
-    "expansion": {
-      "ja": "紅蓮のリベレーター",
-      "en": "Stormblood"
-    },
-    "rarity": {
-      "ja": "レア",
-      "en": "Rare"
-    },
-    "obtain": {
-      "ja": "バルデシオンアーセナル",
-      "en": "The Baldesion Arsenal"
-    },
-    "image": "https://xivapi.com/i/060000/060088.png"
+    "image": "https://ffxivcollect.com/images/minions/250.png",
+    "url": "https://ffxivcollect.com/minions/250"
   }
 ]
