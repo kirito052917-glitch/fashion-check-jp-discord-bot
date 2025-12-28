@@ -43,6 +43,7 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           DISCORD_WEBHOOK_DOMA: ${{ secrets.DISCORD_WEBHOOK_DOMA }}
+          DISCORD_WEBHOOK_DATASET: ${{ secrets.DISCORD_WEBHOOK_DATASET }}
           TEST_USER: ${{ github.event.inputs.test_user }}
           X_COOKIES: ${{ secrets.X_COOKIES }}
         run: node bot.js
