@@ -17,7 +17,7 @@ const BOTS = [
     name: 'Doma Castle Bot',
     type: 'twitter',
     targetUser: 'domacastleffxiv',
-    keyword: null,
+    keyword: '#domajo',
     storageFile: './last_tweet_domacastle.json',
     webhook: process.env.DISCORD_WEBHOOK_DOMA,
   },
@@ -168,12 +168,17 @@ async function findLatestTweet(page, { targetUser, keyword }, lastId) {
     .filter(t => t.id && isNewer(t.id, lastId));
 
   if (newerTweets.length > 0) {
-    newerTweets.sort((a, b) =>
-      BigInt(a.id) === BigInt(b.id) ? 0 : BigInt(a.id) < BigInt(b.id) ? 1 : -1
-    );
-    console.log('Found NEW tweet via search (latest only)');
-    return newerTweets[0];
-  }
+  newerTweets.sort((a, b) =>
+    BigInt(a.id) === BigInt(b.id) ? 0 : BigInt(a.id) < BigInt(b.id) ? 1 : -1
+  );
+  console.log('Found NEW tweet via search (latest only)');
+  return newerTweets[0];
+}
+
+  if (keyword) {
+  console.log('Keyword search empty — NOT scanning profile');
+  return null;
+}
 
   console.log('Search empty — scanning profile');
   await page.goto(`https://x.com/${targetUser}`, {
