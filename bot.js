@@ -229,13 +229,26 @@ async function runDatasetBot(bot) {
     return;
   }
 
-  const nameJa = item.name_ja || item.name || item.ja || '（不明）';
-  const nameEn = item.name_en || item.en || '';
+  const nameJa =
+  item.name_ja ||
+  item.name?.ja ||
+  item.ja ||
+  '（不明）';
+
+const nameEn =
+  item.name_en ||
+  item.name?.en ||
+  item.en ||
+  '';
 
   const content =
     `✨ 今日のマウント / ミニオン ✨\n` +
     `${nameJa}${nameEn ? ` / ${nameEn}` : ''}`;
-  console.log('✅ Posted dataset item:', item.name_en || item.name);
+
+  console.log(
+  '✅ Posted dataset item:',
+  `${item.name?.ja ?? item.name} / ${item.name?.en ?? ''}`
+);
 
   await fetch(bot.webhook, {
     method: 'POST',
