@@ -1,0 +1,82 @@
+[
+  {
+    "id": 201,
+    "name": {
+      "ja": "チョコチョコボ",
+      "en": "Wind-up Chocobo"
+    },
+    "expansion": {
+      "ja": "新生エオルゼア",
+      "en": "A Realm Reborn"
+    },
+    "rarity": {
+      "ja": "一般",
+      "en": "Common"
+    },
+    "obtain": {
+      "ja": "クエスト報酬",
+      "en": "Quest reward"
+    },
+    "image": "https://xivapi.com/i/060000/060001.png"
+  },
+  {
+    "id": 202,
+    "name": {
+      "ja": "モーグリのぬいぐるみ",
+      "en": "Wind-up Moogle"
+    },
+    "expansion": {
+      "ja": "新生エオルゼア",
+      "en": "A Realm Reborn"
+    },
+    "rarity": {
+      "ja": "一般",
+      "en": "Common"
+    },
+    "obtain": {
+      "ja": "アチーブメント報酬",
+      "en": "Achievement reward"
+    },
+    "image": "https://xivapi.com/i/060000/060002.png"
+  },
+  {
+    "id": 203,
+    "name": {
+      "ja": "ベビーベヒーモス",
+      "en": "Baby Behemoth"
+    },
+    "expansion": {
+      "ja": "新生エオルゼア",
+      "en": "A Realm Reborn"
+    },
+    "rarity": {
+      "ja": "レア",
+      "en": "Rare"
+    },
+    "obtain": {
+      "ja": "ベテランリワード",
+      "en": "Veteran Reward"
+    },
+    "image": "https://xivapi.com/i/060000/060004.png"
+  },
+  {
+    "id": 204,
+    "name": {
+      "ja": "ミニオズマ",
+      "en": "Wind-up Ozma"
+    },
+    "expansion": {
+      "ja": "紅蓮のリベレーター",
+      "en": "Stormblood"
+    },
+    "rarity": {
+      "ja": "レア",
+      "en": "Rare"
+    },
+    "obtain": {
+      "ja": "バルデシオンアーセナル",
+      "en": "The Baldesion Arsenal"
+    },
+    "image": "https://xivapi.com/i/060000/060088.png"
+  }
+]
