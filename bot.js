@@ -195,16 +195,8 @@ async function run() {
   await loadXCookies(context);
 
   const page = await context.newPage();
-  const loggedIn =
-    (await page.locator('[data-testid="SideNav_AccountSwitcher_Button"]').count()) > 0;
 
-  console.log(loggedIn ? '✅ Logged into X' : '❌ NOT logged into X');
-
-  if (!loggedIn) {
-    console.log('❌ Aborting run to prevent duplicates');
-    await browser.close();
-    return;
-  }
+  console.log('✅ Proceeding without UI login check (cookie-based auth)');
 
   for (const bot of BOTS) {
     console.log(`\n🤖 Running ${bot.name}`);
