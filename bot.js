@@ -231,41 +231,28 @@ async function runDatasetBot(bot) {
 
   const nameJa = item.name?.ja ?? '（不明）';
   const nameEn = item.name?.en ?? '';
-  const rarityJa = item.rarity?.ja ?? '不明';
-  const obtainJa = item.obtain?.ja ?? '不明';
-  const expansionJa = item.expansion?.ja ?? '不明';
-  const image = item.image ?? null;
-
-  const lodestoneUrl =
-    `https://na.finalfantasyxiv.com/lodestone/playguide/db/item/${item.id}/`;
+  const sourceJa = item.source?.ja ?? '不明';
 
   const embed = {
     title: `${nameJa}${nameEn ? ` / ${nameEn}` : ''}`,
-    url: lodestoneUrl,
+    url: item.url, // ✅ FFXIV Collect link
     description:
-      `**レアリティ**：${rarityJa}\n` +
-      `**入手方法**：${obtainJa}\n` +
-      `**拡張**：${expansionJa}`,
-    color: 0xF5C542, // gold-ish
-    image: image ? { url: image } : undefined,
-    footer: {
-      text: '✨ 今日のマウント / ミニオン ✨',
+      `**入手方法**：${sourceJa}\n` +
+      `**パッチ**：${item.patch}\n` +
+      `**レア度**：${item.rarity}`,
+    color: 0x8f6aff,
+    image: {
+      url: item.image, // ✅ Proper mount image
     },
   };
 
   await fetch(bot.webhook, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      embeds: [embed],
-    }),
+    body: JSON.stringify({ embeds: [embed] }),
   });
 
-  console.log(
-    '✅ Posted dataset item:',
-    `${nameJa} / ${nameEn}`
-  );
-
+  console.log('✅ Posted dataset item:', nameEn || nameJa);
   saveLastDatasetId(bot.storageFile, item.id);
 }
 /* ---------- MAIN ---------- */
