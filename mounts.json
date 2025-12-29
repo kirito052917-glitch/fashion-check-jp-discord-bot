@@ -24,7 +24,7 @@
     "patch": "2.0",
     "source": {
       "en": "At level 30 or above, speak with the Wandering Minstrel in Eastern La Noscea (Final Fantasy XIV 1.0)",
-      "ja": "At level 30 or above, speak with the Wandering Minstrel in Eastern La Noscea (Final Fantasy XIV 1.0)"
+      "ja": "レベル30以上で、東ラノシアの吟遊詩人に話しかける (FINAL FANTASY XIV 1.0)"
     },
     "url": "https://ffxivcollect.com/mounts/4",
     "image": "https://ffxivcollect.com/assets/mounts/large/4-cd62f59490766d446f3745f08d7d4c87e93372bc6e7859d347d9ea42ab8bb183.png"
@@ -39,7 +39,7 @@
     "patch": "2.0",
     "source": {
       "en": "Legacy Campaign",
-      "ja": "Legacy Campaign"
+      "ja": "レガシーキャンペーン"
     },
     "url": "https://ffxivcollect.com/mounts/5",
     "image": "https://ffxivcollect.com/assets/mounts/large/5-265b3ab45910a9cf5cb5d0451170b103c369291f3cd289769a20cdda0ece0474.png"
@@ -69,7 +69,7 @@
     "patch": "2.0",
     "source": {
       "en": "A Realm Reborn Collector's Edition",
-      "ja": "A Realm Reborn Collector's Edition"
+      "ja": "新生エオルゼア コレクターズエディション"
     },
     "url": "https://ffxivcollect.com/mounts/8",
     "image": "https://ffxivcollect.com/assets/mounts/large/8-55a0f6b1e8187bcc4d05856664f7f97145436609c444cdd03cc89191dae9fd66.png"
@@ -84,7 +84,7 @@
     "patch": "2.0",
     "source": {
       "en": "Jonathas - Old Gridania - 6 Achievement Certificates",
-      "ja": "Jonathas - Old Gridania - 6 Achievement Certificates"
+      "ja": "ジョナサス - 旧グリダニア - 実績証書6枚"
     },
     "url": "https://ffxivcollect.com/mounts/9",
     "image": "https://ffxivcollect.com/assets/mounts/large/9-4ab598d508af79690ebd9fdc0b9c0c6005b6b9daae5bda4223ab67a116d8c536.png"
@@ -114,7 +114,7 @@
     "patch": "2.1",
     "source": {
       "en": "Jonathas - Old Gridania - 6 Achievement Certificates",
-      "ja": "Jonathas - Old Gridania - 6 Achievement Certificates"
+      "ja": "ジョナサス - 旧グリダニア - 実績証書6枚"
     },
     "url": "https://ffxivcollect.com/mounts/18",
     "image": "https://ffxivcollect.com/assets/mounts/large/18-e6a50ca393aa0e11ff3914b485d4e79e969ea0cae611a174cc5a4c00a54ccdc2.png"
@@ -129,7 +129,7 @@
     "patch": "2.1",
     "source": {
       "en": "Amalj'aa Vendor - Ring of Ash (Southern Thanalan) - 120,000 Gil (Rank 4)",
-      "ja": "Amalj'aa Vendor - Ring of Ash (Southern Thanalan) - 120,000 Gil (Rank 4)"
+      "ja": "アマルジャ行商人 - 灰のリング（南ザナラーン） - 120,000ギル (ランク4)"
     },
     "url": "https://ffxivcollect.com/mounts/19",
     "image": "https://ffxivcollect.com/assets/mounts/large/19-740ad4e2d3f9b7bf0d1a7776866d9bfc929b46d31e99f29ad6b16f74a384bc26.png"
@@ -144,7 +144,7 @@
     "patch": "2.1",
     "source": {
       "en": "Sylphic Vendor - Little Solace (East Shroud) - 120,000 Gil (Rank 4)",
-      "ja": "Sylphic Vendor - Little Solace (East Shroud) - 120,000 Gil (Rank 4)"
+      "ja": "シルフ行商人 - リトルソレース（東黒森） - 120,000ギル (ランク4)"
     },
     "url": "https://ffxivcollect.com/mounts/20",
     "image": "https://ffxivcollect.com/assets/mounts/large/20-f666671a494147fc534a6b32ce817f42d9839997a62690eb13e44f5fcaadf0fd.png"
@@ -189,7 +189,7 @@
     "patch": "2.2",
     "source": {
       "en": "A Realm Reborn Collector's Edition",
-      "ja": "A Realm Reborn Collector's Edition"
+      "ja": "新生エオルゼア コレクターズエディション"
     },
     "url": "https://ffxivcollect.com/mounts/25",
     "image": "https://ffxivcollect.com/assets/mounts/large/25-e162207bd8f948e40488c4578eceb1d9f06e4577e4b73853d6d523b671ec3d2c.png"
@@ -204,7 +204,7 @@
     "patch": "2.2",
     "source": {
       "en": "Sahagin Vendor - Novv's Nursery (Western La Noscea) - 120,000 Gil (Rank 4)",
-      "ja": "Sahagin Vendor - Novv's Nursery (Western La Noscea) - 120,000 Gil (Rank 4)"
+      "ja": "サハギン行商人 - ノヴの保育園（西ラノシア） - 120,000ギル (ランク4)"
     },
     "url": "https://ffxivcollect.com/mounts/26",
     "image": "https://ffxivcollect.com/assets/mounts/large/26-7def7a4f86e5c5d76fdaf39830a5f0b42cead58c920f09575f6d3fd6bca98a50.png"
@@ -219,7 +219,7 @@
     "patch": "2.2",
     "source": {
       "en": "Kobold Vendor - 789th Order Dig (Outer La Noscea) - 120,000 Gil (Rank 4)",
-      "ja": "Kobold Vendor - 789th Order Dig (Outer La Noscea) - 120,000 Gil (Rank 4)"
+      "ja": "コボルド行商人 - 第789坑道（外ラノシア） - 120,000ギル (ランク4)"
     },
     "url": "https://ffxivcollect.com/mounts/27",
     "image": "https://ffxivcollect.com/assets/mounts/large/27-4e75297daaa432b1c689773cf2852553f2f82cd87e6e1997dfb14d454a14262d.png"
@@ -324,7 +324,7 @@
     "patch": "2.3",
     "source": {
       "en": "Recruit a Friend Campaign reward",
-      "ja": "Recruit a Friend Campaign reward"
+      "ja": "友達招待キャンペーン報酬"
     },
     "url": "https://ffxivcollect.com/mounts/34",
     "image": "https://ffxivcollect.com/assets/mounts/large/34-96f53610cd91aedb3f4e5fde14a5dc9842bc9412514cb223e2533ffcc045b1dd.png"
@@ -339,7 +339,7 @@
     "patch": "2.35",
     "source": {
       "en": "Ixali Vendor - Ehcatl (North Shroud) - 120,000 Gil (Rank 7)",
-      "ja": "Ixali Vendor - Ehcatl (North Shroud) - 120,000 Gil (Rank 7)"
+      "ja": "イクサル行商人 - エカトル（北黒森） - 120,000ギル (ランク7)"
     },
     "url": "https://ffxivcollect.com/mounts/35",
     "image": "https://ffxivcollect.com/assets/mounts/large/35-20685c831bf4f6c69c5adfc59f46aea6fe46682062b1cd9ef65ccc4e97b516d2.png"
@@ -414,7 +414,7 @@
     "patch": "2.45",
     "source": {
       "en": "Ceremony of Eternal Bonding (Gold/Platinum)",
-      "ja": "Ceremony of Eternal Bonding (Gold/Platinum)"
+      "ja": "永遠の絆の儀式（ゴールド/プラチナプラン）"
     },
     "url": "https://ffxivcollect.com/mounts/41",
     "image": "https://ffxivcollect.com/assets/mounts/large/41-e7c5f91b9ec07724291ffbdcd09ff95647729da4e20c3f78f606cdfde36d54bc.png"
@@ -429,7 +429,7 @@
     "patch": "2.38",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/42",
     "image": "https://ffxivcollect.com/assets/mounts/large/42-1bb02b4b47ac2ac0f63c84409e27c69b6fd112f2e7b625049424a0e222ac14af.png"
@@ -564,7 +564,7 @@
     "patch": "3.0",
     "source": {
       "en": "Calamity Salvager - 8 Gold Chocobo Feathers (Recruit a Friend Campaign)",
-      "ja": "Calamity Salvager - 8 Gold Chocobo Feathers (Recruit a Friend Campaign)"
+      "ja": "災難救助員 - 金のチョコボの羽根8本 (友達招待キャンペーン)"
     },
     "url": "https://ffxivcollect.com/mounts/52",
     "image": "https://ffxivcollect.com/assets/mounts/large/52-107cad441068985d99999d1fb27c32b95884f7d3790230897673c9d9895e126d.png"
@@ -579,7 +579,7 @@
     "patch": "3.1",
     "source": {
       "en": "Luna Vanu - Ok' Gundu Nakki (The Sea of Clouds) - 200,000 Gil (Rank 7)",
-      "ja": "Luna Vanu - Ok' Gundu Nakki (The Sea of Clouds) - 200,000 Gil (Rank 7)"
+      "ja": "ルナ・ヴァヌ - オク・グンドゥナキ (雲海) - 200,000ギル (ランク7)"
     },
     "url": "https://ffxivcollect.com/mounts/53",
     "image": "https://ffxivcollect.com/assets/mounts/large/53-a440c007d3b19d5090a0301869119a39828bd1d07300759146e9014a7831a631.png"
@@ -594,7 +594,7 @@
     "patch": "3.0",
     "source": {
       "en": "Heavensward Collector's Edition",
-      "ja": "Heavensward Collector's Edition"
+      "ja": "蒼天のイシュガルド コレクターズエディション"
     },
     "url": "https://ffxivcollect.com/mounts/54",
     "image": "https://ffxivcollect.com/assets/mounts/large/54-44d55242070aa86a6bda3d9dc3c552b47914af9f73a4b4db19366aa067d3bfcc.png"
@@ -654,7 +654,7 @@
     "patch": "3.0",
     "source": {
       "en": "Calamity Salvager - 15 Gold Chocobo Feathers (Recruit a Friend Campaign)",
-      "ja": "Calamity Salvager - 15 Gold Chocobo Feathers (Recruit a Friend Campaign)"
+      "ja": "災難救助員 - 金のチョコボの羽根15本 (友達招待キャンペーン)"
     },
     "url": "https://ffxivcollect.com/mounts/59",
     "image": "https://ffxivcollect.com/assets/mounts/large/59-4419afc99d7af943b4261eb8041b138b4db9f564f8f6c51976e4c1b234105e71.png"
@@ -669,7 +669,7 @@
     "patch": "3.07",
     "source": {
       "en": "All Saints' Wake (2015); Online Store",
-      "ja": "All Saints' Wake (2015); Online Store"
+      "ja": "ハロウィン (2015); オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/62",
     "image": "https://ffxivcollect.com/assets/mounts/large/62-62e5b5d2c9625c3e36471c300c32b1414f255e63691a85e7b33e082d724caea5.png"
@@ -699,7 +699,7 @@
     "patch": "3.1",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/68",
     "image": "https://ffxivcollect.com/assets/mounts/large/68-4f1052f6c8da5e238d73c1dbf0bc5705c1b3ba71cf58644497f99fe03e66bcbe.png"
@@ -714,7 +714,7 @@
     "patch": "3.1",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/69",
     "image": "https://ffxivcollect.com/assets/mounts/large/69-a9392cae039b53ae5ce87700a9df08f9df2b46d0d57eea8363d666fa74e585ba.png"
@@ -729,7 +729,7 @@
     "patch": "3.1",
     "source": {
       "en": "Bertana - Idyllshire - 6 Clan Mark Logs",
-      "ja": "Bertana - Idyllshire - 6 Clan Mark Logs"
+      "ja": "ベルタナ - イディルシャイア - クランマークログ6個"
     },
     "url": "https://ffxivcollect.com/mounts/70",
     "image": "https://ffxivcollect.com/assets/mounts/large/70-5dc973c07020630b91760648a24b80c88c97a2c8e7dfba47b78ad11b79423e71.png"
@@ -744,7 +744,7 @@
     "patch": "4.4",
     "source": {
       "en": "Fan Festival 2018-19; Online Store",
-      "ja": "Fan Festival 2018-19; Online Store"
+      "ja": "ファンフェスティバル 2018-19; オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/71",
     "image": "https://ffxivcollect.com/assets/mounts/large/71-9e148787f730a4f43c3555b576a138d918d6a54ca2514112eff93b43aa786e01.png"
@@ -759,7 +759,7 @@
     "patch": "3.2",
     "source": {
       "en": "Vath Stickpeddler - Loth ast Vath (The Dravanian Forelands) - 200,000 Gil (Rank 7)",
-      "ja": "Vath Stickpeddler - Loth ast Vath (The Dravanian Forelands) - 200,000 Gil (Rank 7)"
+      "ja": "ヴァース行商人 - ロス・アスト・ヴァース (ドラヴァニア雲海) - 200,000ギル (ランク7)"
     },
     "url": "https://ffxivcollect.com/mounts/72",
     "image": "https://ffxivcollect.com/assets/mounts/large/72-3d3c34ae8a04e6e3bfd25b74da11dc118ea449da378be6eef72fa52b88bd0a52.png"
@@ -774,7 +774,7 @@
     "patch": "3.2",
     "source": {
       "en": "Spoils Collector - 1 Iron Voyage Spoil (from sector Sea of Clouds 24)",
-      "ja": "Spoils Collector - 1 Iron Voyage Spoil (from sector Sea of Clouds 24)"
+      "ja": "戦利品回収員 - アイアンヴォヤッジスポイル1個 (セクター雲海24から)"
     },
     "url": "https://ffxivcollect.com/mounts/73",
     "image": "https://ffxivcollect.com/assets/mounts/large/73-e4fcfd2e11e9b65e2647b0e7c205ae1f7af5b139a43d9dc4cb631106ec3dda74.png"
@@ -789,7 +789,7 @@
     "patch": "3.25",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/74",
     "image": "https://ffxivcollect.com/assets/mounts/large/74-9132dc00dab5b0e9c5b8ee86e29ea33d964870bdedc57055a0b5a2a9fc0bf6ae.png"
@@ -879,7 +879,7 @@
     "patch": "3.5",
     "source": {
       "en": "In-Game Item Campaign",
-      "ja": "In-Game Item Campaign"
+      "ja": "インナムアイテムキャンペーン"
     },
     "url": "https://ffxivcollect.com/mounts/81",
     "image": "https://ffxivcollect.com/assets/mounts/large/81-8d6d681fb242f2dcfaf93a888963827b0b372253799f8fb82453c95a31ad5c7a.png"
@@ -894,7 +894,7 @@
     "patch": "3.2",
     "source": {
       "en": "In-Game Item Campaign",
-      "ja": "In-Game Item Campaign"
+      "ja": "インナムアイテムキャンペーン"
     },
     "url": "https://ffxivcollect.com/mounts/82",
     "image": "https://ffxivcollect.com/assets/mounts/large/82-3769a5835d9347f7fb69f028639cf1433f3dbf34fe65cf2a45caff5f629307a9.png"
@@ -924,7 +924,7 @@
     "patch": "3.35",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/84",
     "image": "https://ffxivcollect.com/assets/mounts/large/84-6eed7667b987de3ddd1f84e6f39c66115ee397b99ccdbdfa4532b3b5b1b6cf69.png"
@@ -939,7 +939,7 @@
     "patch": "3.3",
     "source": {
       "en": "Mogmul Mogbelly - Bahrr Lehs (The Churning Mists) - 200,000 Gil (Rank 7)",
-      "ja": "Mogmul Mogbelly - Bahrr Lehs (The Churning Mists) - 200,000 Gil (Rank 7)"
+      "ja": "モグモグ・モグベリー - バール・レー (雲海) - 200,000ギル (ランク7)"
     },
     "url": "https://ffxivcollect.com/mounts/86",
     "image": "https://ffxivcollect.com/assets/mounts/large/86-837f593af3f89ad0c30e52ac216e8acc4e3f22985b01c570038e79d0705ec712.png"
@@ -954,7 +954,7 @@
     "patch": "3.35",
     "source": {
       "en": "Yo-kai Watch Collaboration - Obtain 13 Yo-kai Minions",
-      "ja": "Yo-kai Watch Collaboration - Obtain 13 Yo-kai Minions"
+      "ja": "妖怪ウォッチコラボ - ヨーカイミニオン13種類入手"
     },
     "url": "https://ffxivcollect.com/mounts/87",
     "image": "https://ffxivcollect.com/assets/mounts/large/87-8c36380349f5e4a6a26e6e835f0512973c9bac026165d0c7638bd7270813d209.png"
@@ -999,7 +999,7 @@
     "patch": "3.35",
     "source": {
       "en": "E-Una-Kotor - Quarrymill (South Shroud) - 10 Gelmorran Potsherds",
-      "ja": "E-Una-Kotor - Quarrymill (South Shroud) - 10 Gelmorran Potsherds"
+      "ja": "エ・ウナ・コトル - カッパーベルミル (南黒森) - ゲルモラ陶片10個"
     },
     "url": "https://ffxivcollect.com/mounts/92",
     "image": "https://ffxivcollect.com/assets/mounts/large/92-aee07461a3ba0eb158f5edcd00bd536e99c877828b79373528279669b6dcb837.png"
@@ -1014,7 +1014,7 @@
     "patch": "4.1",
     "source": {
       "en": "Calamity Salvager - 8 Gold Chocobo Feathers (Recruit a Friend Campaign)",
-      "ja": "Calamity Salvager - 8 Gold Chocobo Feathers (Recruit a Friend Campaign)"
+      "ja": "災難救助員 - 金のチョコボの羽根8本 (友達招待キャンペーン)"
     },
     "url": "https://ffxivcollect.com/mounts/93",
     "image": "https://ffxivcollect.com/assets/mounts/large/93-24fc4c6e24198615cc406bfe7b28257eb87425f16fd402b111f20ff22252c6cf.png"
@@ -1029,7 +1029,7 @@
     "patch": "3.35",
     "source": {
       "en": "Yo-kai Watch Collaboration - Obtain 13 Yo-kai Weapons",
-      "ja": "Yo-kai Watch Collaboration - Obtain 13 Yo-kai Weapons"
+      "ja": "妖怪ウォッチコラボ - ヨーカイ武器13種類入手"
     },
     "url": "https://ffxivcollect.com/mounts/94",
     "image": "https://ffxivcollect.com/assets/mounts/large/94-0c8fdfc386a4dfd0559fe2ee5568627d83344b8122923325f3104ab9d54c6a5c.png"
@@ -1074,7 +1074,7 @@
     "patch": "4.1",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/97",
     "image": "https://ffxivcollect.com/assets/mounts/large/97-b68f62639b8067ef9c202ba03e30cbc81ca1d6a3fd0ab2daa29c3c52a02ac542.png"
@@ -1104,7 +1104,7 @@
     "patch": "4.1",
     "source": {
       "en": "The Starlight Celebration (2017); Online Store",
-      "ja": "The Starlight Celebration (2017); Online Store"
+      "ja": "星芒祭 (2017); オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/99",
     "image": "https://ffxivcollect.com/assets/mounts/large/99-f26f5a6dae24fb41f2ad8f712d56e7fcb3adaa5eea05018b3c7b1db744487edf.png"
@@ -1119,7 +1119,7 @@
     "patch": "3.4",
     "source": {
       "en": "The Palace of the Dead - Gold Sack",
-      "ja": "The Palace of the Dead - Gold Sack"
+      "ja": "死者の宮殿 - 金の袋"
     },
     "url": "https://ffxivcollect.com/mounts/100",
     "image": "https://ffxivcollect.com/assets/mounts/large/100-7c1e9fdac3121be299cb46856591f59eec415d65efff37dab61d81336804816d.png"
@@ -1194,7 +1194,7 @@
     "patch": "3.5",
     "source": {
       "en": "Hatching-tide (2017); Online Store",
-      "ja": "Hatching-tide (2017); Online Store"
+      "ja": "エッグハント (2017); オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/106",
     "image": "https://ffxivcollect.com/assets/mounts/large/106-c8578212539ec4e782b3f50a4f4b023cad59152d7224c6c0c2f1499061803ed6.png"
@@ -1209,7 +1209,7 @@
     "patch": "3.55a",
     "source": {
       "en": "The Feast: Season 3",
-      "ja": "The Feast: Season 3"
+      "ja": "フリーカンパニー対抗戦：シーズン3"
     },
     "url": "https://ffxivcollect.com/mounts/108",
     "image": "https://ffxivcollect.com/assets/mounts/large/108-ca6a0d5b81eace6d27bd529e6dc1138434310ad134b5a91ce10d5d1a9212f46e.png"
@@ -1224,7 +1224,7 @@
     "patch": "3.55a",
     "source": {
       "en": "The Feast: Season 3",
-      "ja": "The Feast: Season 3"
+      "ja": "フリーカンパニー対抗戦：シーズン3"
     },
     "url": "https://ffxivcollect.com/mounts/109",
     "image": "https://ffxivcollect.com/assets/mounts/large/109-79c8cce992a66ca4e8775c0f2865605ae94e729795095458ecc014bf780cff38.png"
@@ -1254,7 +1254,7 @@
     "patch": "4.0",
     "source": {
       "en": "Stormblood Collector's Edition",
-      "ja": "Stormblood Collector's Edition"
+      "ja": "紅蓮のリベレーター コレクターズエディション"
     },
     "url": "https://ffxivcollect.com/mounts/111",
     "image": "https://ffxivcollect.com/assets/mounts/large/111-5096cdca2dd18a0ccd19e79011ae7c13d859abbf285492616527759d64c388ae.png"
@@ -1269,7 +1269,7 @@
     "patch": "4.05",
     "source": {
       "en": "Fly the Falcon Mount Campaign; Moogle Treasure Trove Event",
-      "ja": "Fly the Falcon Mount Campaign; Moogle Treasure Trove Event"
+      "ja": "ファルコン号マウントキャンペーン; モーグリの宝物庫イベント"
     },
     "url": "https://ffxivcollect.com/mounts/112",
     "image": "https://ffxivcollect.com/assets/mounts/large/112-959604b5e56ba5ca5c041b893be55f379ac52f87492b9a86b23e2983e244afbb.png"
@@ -1284,7 +1284,7 @@
     "patch": "4.0",
     "source": {
       "en": "The Feast: Season 4",
-      "ja": "The Feast: Season 4"
+      "ja": "フリーカンパニー対抗戦：シーズン4"
     },
     "url": "https://ffxivcollect.com/mounts/113",
     "image": "https://ffxivcollect.com/assets/mounts/large/113-2eb8aca5d3cacb781775e4bddb01a2c9b4008374490f410781f3d40d03afcb71.png"
@@ -1299,7 +1299,7 @@
     "patch": "4.0",
     "source": {
       "en": "The Feast: Season 4",
-      "ja": "The Feast: Season 4"
+      "ja": "フリーカンパニー対抗戦：シーズン4"
     },
     "url": "https://ffxivcollect.com/mounts/114",
     "image": "https://ffxivcollect.com/assets/mounts/large/114-597baf7b33dd57ad79e0ebe1939724a5af7c2b75603461d9e93ee23ce61d4661.png"
@@ -1449,7 +1449,7 @@
     "patch": "4.0",
     "source": {
       "en": "Eschina - Rhalgr's Reach - 12 Ixion Horns (FATE \"A Horse Outside\" - The Lochs); 300 Faux Leaves; 1 Khloe's Silver Certificate of Commendation",
-      "ja": "Eschina - Rhalgr's Reach - 12 Ixion Horns (FATE \"A Horse Outside\" - The Lochs); 300 Faux Leaves; 1 Khloe's Silver Certificate of Commendation"
+      "ja": "エスキナ - ラールガーズリーチ - イクシオンの角12個 (FATE「外の馬」 - ギラバニア湖畔地帯); 偽の葉300枚; クロの銀の推薦状1枚"
     },
     "url": "https://ffxivcollect.com/mounts/130",
     "image": "https://ffxivcollect.com/assets/mounts/large/130-e00b0d6bb856685172b86aad0bcda7b2aa387505e527a972ec3b1bd20a7a8d6f.png"
@@ -1479,7 +1479,7 @@
     "patch": "4.2",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/135",
     "image": "https://ffxivcollect.com/assets/mounts/large/135-6417742225760cf17759022f2826ef0e51f3e376f49307baefbd26abfbe28f92.png"
@@ -1494,7 +1494,7 @@
     "patch": "4.1",
     "source": {
       "en": "Shikitahe - Tamamizu (The Ruby Sea) - 12 Kojin Sango (Rank 8)",
-      "ja": "Shikitahe - Tamamizu (The Ruby Sea) - 12 Kojin Sango (Rank 8)"
+      "ja": "シキタヘ - タマミズ (紅玉海) - コージン珊瑚12個 (ランク8)"
     },
     "url": "https://ffxivcollect.com/mounts/136",
     "image": "https://ffxivcollect.com/assets/mounts/large/136-6dc765a56859f85d35a8920104452535bb6effb9abc0ff81a5120afe3eabc4e5.png"
@@ -1509,7 +1509,7 @@
     "patch": "4.15",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/138",
     "image": "https://ffxivcollect.com/assets/mounts/large/138-0f3e125849b7b8eb853ec80835acf6b33e5c2a2106dec5c7b21a8bcf68aa41e2.png"
@@ -1524,7 +1524,7 @@
     "patch": "4.15",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/139",
     "image": "https://ffxivcollect.com/assets/mounts/large/139-62452bf5167c276eca45a174b593eb4a754ffeb668afe04eb89e505ab6521d07.png"
@@ -1539,7 +1539,7 @@
     "patch": "4.1",
     "source": {
       "en": "Crafted by Alchemist",
-      "ja": "Crafted by Alchemist"
+      "ja": "錬金術師が製作"
     },
     "url": "https://ffxivcollect.com/mounts/140",
     "image": "https://ffxivcollect.com/assets/mounts/large/140-12c7ffc6bd7a64176aca347378259812f85d9026f5bd245bf324b3146220e704.png"
@@ -1584,7 +1584,7 @@
     "patch": "4.3",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/143",
     "image": "https://ffxivcollect.com/assets/mounts/large/143-bd9a13150fc11deedcfa1a93c7547ac715ecf604e4ea1c7d6b7ec04476e3c902.png"
@@ -1614,7 +1614,7 @@
     "patch": "4.2",
     "source": {
       "en": "Jonathas - Old Gridania - 6 Achievement Certificates",
-      "ja": "Jonathas - Old Gridania - 6 Achievement Certificates"
+      "ja": "ジョナサス - 旧グリダニア - 実績証書6枚"
     },
     "url": "https://ffxivcollect.com/mounts/145",
     "image": "https://ffxivcollect.com/assets/mounts/large/145-8f90d539f177d9735dd1522bb85525255e721aa2cbfa62d37c8e0768a2b69197.png"
@@ -1629,7 +1629,7 @@
     "patch": "4.2",
     "source": {
       "en": "Madhura - Castellum Velodyna (The Fringes) - 18 Ananta Dreamstaves (Rank 7)",
-      "ja": "Madhura - Castellum Velodyna (The Fringes) - 18 Ananta Dreamstaves (Rank 7)"
+      "ja": "マドゥラ - カステッルム・ヴェロディナ (ギラバニア辺境地帯) - アナンタの夢の杖18本 (ランク7)"
     },
     "url": "https://ffxivcollect.com/mounts/146",
     "image": "https://ffxivcollect.com/assets/mounts/large/146-d93af60dcd95e509c3e253b08413e4a8c0deb04dfd71b303c39dfc39ff52e0d8.png"
@@ -1644,7 +1644,7 @@
     "patch": "4.2",
     "source": {
       "en": "Madhura - Castellum Velodyna (The Fringes) - 18 Ananta Dreamstaves (Rank 8)",
-      "ja": "Madhura - Castellum Velodyna (The Fringes) - 18 Ananta Dreamstaves (Rank 8)"
+      "ja": "マドゥラ - カステッルム・ヴェロディナ (ギラバニア辺境地帯) - アナンタの夢の杖18本 (ランク8)"
     },
     "url": "https://ffxivcollect.com/mounts/148",
     "image": "https://ffxivcollect.com/assets/mounts/large/148-1a85c3238d001cef5e99b09af819bd102090096c370cbfa3508650dddf295902.png"
@@ -1659,7 +1659,7 @@
     "patch": "4.25",
     "source": {
       "en": "Anemos Lockbox",
-      "ja": "Anemos Lockbox"
+      "ja": "アネモスのロックボックス"
     },
     "url": "https://ffxivcollect.com/mounts/150",
     "image": "https://ffxivcollect.com/assets/mounts/large/150-3417092cb39d0346f6b0685dddda2f60724594f260f07e5f3e2db3d641174204.png"
@@ -1674,7 +1674,7 @@
     "patch": "4.5",
     "source": {
       "en": "Final Fantasy XV Collaboration",
-      "ja": "Final Fantasy XV Collaboration"
+      "ja": "FINAL FANTASY XV コラボレーション"
     },
     "url": "https://ffxivcollect.com/mounts/151",
     "image": "https://ffxivcollect.com/assets/mounts/large/151-1deadef08ed08bbf8b8d6888aaff14c1e8fc694e83a182cb726421307c15d1f5.png"
@@ -1689,7 +1689,7 @@
     "patch": "4.2",
     "source": {
       "en": "Valentione's Day (2018); Online Store",
-      "ja": "Valentione's Day (2018); Online Store"
+      "ja": "バレンタインデー (2018); オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/152",
     "image": "https://ffxivcollect.com/assets/mounts/large/152-e3df5b2d09d7ed4437b4ccedf18380ef8c3322acd4f4d8c7b650ac7862f2273b.png"
@@ -1704,7 +1704,7 @@
     "patch": "4.2",
     "source": {
       "en": "Valentione's Day (2018); Online Store",
-      "ja": "Valentione's Day (2018); Online Store"
+      "ja": "バレンタインデー (2018); オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/153",
     "image": "https://ffxivcollect.com/assets/mounts/large/153-bb84ae5214aef309755522127764aa9b21985a7fab442c277343e8697257c0e1.png"
@@ -1764,7 +1764,7 @@
     "patch": "4.35",
     "source": {
       "en": "Heaven-on-High - Platinum Sack",
-      "ja": "Heaven-on-High - Platinum Sack"
+      "ja": "アメノミハシラ - プラチナの袋"
     },
     "url": "https://ffxivcollect.com/mounts/159",
     "image": "https://ffxivcollect.com/assets/mounts/large/159-181045f2556ad3647d461f6ca39e8da7b87f7013c5084d1a943a3fd8291a8cc5.png"
@@ -1779,7 +1779,7 @@
     "patch": "4.4",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/160",
     "image": "https://ffxivcollect.com/assets/mounts/large/160-931788a6554d955d229d69ca148255fc06ba588f53f339574cc33e20fb0ce671.png"
@@ -1809,7 +1809,7 @@
     "patch": "4.3",
     "source": {
       "en": "The Feast: Season 7",
-      "ja": "The Feast: Season 7"
+      "ja": "フリーカンパニー対抗戦：シーズン7"
     },
     "url": "https://ffxivcollect.com/mounts/162",
     "image": "https://ffxivcollect.com/assets/mounts/large/162-9201c5de8e39fcaff93bf3e5c178d9aa461ad690a3b8c70a64208b2565861114.png"
@@ -1824,7 +1824,7 @@
     "patch": "4.31",
     "source": {
       "en": "The Feast: Season 8",
-      "ja": "The Feast: Season 8"
+      "ja": "フリーカンパニー対抗戦：シーズン8"
     },
     "url": "https://ffxivcollect.com/mounts/163",
     "image": "https://ffxivcollect.com/assets/mounts/large/163-909317460b8ade426abd184799073264a20fc7b8b49bde4276081800f4cb8b46.png"
@@ -1839,7 +1839,7 @@
     "patch": "4.3",
     "source": {
       "en": "Gyosho - Dhoro Iloh (The Azim Steppe) - 20 Namazu Koban (Rank 8)",
-      "ja": "Gyosho - Dhoro Iloh (The Azim Steppe) - 20 Namazu Koban (Rank 8)"
+      "ja": "ギョウショウ - ドロ・イロ (アジムステップ) - ナマズ小判20枚 (ランク8)"
     },
     "url": "https://ffxivcollect.com/mounts/164",
     "image": "https://ffxivcollect.com/assets/mounts/large/164-9ad16355f492a1ccbbb4bba155ece9cd9fbdb46225494aa67e41cb40a61a1946.png"
@@ -1869,7 +1869,7 @@
     "patch": "6.3",
     "source": {
       "en": "PvP Series 3 - Level 15; 5,000 Trophy Crystals",
-      "ja": "PvP Series 3 - Level 15; 5,000 Trophy Crystals"
+      "ja": "PvPシリーズ3 - レベル15; トロフィークリスタル5,000"
     },
     "url": "https://ffxivcollect.com/mounts/167",
     "image": "https://ffxivcollect.com/assets/mounts/large/167-05627b6d690dc0aa46c74edcb3d1638f13fcd8f17b2654a97ef526a71b911bb6.png"
@@ -1899,7 +1899,7 @@
     "patch": "5.0",
     "source": {
       "en": "Shadowbringers Collector's Edition",
-      "ja": "Shadowbringers Collector's Edition"
+      "ja": "漆黒のヴィランズ コレクターズエディション"
     },
     "url": "https://ffxivcollect.com/mounts/170",
     "image": "https://ffxivcollect.com/assets/mounts/large/170-a6e353a3cf539bd1d470c6ad5a145544c9ed0ff98e800ad3d08c7f6180cf545a.png"
@@ -1914,7 +1914,7 @@
     "patch": "4.45",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/171",
     "image": "https://ffxivcollect.com/assets/mounts/large/171-723c2024a2e68a078d7e093aa1cc29aed78dece6ef8d2ca4526ec91a43e10ddc.png"
@@ -1974,7 +1974,7 @@
     "patch": "4.45",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/175",
     "image": "https://ffxivcollect.com/assets/mounts/large/175-951d3931afe637bd70d4a34486ff463d370b17e66fe4e6c4ce4b346a73b28fd2.png"
@@ -1989,7 +1989,7 @@
     "patch": "4.45",
     "source": {
       "en": "The Feast: Season 11",
-      "ja": "The Feast: Season 11"
+      "ja": "フリーカンパニー対抗戦：シーズン11"
     },
     "url": "https://ffxivcollect.com/mounts/176",
     "image": "https://ffxivcollect.com/assets/mounts/large/176-49bf070351e2f21a141e782a9c2534601c208106c933a0d08e0d15d0924581a9.png"
@@ -2004,7 +2004,7 @@
     "patch": "4.45",
     "source": {
       "en": "In-Game Item Campaign; Twitch Campaign (2021)",
-      "ja": "In-Game Item Campaign; Twitch Campaign (2021)"
+      "ja": "インナムアイテムキャンペーン; Twitchキャンペーン (2021)"
     },
     "url": "https://ffxivcollect.com/mounts/177",
     "image": "https://ffxivcollect.com/assets/mounts/large/177-c0237adaa94e43a6e071d2b48da090137f8ee5f6dd7da5df955a4781542513db.png"
@@ -2019,7 +2019,7 @@
     "patch": "4.45",
     "source": {
       "en": "Happy Bunny Lockbox - Eureka Pyros; South Horn - Silver Coffer",
-      "ja": "Happy Bunny Lockbox - Eureka Pyros; South Horn - Silver Coffer"
+      "ja": "ハッピーバニーロックボックス - エウレカ：ピュロス; 南ホーン - シルバーコッファー"
     },
     "url": "https://ffxivcollect.com/mounts/178",
     "image": "https://ffxivcollect.com/assets/mounts/large/178-abb31e18a49fe46eaf865c109fa1e932aa754279d6dde6bb4658bf1f1f81b085.png"
@@ -2034,7 +2034,7 @@
     "patch": "4.45",
     "source": {
       "en": "The Feast: Season 12",
-      "ja": "The Feast: Season 12"
+      "ja": "フリーカンパニー対抗戦：シーズン12"
     },
     "url": "https://ffxivcollect.com/mounts/179",
     "image": "https://ffxivcollect.com/assets/mounts/large/179-f948e884584734bc0eb3151d6bd0c951217e8bdc5d91ff19c8a25cbbadeb0406.png"
@@ -2109,7 +2109,7 @@
     "patch": "4.5",
     "source": {
       "en": "Happy Bunny Lockbox - Eureka Hydatos; South Horn - Bronze/Silver Coffer",
-      "ja": "Happy Bunny Lockbox - Eureka Hydatos; South Horn - Bronze/Silver Coffer"
+      "ja": "ハッピーバニーロックボックス - エウレカ：ヒュダトス; 南ホーン - ブロンズ/シルバーコッファー"
     },
     "url": "https://ffxivcollect.com/mounts/184",
     "image": "https://ffxivcollect.com/assets/mounts/large/184-710d6db36788934f4127869003b527ecdaa45d37fff3a4b72813cbc09c178f6b.png"
@@ -2214,7 +2214,7 @@
     "patch": "5.0",
     "source": {
       "en": "Fathard - Eulmore - 12 Formidable Cog (FATE \"A Finale Most Formidable\" - Kholusia)",
-      "ja": "Fathard - Eulmore - 12 Formidable Cog (FATE \"A Finale Most Formidable\" - Kholusia)"
+      "ja": "ファタード - ユールモア - フォーミダブルコグ12個 (FATE「究極のフィナーレ」 - コルシア島)"
     },
     "url": "https://ffxivcollect.com/mounts/191",
     "image": "https://ffxivcollect.com/assets/mounts/large/191-aae6620b6d268046c17f77361fcff4730313ff5116bcd0f818b47d64f05a099f.png"
@@ -2244,7 +2244,7 @@
     "patch": "5.05",
     "source": {
       "en": "Crafted by Carpenter - The Dungeons of Lyhe Ghiah",
-      "ja": "Crafted by Carpenter - The Dungeons of Lyhe Ghiah"
+      "ja": "木工師が製作 - リェー・ギアの迷宮"
     },
     "url": "https://ffxivcollect.com/mounts/193",
     "image": "https://ffxivcollect.com/assets/mounts/large/193-2e58ee5f7abca7552ba45ec2fd657f45d08dd29f4eca6abf7ae46a581a44551f.png"
@@ -2259,7 +2259,7 @@
     "patch": "5.0",
     "source": {
       "en": "All Saints' Wake (2019); Online Store",
-      "ja": "All Saints' Wake (2019); Online Store"
+      "ja": "ハロウィン (2019); オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/194",
     "image": "https://ffxivcollect.com/assets/mounts/large/194-bb328172d7dba7c0b73dcd46b12bce07fa4510f1ed438139a8ed12d62f3bd1ea.png"
@@ -2274,7 +2274,7 @@
     "patch": "5.0",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/195",
     "image": "https://ffxivcollect.com/assets/mounts/large/195-28e93352522aebdebb9db572ee6f33de28eecbe91b91cae8e116de613bd934bf.png"
@@ -2319,7 +2319,7 @@
     "patch": "5.1",
     "source": {
       "en": "Jul Oul - Lydha Lran (Il Mheg) - 18 Fae Fancies (Rank 7)",
-      "ja": "Jul Oul - Lydha Lran (Il Mheg) - 18 Fae Fancies (Rank 7)"
+      "ja": "ジュル・オール - リダ・ラン (イル・メグ) - フェアリーの好物18個 (ランク7)"
     },
     "url": "https://ffxivcollect.com/mounts/201",
     "image": "https://ffxivcollect.com/assets/mounts/large/201-3bb39acd2a9dd2bf544696a4abefc984f52905542494d641da1525ed510a877a.png"
@@ -2334,7 +2334,7 @@
     "patch": "5.2",
     "source": {
       "en": "The Feast: Season 14",
-      "ja": "The Feast: Season 14"
+      "ja": "フリーカンパニー対抗戦：シーズン14"
     },
     "url": "https://ffxivcollect.com/mounts/202",
     "image": "https://ffxivcollect.com/assets/mounts/large/202-d4c09586307074969a09cb73c5af4e7df4013ad4997b4ef66fafab7ba51ab45f.png"
@@ -2349,7 +2349,7 @@
     "patch": "5.2",
     "source": {
       "en": "The Feast: Season 15",
-      "ja": "The Feast: Season 15"
+      "ja": "フリーカンパニー対抗戦：シーズン15"
     },
     "url": "https://ffxivcollect.com/mounts/203",
     "image": "https://ffxivcollect.com/assets/mounts/large/203-2e784421ce58475f2834adb96cb6430ebc0f309f2e6781e63b72712ec0bbbbf3.png"
@@ -2394,7 +2394,7 @@
     "patch": "5.2",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/206",
     "image": "https://ffxivcollect.com/assets/mounts/large/206-ec11c1fd26aa7cabcf6648add69ca6b3fb3a608e9131436dc26e4df7d5681ee7.png"
@@ -2409,7 +2409,7 @@
     "patch": "5.1",
     "source": {
       "en": "Xylle (The Crystarium) / Ilfroy (Eulmore) - 3,200 Sacks of Nuts",
-      "ja": "Xylle (The Crystarium) / Ilfroy (Eulmore) - 3,200 Sacks of Nuts"
+      "ja": "シレ (クリスタリウム) / イルフロワ (ユールモア) - ナッツの袋3,200個"
     },
     "url": "https://ffxivcollect.com/mounts/207",
     "image": "https://ffxivcollect.com/assets/mounts/large/207-14b7316e1ca2b8c1a2b848131437670a95b579702849f5a8dc0406e6ea20faf2.png"
@@ -2424,7 +2424,7 @@
     "patch": "5.21",
     "source": {
       "en": "Kupo of Fortune",
-      "ja": "Kupo of Fortune"
+      "ja": "クポ・オブ・フォーチュン"
     },
     "url": "https://ffxivcollect.com/mounts/208",
     "image": "https://ffxivcollect.com/assets/mounts/large/208-0fa76bcd605dad165dcb7553a1d626df43250e08c2f47069e449e2886e7dcea6.png"
@@ -2469,7 +2469,7 @@
     "patch": "5.55",
     "source": {
       "en": "Dalriada - Final Boss Chest; South Horn - Bronze/Silver Coffer",
-      "ja": "Dalriada - Final Boss Chest; South Horn - Bronze/Silver Coffer"
+      "ja": "ダルリアーダ - 最終ボスチェスト; 南ホーン - ブロンズ/シルバーコッファー"
     },
     "url": "https://ffxivcollect.com/mounts/212",
     "image": "https://ffxivcollect.com/assets/mounts/large/212-e1a8f889ca5f886ad1e14573faad3b195d77501b3e28844890bacacf6dd87056.png"
@@ -2499,7 +2499,7 @@
     "patch": "5.2",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/214",
     "image": "https://ffxivcollect.com/assets/mounts/large/214-285651e3ff76799f2793a4c687c0474a628b7c9672e1d4bf6d417be2640c1063.png"
@@ -2514,7 +2514,7 @@
     "patch": "5.2",
     "source": {
       "en": "Yuqurl Manl - Hopl's Stopple (The Rak'tika Greatwood) - 18 Qitari Compliments (Rank 7)",
-      "ja": "Yuqurl Manl - Hopl's Stopple (The Rak'tika Greatwood) - 18 Qitari Compliments (Rank 7)"
+      "ja": "ユクル・マンル - ホプルの栓 (ラケティカ大森林) - キタリの褒め言葉18個 (ランク7)"
     },
     "url": "https://ffxivcollect.com/mounts/215",
     "image": "https://ffxivcollect.com/assets/mounts/large/215-280c658e9c80bf53a822ccc6abc3986f9920104e58d99f4f2ca7c1f876bac0d8.png"
@@ -2589,7 +2589,7 @@
     "patch": "5.2",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/220",
     "image": "https://ffxivcollect.com/assets/mounts/large/220-ba71c433beff46956d96d007dc3ce80984b3604086da0db41f8f0b5c4a31e5c6.png"
@@ -2604,7 +2604,7 @@
     "patch": "5.3",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/222",
     "image": "https://ffxivcollect.com/assets/mounts/large/222-cdf7ea8a97b4e6bde745b42f4de92b7fc03438c1660acac1a576bd1b29e6f89b.png"
@@ -2619,7 +2619,7 @@
     "patch": "5.3",
     "source": {
       "en": "Mizutt - Watts's Anvil (Lakeland) - 18 Hammered Frogments (Rank 7)",
-      "ja": "Mizutt - Watts's Anvil (Lakeland) - 18 Hammered Frogments (Rank 7)"
+      "ja": "ミズット - ワッツの鉄床 (レイクランド) - ハンマードフログメント18個 (ランク7)"
     },
     "url": "https://ffxivcollect.com/mounts/223",
     "image": "https://ffxivcollect.com/assets/mounts/large/223-34be6511b1c27c3cea88d081f48f2c04a8f55ee11be0f77cc37eba3c140f5679.png"
@@ -2634,7 +2634,7 @@
     "patch": "5.35",
     "source": {
       "en": "Southern Front Lockbox",
-      "ja": "Southern Front Lockbox"
+      "ja": "サザンフロントロックボックス"
     },
     "url": "https://ffxivcollect.com/mounts/224",
     "image": "https://ffxivcollect.com/assets/mounts/large/224-03a76eb34d11c121d0667e074742175efa73156013d4b6eb95ab4edbea8bf3a2.png"
@@ -2679,7 +2679,7 @@
     "patch": "5.3",
     "source": {
       "en": "Yo-kai Watch Collaboration - Obtain 17 Yo-kai Weapons",
-      "ja": "Yo-kai Watch Collaboration - Obtain 17 Yo-kai Weapons"
+      "ja": "妖怪ウォッチコラボ - ヨーカイ武器17種類入手"
     },
     "url": "https://ffxivcollect.com/mounts/228",
     "image": "https://ffxivcollect.com/assets/mounts/large/228-a25fa974e13d23bae20f9be38a666c9901bac69f3e9c9f62693e2b3c2c4f873f.png"
@@ -2694,7 +2694,7 @@
     "patch": "5.3",
     "source": {
       "en": "The Feast: Season 16",
-      "ja": "The Feast: Season 16"
+      "ja": "フリーカンパニー対抗戦：シーズン16"
     },
     "url": "https://ffxivcollect.com/mounts/229",
     "image": "https://ffxivcollect.com/assets/mounts/large/229-8f76247bcea55e27aab01f503e7e3f13c66b8da8c7cc64175e13ac9d68890e91.png"
@@ -2739,7 +2739,7 @@
     "patch": "5.4",
     "source": {
       "en": "The Starlight Celebration (2020); Online Store",
-      "ja": "The Starlight Celebration (2020); Online Store"
+      "ja": "星芒祭 (2020); オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/232",
     "image": "https://ffxivcollect.com/assets/mounts/large/232-70b32b3bdd50812002a690081908a51e9fe1ff25c7c13003d87b14b51748d73f.png"
@@ -2754,7 +2754,7 @@
     "patch": "5.5",
     "source": {
       "en": "Digital Fan Festival (2021); Online Store",
-      "ja": "Digital Fan Festival (2021); Online Store"
+      "ja": "デジタルファンフェスティバル (2021); オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/233",
     "image": "https://ffxivcollect.com/assets/mounts/large/233-ed15d61b18e5330059ab9265258689ce69f76fc609af8a0528a013910b868ea3.png"
@@ -2814,7 +2814,7 @@
     "patch": "6.0",
     "source": {
       "en": "Endwalker Collector's Edition",
-      "ja": "Endwalker Collector's Edition"
+      "ja": "暁月のフィナーレ コレクターズエディション"
     },
     "url": "https://ffxivcollect.com/mounts/237",
     "image": "https://ffxivcollect.com/assets/mounts/large/237-55d4a95867cb1434b884f6c2a0f84c122be4df4fdc8d2f5b02798efd09ba0385.png"
@@ -2844,7 +2844,7 @@
     "patch": "5.4",
     "source": {
       "en": "The Feast: Season 17",
-      "ja": "The Feast: Season 17"
+      "ja": "フリーカンパニー対抗戦：シーズン17"
     },
     "url": "https://ffxivcollect.com/mounts/239",
     "image": "https://ffxivcollect.com/assets/mounts/large/239-159d73e29545c7a03f63276fe86952db5f2a4a53906b59ade4191323b839b7bd.png"
@@ -2859,7 +2859,7 @@
     "patch": "5.4",
     "source": {
       "en": "Butterfinger Promotion (NA Only); Lawson Promotion (Japan Only); Twitch Campaign (July 2024)",
-      "ja": "Butterfinger Promotion (NA Only); Lawson Promotion (Japan Only); Twitch Campaign (July 2024)"
+      "ja": "バターフィンガーキャンペーン (北米のみ); ローソンキャンペーン (日本のみ); Twitchキャンペーン (2024年7月)"
     },
     "url": "https://ffxivcollect.com/mounts/240",
     "image": "https://ffxivcollect.com/assets/mounts/large/240-66037d5007ab17bffb0938ffcaa6a0b4da25e5d028b716fc2dd29b38a24a1295.png"
@@ -2874,7 +2874,7 @@
     "patch": "5.45",
     "source": {
       "en": "Delubrum Reginae - Final Boss Chests; South Horn - Silver Coffer",
-      "ja": "Delubrum Reginae - Final Boss Chests; South Horn - Silver Coffer"
+      "ja": "デルブリウム・レギナエ - 最終ボスチェスト; 南ホーン - シルバーコッファー"
     },
     "url": "https://ffxivcollect.com/mounts/241",
     "image": "https://ffxivcollect.com/assets/mounts/large/241-8d60c47b0947f0b61c3ba87dc490ebbc767452765e9c3394686ddbdbfeb246f8.png"
@@ -2904,7 +2904,7 @@
     "patch": "5.5",
     "source": {
       "en": "Fête Present; 30 Fête Tokens",
-      "ja": "Fête Present; 30 Fête Tokens"
+      "ja": "フェートプレゼント; フェートトークン30枚"
     },
     "url": "https://ffxivcollect.com/mounts/243",
     "image": "https://ffxivcollect.com/assets/mounts/large/243-647323c1a44f6cf790e7b9ccdd2874b2325fd3786f2bdd3c9d3883e52264c258.png"
@@ -2949,7 +2949,7 @@
     "patch": "5.5",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/247",
     "image": "https://ffxivcollect.com/assets/mounts/large/247-8f30bdf433f7502fdbe4d23b6e3700da6b7105787b3dc1e5cbfd34fcf4d5a95b.png"
@@ -2994,7 +2994,7 @@
     "patch": "5.5",
     "source": {
       "en": "Moonfire Faire (2021); Online Store",
-      "ja": "Moonfire Faire (2021); Online Store"
+      "ja": "精霊の御衣祭 (2021); オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/250",
     "image": "https://ffxivcollect.com/assets/mounts/large/250-2e0a82c30c536a3d62f6c5e41e8099fca6393624e6f8e7dd482badc98aa26331.png"
@@ -3009,7 +3009,7 @@
     "patch": "5.5",
     "source": {
       "en": "Edelina - Mor Dhona - 50,000,000 Gil",
-      "ja": "Edelina - Mor Dhona - 50,000,000 Gil"
+      "ja": "エデリナ - モードゥナ - 50,000,000ギル"
     },
     "url": "https://ffxivcollect.com/mounts/252",
     "image": "https://ffxivcollect.com/assets/mounts/large/252-acb2a9dc3e920c7bc1b3a391f77e3be2562e0f426b3a398d774b4c8042bb6eac.png"
@@ -3024,7 +3024,7 @@
     "patch": "5.5",
     "source": {
       "en": "Tabeth - Eulmore - 25,000,000 Gil",
-      "ja": "Tabeth - Eulmore - 25,000,000 Gil"
+      "ja": "タベス - ユールモア - 25,000,000ギル"
     },
     "url": "https://ffxivcollect.com/mounts/253",
     "image": "https://ffxivcollect.com/assets/mounts/large/253-a0a2c00d02b603a8169e40bd0dec4a758d3c295ade8ee067ec461709a62ce19c.png"
@@ -3189,7 +3189,7 @@
     "patch": "6.0",
     "source": {
       "en": "The Feast: Season 20",
-      "ja": "The Feast: Season 20"
+      "ja": "フリーカンパニー対抗戦：シーズン20"
     },
     "url": "https://ffxivcollect.com/mounts/264",
     "image": "https://ffxivcollect.com/assets/mounts/large/264-a1ade1072207daed31ace5efc6d11f31632972d08b01b82c5e6b324303e5e654.png"
@@ -3249,7 +3249,7 @@
     "patch": "6.0",
     "source": {
       "en": "Nesvaaz - Radz-at-Han - 12 Chi Bolts (FATE \"Omicron Recall: Killing Order\" - Ultima Thule)",
-      "ja": "Nesvaaz - Radz-at-Han - 12 Chi Bolts (FATE \"Omicron Recall: Killing Order\" - Ultima Thule)"
+      "ja": "ネスヴァーズ - ラザハン - チャイボルト12個 (FATE「オミクロン召還：殺戮命令」 - ウルティマ・トゥーレ)"
     },
     "url": "https://ffxivcollect.com/mounts/268",
     "image": "https://ffxivcollect.com/assets/mounts/large/268-157240df26af5c8ce6187186200abba53808e4925f23bc6fdee5b515a2f34a05.png"
@@ -3264,7 +3264,7 @@
     "patch": "6.0",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/269",
     "image": "https://ffxivcollect.com/assets/mounts/large/269-1ea849c8e9a83cf61368521b8495e16bab9f11412ce5311bd190e46635e23a55.png"
@@ -3279,7 +3279,7 @@
     "patch": "6.0",
     "source": {
       "en": "Edelina - Mor Dhona - 500 Bicolor Gemstone Vouchers",
-      "ja": "Edelina - Mor Dhona - 500 Bicolor Gemstone Vouchers"
+      "ja": "エデリナ - モードゥナ - バイカラージェムストーン引換証500枚"
     },
     "url": "https://ffxivcollect.com/mounts/273",
     "image": "https://ffxivcollect.com/assets/mounts/large/273-d3e00aac667ecdc5320d2f671cb256b3bdf1755fa78c2113201f6dbdd526dbbb.png"
@@ -3294,7 +3294,7 @@
     "patch": "6.0",
     "source": {
       "en": "Lawson Promotion (Japan Only); Gong Cha Promotion",
-      "ja": "Lawson Promotion (Japan Only); Gong Cha Promotion"
+      "ja": "ローソンキャンペーン (日本のみ); ゴンチャキャンペーン"
     },
     "url": "https://ffxivcollect.com/mounts/274",
     "image": "https://ffxivcollect.com/assets/mounts/large/274-c208b877cd849069970d26e75ea1bbb70bc859c7188e2fe6f17371d3fc18e086.png"
@@ -3324,7 +3324,7 @@
     "patch": "6.2",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/279",
     "image": "https://ffxivcollect.com/assets/mounts/large/279-b60116c64e17284091cdfbf0dfadb542fb731027be25d43ad033f9a1dec4e479.png"
@@ -3339,7 +3339,7 @@
     "patch": "6.2",
     "source": {
       "en": "PvP Series 2 - Level 25; 5,000 Trophy Crystals",
-      "ja": "PvP Series 2 - Level 25; 5,000 Trophy Crystals"
+      "ja": "PvPシリーズ2 - レベル25; トロフィークリスタル5,000"
     },
     "url": "https://ffxivcollect.com/mounts/280",
     "image": "https://ffxivcollect.com/assets/mounts/large/280-216954032a04e76eb8801ff1e47eeacaba7967301ff2f173bcb3f4dc968f8ee2.png"
@@ -3354,7 +3354,7 @@
     "patch": "6.1",
     "source": {
       "en": "Nesvaaz - Radz-at-Han - 3 Resplendent Feathers (The Excitatron 6000 or The Shifting Gymnasion Agonon)",
-      "ja": "Nesvaaz - Radz-at-Han - 3 Resplendent Feathers (The Excitatron 6000 or The Shifting Gymnasion Agonon)"
+      "ja": "ネスヴァーズ - ラザハン - 煌めく羽根3本 (エキサイトロン6000 または シフティングジムナジオン・アゴノン)"
     },
     "url": "https://ffxivcollect.com/mounts/281",
     "image": "https://ffxivcollect.com/assets/mounts/large/281-de692aad9ddc8bfeeeaaa75dd072aaca0d3f978171ac7992b424e2519553b228.png"
@@ -3414,7 +3414,7 @@
     "patch": "6.35",
     "source": {
       "en": "Coiningway - Hoper's Hold (Mare Lamentorum) - 18 Loporrit Carats (Rank 7)",
-      "ja": "Coiningway - Hoper's Hold (Mare Lamentorum) - 18 Loporrit Carats (Rank 7)"
+      "ja": "コイニングウェイ - ホパーの拠点 (嘆きの海) - ロポリットカラット18個 (ランク7)"
     },
     "url": "https://ffxivcollect.com/mounts/285",
     "image": "https://ffxivcollect.com/assets/mounts/large/285-0e40e40b5ea70dbce08ea6c2fedcbf4c0e7a69306f01b7cff2c00c42ebfdcc26.png"
@@ -3444,7 +3444,7 @@
     "patch": "6.15",
     "source": {
       "en": "Ghanta - Svarna (Thavnair) - 18 Arkasodara Pana (Rank 7)",
-      "ja": "Ghanta - Svarna (Thavnair) - 18 Arkasodara Pana (Rank 7)"
+      "ja": "ガンタ - スヴァルナ (サベネア) - アルカソダラパナ18個 (ランク7)"
     },
     "url": "https://ffxivcollect.com/mounts/287",
     "image": "https://ffxivcollect.com/assets/mounts/large/287-fea1c8e8f88691727e2709faa2272b08cc6c32f140cd515d8ef5d5dca5c8cbb8.png"
@@ -3489,7 +3489,7 @@
     "patch": "6.1",
     "source": {
       "en": "J'lakshai (Old Sharlayan) / Wilmetta (Radz-at-Han) - 3,200 Sacks Of Nuts",
-      "ja": "J'lakshai (Old Sharlayan) / Wilmetta (Radz-at-Han) - 3,200 Sacks Of Nuts"
+      "ja": "ジュラクシャイ (オールド・シャーレアン) / ウィルメッタ (ラザハン) - ナッツの袋3,200個"
     },
     "url": "https://ffxivcollect.com/mounts/291",
     "image": "https://ffxivcollect.com/assets/mounts/large/291-45e5ca9cbef478835005d23d55295a56f6eebec38deb762a25a8f55be8128cd8.png"
@@ -3504,7 +3504,7 @@
     "patch": "6.35",
     "source": {
       "en": "Eureka Orthos - Gold Sack",
-      "ja": "Eureka Orthos - Gold Sack"
+      "ja": "エウレカ・オルトス - 金の袋"
     },
     "url": "https://ffxivcollect.com/mounts/292",
     "image": "https://ffxivcollect.com/assets/mounts/large/292-a14103b91d9aab696f68d9f4ca6fd3aebff2545da733cceb557dcdef07866b3c.png"
@@ -3534,7 +3534,7 @@
     "patch": "6.1",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/294",
     "image": "https://ffxivcollect.com/assets/mounts/large/294-8293eb32b75c75294ae4ffbd9b7b2081a3f8a742f935782a109bb4a509b81d53.png"
@@ -3549,7 +3549,7 @@
     "patch": "6.4",
     "source": {
       "en": "PvP Series 4 - Level 25; 5,000 Trophy Crystals",
-      "ja": "PvP Series 4 - Level 25; 5,000 Trophy Crystals"
+      "ja": "PvPシリーズ4 - レベル25; トロフィークリスタル5,000"
     },
     "url": "https://ffxivcollect.com/mounts/297",
     "image": "https://ffxivcollect.com/assets/mounts/large/297-ec1bf9bd58a71c75ca4586effa04db0789a76b1a982cdcd7d930ef9114c0a045.png"
@@ -3564,7 +3564,7 @@
     "patch": "6.25",
     "source": {
       "en": "N-0598 - A-4 Research (Ultima Thule) - 18 Omicron Omnitokens (Rank 7)",
-      "ja": "N-0598 - A-4 Research (Ultima Thule) - 18 Omicron Omnitokens (Rank 7)"
+      "ja": "N-0598 - A-4リサーチ (ウルティマ・トゥーレ) - オミクロンオムニトークン18個 (ランク7)"
     },
     "url": "https://ffxivcollect.com/mounts/298",
     "image": "https://ffxivcollect.com/assets/mounts/large/298-0bc81d09b2ac0401c404ca252dfe86e51c63270fef409a46d30ea01745f3305d.png"
@@ -3594,7 +3594,7 @@
     "patch": "6.3",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/300",
     "image": "https://ffxivcollect.com/assets/mounts/large/300-b80d3dadad787fa1ae101039c4ace3b65e19344ce4afecf1cb0475ac3152f7f0.png"
@@ -3609,7 +3609,7 @@
     "patch": "6.3",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/301",
     "image": "https://ffxivcollect.com/assets/mounts/large/301-ff51e96d5cc556a231afa1fdb8d20be0792bd9423a5aa866c6b5d0d3cabf2f39.png"
@@ -3624,7 +3624,7 @@
     "patch": "6.2",
     "source": {
       "en": "The Starlight Celebration (2022); Online Store",
-      "ja": "The Starlight Celebration (2022); Online Store"
+      "ja": "星芒祭 (2022); オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/302",
     "image": "https://ffxivcollect.com/assets/mounts/large/302-2726f80180e38fe591cf7b59c345d37e272907d4d866242c5f784d0d69fc79c1.png"
@@ -3714,7 +3714,7 @@
     "patch": "6.3",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/310",
     "image": "https://ffxivcollect.com/assets/mounts/large/310-f11a81a8d5bdbbea0676a95abe12e0f3c47a967af22a7e0a2377d1b068160595.png"
@@ -3759,7 +3759,7 @@
     "patch": "6.3",
     "source": {
       "en": "Nesvaaz - Radz-at-Han - 3 Burning Horns (The Shifting Gymnasion Agonon - Gold Chests)",
-      "ja": "Nesvaaz - Radz-at-Han - 3 Burning Horns (The Shifting Gymnasion Agonon - Gold Chests)"
+      "ja": "ネスヴァーズ - ラザハン - 燃える角3本 (シフティングジムナジオン・アゴノン - ゴールドチェスト)"
     },
     "url": "https://ffxivcollect.com/mounts/313",
     "image": "https://ffxivcollect.com/assets/mounts/large/313-0569a63678a3bfb7e142c72babdbdd2392655ed8313233d6ce90c53c99a9a755.png"
@@ -3774,7 +3774,7 @@
     "patch": "6.3",
     "source": {
       "en": "Nesvaaz - Radz-at-Han - 3 Bottles Of Exciting Tonic (The Excitatron 6000 - Gold Chests)",
-      "ja": "Nesvaaz - Radz-at-Han - 3 Bottles Of Exciting Tonic (The Excitatron 6000 - Gold Chests)"
+      "ja": "ネスヴァーズ - ラザハン - エキサイティングトニック3本 (エキサイトロン6000 - ゴールドチェスト)"
     },
     "url": "https://ffxivcollect.com/mounts/314",
     "image": "https://ffxivcollect.com/assets/mounts/large/314-2da433dc327ad9b2c066386bb7b502fde835bf6600b14944e6f8c4578588d8e7.png"
@@ -3804,7 +3804,7 @@
     "patch": "6.3",
     "source": {
       "en": "Edelina - Mor Dhona - 50,000,000 Gil",
-      "ja": "Edelina - Mor Dhona - 50,000,000 Gil"
+      "ja": "エデリナ - モードゥナ - 50,000,000ギル"
     },
     "url": "https://ffxivcollect.com/mounts/316",
     "image": "https://ffxivcollect.com/assets/mounts/large/316-c7bea5197364d896acfb48b2ac182d39d2cc901eb1bb3cfa098d468a89ca6592.png"
@@ -3819,7 +3819,7 @@
     "patch": "6.3",
     "source": {
       "en": "Edelina - Mor Dhona - 50,000,000 Gil",
-      "ja": "Edelina - Mor Dhona - 50,000,000 Gil"
+      "ja": "エデリナ - モードゥナ - 50,000,000ギル"
     },
     "url": "https://ffxivcollect.com/mounts/317",
     "image": "https://ffxivcollect.com/assets/mounts/large/317-ac7452579d17a07f4051894aee719054769b6cc67a368378c92ec89f0101f950.png"
@@ -3834,7 +3834,7 @@
     "patch": "6.4",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/318",
     "image": "https://ffxivcollect.com/assets/mounts/large/318-8b820562522753422a854623299642662f1429aecdcaa62665b19a0e8a0f6ff8.png"
@@ -3864,7 +3864,7 @@
     "patch": "6.48",
     "source": {
       "en": "The Rising (2023); Online Store",
-      "ja": "The Rising (2023); Online Store"
+      "ja": "新生祭 (2023); オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/320",
     "image": "https://ffxivcollect.com/assets/mounts/large/320-26e5c72bd4412e62530be82f9a6fba9004227b21699358e1f3b6e23ca090c96c.png"
@@ -3909,7 +3909,7 @@
     "patch": "6.4",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/323",
     "image": "https://ffxivcollect.com/assets/mounts/large/323-fb5061889392abb0221ff44e8f33df1f4261d668aed0a6f6d10fb7b6a53219ca.png"
@@ -3954,7 +3954,7 @@
     "patch": "6.58",
     "source": {
       "en": "Final Fantasy XVI Collaboration",
-      "ja": "Final Fantasy XVI Collaboration"
+      "ja": "FINAL FANTASY XVI コラボレーション"
     },
     "url": "https://ffxivcollect.com/mounts/326",
     "image": "https://ffxivcollect.com/assets/mounts/large/326-37b786b64fe44d4abba4949564bcdf0416445a508d3e92d2f396fcb7b0998924.png"
@@ -3969,7 +3969,7 @@
     "patch": "7.0",
     "source": {
       "en": "Dawntrail Collector's Edition",
-      "ja": "Dawntrail Collector's Edition"
+      "ja": "黄金のレガシー コレクターズエディション"
     },
     "url": "https://ffxivcollect.com/mounts/327",
     "image": "https://ffxivcollect.com/assets/mounts/large/327-c6331f3131805df444be40603895878cf5b2617943a9e278592abed5a4aa4f77.png"
@@ -3999,7 +3999,7 @@
     "patch": "6.5",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/329",
     "image": "https://ffxivcollect.com/assets/mounts/large/329-2a9069f5f5b61bef3dbdeef1f176c1964ee2597b7f0c98b3def105d257c4dd9f.png"
@@ -4029,7 +4029,7 @@
     "patch": "7.0",
     "source": {
       "en": "PvP Series 6 - Level 25",
-      "ja": "PvP Series 6 - Level 25"
+      "ja": "PvPシリーズ6 - レベル25"
     },
     "url": "https://ffxivcollect.com/mounts/331",
     "image": "https://ffxivcollect.com/assets/mounts/large/331-9ae2e1f7a873b5aba04bfd830166d7755d2ad3b6d64860f21f2bee40bdb0967c.png"
@@ -4104,7 +4104,7 @@
     "patch": "6.5",
     "source": {
       "en": "Little Ladies' Day & Hatching-tide (2024); Online Store",
-      "ja": "Little Ladies' Day & Hatching-tide (2024); Online Store"
+      "ja": "ひな祭り & エッグハント (2024); オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/336",
     "image": "https://ffxivcollect.com/assets/mounts/large/336-6705e852764dad8fab8212d81859287608d32d28fb444d0682de250bba7c4fec.png"
@@ -4134,7 +4134,7 @@
     "patch": "6.5",
     "source": {
       "en": "Sanctuary Materiel Container",
-      "ja": "Sanctuary Materiel Container"
+      "ja": "サンクチュアリ物資コンテナ"
     },
     "url": "https://ffxivcollect.com/mounts/339",
     "image": "https://ffxivcollect.com/assets/mounts/large/339-f81625da6ea984e37ab1b7cabe6331bfe679a1a17393813e049cf941467e8379.png"
@@ -4149,7 +4149,7 @@
     "patch": "6.5",
     "source": {
       "en": "200 Vegetal Vouchers; Sanctuary Materiel Container",
-      "ja": "200 Vegetal Vouchers; Sanctuary Materiel Container"
+      "ja": "植物引換証200枚; サンクチュアリ物資コンテナ"
     },
     "url": "https://ffxivcollect.com/mounts/340",
     "image": "https://ffxivcollect.com/assets/mounts/large/340-c6a6a9a793dc82351d0754388bfb7aeda041c1373ba3978e8e31fffa7541ec98.png"
@@ -4344,7 +4344,7 @@
     "patch": "7.0",
     "source": {
       "en": "Mountain Dew Promotion (NA Only)",
-      "ja": "Mountain Dew Promotion (NA Only)"
+      "ja": "マウンテンデューキャンペーン (北米のみ)"
     },
     "url": "https://ffxivcollect.com/mounts/354",
     "image": "https://ffxivcollect.com/assets/mounts/large/354-8b14d21bd3fe2dce9c0d0c670f03a732a2c104334027811689ed61e0e15e064c.png"
@@ -4434,7 +4434,7 @@
     "patch": "7.2",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/362",
     "image": "https://ffxivcollect.com/assets/mounts/large/362-cb3923f4233fea567b7582c0ccf0e6aca373fed98d92101562c8b367f9617db2.png"
@@ -4464,7 +4464,7 @@
     "patch": "7.21",
     "source": {
       "en": "Cosmic Fortune - Sinus Ardonum; Mech Pilot Reward - Sinus Ardonum",
-      "ja": "Cosmic Fortune - Sinus Ardonum; Mech Pilot Reward - Sinus Ardonum"
+      "ja": "コズミックフォーチュン - シヌス・アルドヌム; メカパイロット報酬 - シヌス・アルドヌム"
     },
     "url": "https://ffxivcollect.com/mounts/364",
     "image": "https://ffxivcollect.com/assets/mounts/large/364-272239e6f03b063d1562beef160be3f10a3c6f07193ab62f5ed472a02bbd4597.png"
@@ -4524,7 +4524,7 @@
     "patch": "7.11",
     "source": {
       "en": "Twitch Campaign (December 2024)",
-      "ja": "Twitch Campaign (December 2024)"
+      "ja": "Twitchキャンペーン (2024年12月)"
     },
     "url": "https://ffxivcollect.com/mounts/374",
     "image": "https://ffxivcollect.com/assets/mounts/large/374-62baa8eff7a91e033bf8dc7a86df03499c7be50ff68d9fc2a68839e32957791a.png"
@@ -4539,7 +4539,7 @@
     "patch": "7.35",
     "source": {
       "en": "99 First Light Relics; Pilgrim's Traverse - Sack of First Light",
-      "ja": "99; Pilgrim's Traverse - Sack of First Light"
+      "ja": "ファーストライトレリック99個; 巡礼者の小径 - ファーストライトの袋"
     },
     "url": "https://ffxivcollect.com/mounts/379",
     "image": "https://ffxivcollect.com/assets/mounts/large/379-fc4a55c31a4dbccc4d8ef8d0f51a91864d0d2fc0c0088bacc55c81e7c50081f2.png"
@@ -4614,7 +4614,7 @@
     "patch": "7.31",
     "source": {
       "en": "Cosmic Fortune - Phaenna; Mech Pilot Reward - Phaenna",
-      "ja": "Cosmic Fortune - Phaenna; Mech Pilot Reward - Phaenna"
+      "ja": "コズミックフォーチュン - ファエンナ; メカパイロット報酬 - ファエンナ"
     },
     "url": "https://ffxivcollect.com/mounts/386",
     "image": "https://ffxivcollect.com/assets/mounts/large/386-cbb469f26c7028bc4d28328f373be5a406600e599668945955535d8392e77739.png"
@@ -4629,7 +4629,7 @@
     "patch": "7.2",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/388",
     "image": "https://ffxivcollect.com/assets/mounts/large/388-3a6c7b4db31919747c4ddc9f42271c318ac427dea6a6103db79b9f778d33b396.png"
@@ -4659,7 +4659,7 @@
     "patch": "7.2",
     "source": {
       "en": "PvP Series 8 - Level 25",
-      "ja": "PvP Series 8 - Level 25"
+      "ja": "PvPシリーズ8 - レベル25"
     },
     "url": "https://ffxivcollect.com/mounts/390",
     "image": "https://ffxivcollect.com/assets/mounts/large/390-2bc67cf1b5cd848036ec8e6076dd867dfff2bfe9596f9fccef0e46cbf1a17af5.png"
@@ -4689,7 +4689,7 @@
     "patch": "7.4",
     "source": {
       "en": "PvP Series 10 - Level 25",
-      "ja": "PvP Series 10 - Level 25"
+      "ja": "PvPシリーズ10 - レベル25"
     },
     "url": "https://ffxivcollect.com/mounts/394",
     "image": "https://ffxivcollect.com/assets/mounts/large/394-e354a006ce6692f6d043c528cd8da7c7a461d9b2adb17fe1139e5d7334b63765.png"
@@ -4704,7 +4704,7 @@
     "patch": "7.35",
     "source": {
       "en": "99 First Light Relics; Pilgrim's Traverse - Sack of First Light",
-      "ja": "99; Pilgrim's Traverse - Sack of First Light"
+      "ja": "ファーストライトレリック99個; 巡礼者の小径 - ファーストライトの袋"
     },
     "url": "https://ffxivcollect.com/mounts/395",
     "image": "https://ffxivcollect.com/assets/mounts/large/395-54e90d84b6b8e81081a9ac39401a16a7dd51168148a6bdd2fd64909ecd34d9e9.png"
@@ -4719,7 +4719,7 @@
     "patch": "7.3",
     "source": {
       "en": "All Saints' Wake (2025)",
-      "ja": "All Saints' Wake (2025)"
+      "ja": "ハロウィン (2025)"
     },
     "url": "https://ffxivcollect.com/mounts/396",
     "image": "https://ffxivcollect.com/assets/mounts/large/396-e72145b2d113f7d1a118a63d4cd671a929ac9f02d5a7ba80b5d5dde00e5e32fb.png"
@@ -4734,7 +4734,7 @@
     "patch": "7.3",
     "source": {
       "en": "Online Store",
-      "ja": "Online Store"
+      "ja": "オンラインストア"
     },
     "url": "https://ffxivcollect.com/mounts/397",
     "image": "https://ffxivcollect.com/assets/mounts/large/397-aa4f8e4bbf75ef5327027c70cf8195933bb47583bf3b79e094312519fd990629.png"
@@ -4854,7 +4854,7 @@
     "patch": "7.35",
     "source": {
       "en": "Pilgrim's Traverse - Silver Sack",
-      "ja": "Pilgrim's Traverse - Silver Sack"
+      "ja": "巡礼者の小径 - 銀の袋"
     },
     "url": "https://ffxivcollect.com/mounts/408",
     "image": "https://ffxivcollect.com/assets/mounts/large/408-41f98639dd2ebab17f2583d05067933f337fbcaa6c686fe76fbbc9c07630aeae.png"
