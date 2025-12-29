@@ -2,7 +2,7 @@ name: X to Discord Bot DOMAJOII
 
 on:
   schedule:
-    - cron: '*/10 * * * *'  # every 10 minutes (UTC)
+    - cron: '0 */3 * * *'  # every 3 hours at minute 0 (UTC)
     #-     #- cron: '0 0 *# Daily at 00:00 UTC (09:00 JST)
 
   workflow_dispatch:
