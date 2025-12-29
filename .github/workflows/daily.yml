@@ -1,16 +1,25 @@
-name: Daily X Scraper
+name: X to Discord Bot DOMAJOI
 
 on:
   schedule:
-    - cron: '0 9 * * *' # runs daily at 9:00 UTC
+    - cron: '0 0 * * *'  # Daily at 00:00 UTC (09:00 JST)
+
   workflow_dispatch:
+    inputs:
+      test_user:
+        description: "X username to test (leave empty for production)"
+        required: false
+        default: ""
 
 jobs:
-  run:
+  run-bot:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write   # ✅ REQUIRED to push commits
+
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Node.js
@@ -19,11 +28,26 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: |
-          npm install playwright node-fetch
-          npx playwright install chromium
+        run: npm install
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
 
       - name: Run bot
-        run: node bot.js
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          DISCORD_WEBHOOK_DOMA: ${{ secrets.DISCORD_WEBHOOK_DOMA }}
+          DISCORD_WEBHOOK_DATASET: ${{ secrets.DISCORD_WEBHOOK_DATASET }}
+          TEST_USER: ${{ github.event.inputs.test_user }}
+          X_COOKIES: ${{ secrets.X_COOKIES }}
+        run: node bot.js
+
+      - name: Commit bot state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+
+          git commit -m "Update bot state" || echo "No state changes to commit"
+          git push
